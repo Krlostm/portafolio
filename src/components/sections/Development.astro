@@ -1,0 +1,18 @@
+---
+import ProductExplorer from '../project/ProductExplorer.astro';
+import {projectBySlug,projectHref} from '../../data/projects';
+import {url} from '../../data/site';
+const inmo=projectBySlug('inmobiliaria'),app=projectBySlug('aplicacion-infantil');
+const inmoBlock=inmo.blocks.find(b=>b.type==='product'),appBlock=app.blocks.find(b=>b.type==='product');
+---
+<section class="development-section" aria-labelledby="dev-title">
+<div class="section dev-intro"><p class="eyebrow">03 / Además, construyo</p><h2 id="dev-title" data-reveal>De lo visual<br /><em>a lo funcional.</em></h2><div class="dev-manifesto"><span aria-hidden="true">+</span><p>La misma atención al detalle.<br />Ahora, en experiencias digitales<br />que puedes recorrer.</p></div></div>
+<div class="section digital-project"><div class="digital-heading"><div><p class="eyebrow">Product / 01</p><h3>{inmo.name}</h3></div><a class="text-link" href={url(projectHref(inmo))}>Ver el caso <span aria-hidden="true">↗</span></a></div>
+<p class="digital-summary">Explorar. Filtrar. Consultar.<br />Una interfaz para encontrar propiedades.</p>
+{inmoBlock?.type==='product'&&<ProductExplorer features={inmoBlock.features} id="home-inmo" video={inmoBlock.video} title={inmo.name} />}
+</div>
+<div class="section digital-project app-project"><div class="digital-heading"><div><p class="eyebrow">Product / 02</p><h3>{app.name}</h3></div><a class="text-link" href={url(projectHref(app))}>Ver el caso <span aria-hidden="true">↗</span></a></div>
+<p class="digital-summary">Rutinas, tiempo y juego.<br />Varias funciones en una experiencia visual.</p>
+{appBlock?.type==='product'&&<ProductExplorer features={appBlock.features} id="home-app" video={appBlock.video} title={app.name} />}
+</div>
+</section>

@@ -1,0 +1,1403 @@
+/* The home is composed as discrete views; document scrolling remains available. */
+html:has(.story-page) {
+  scroll-padding-top: 0;
+}
+html.scene-mode {
+  scroll-behavior: auto;
+}
+.story-page {
+  --scene-top: 96px;
+  --scene-bottom: 88px;
+  --scene-gap: 22px;
+}
+.story-page .story-chapter {
+  padding: 0;
+  min-height: 0;
+}
+.story-page .portfolio-scene {
+  height: 100svh;
+  min-height: 0;
+  padding: var(--scene-top) var(--story-pad) var(--scene-bottom);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  gap: var(--scene-gap);
+  scroll-margin-top: 0;
+  position: relative;
+}
+.story-page .portfolio-scene:not(:has(.scene-footer)) {
+  grid-template-rows: auto minmax(0, 1fr);
+}
+.scene-heading,
+.scene-body,
+.scene-footer {
+  min-width: 0;
+  min-height: 0;
+}
+.scene-heading .story-kicker {
+  margin: 0 0 10px;
+  font-size: 11px;
+  line-height: 1.5;
+}
+.story-page .portfolio-scene h2 {
+  font-size: clamp(36px, 4vw, 70px);
+  line-height: 1.07;
+  margin: 0;
+}
+.story-page .portfolio-scene h3 {
+  font-size: clamp(28px, 3vw, 48px);
+  line-height: 1.12;
+  margin: 0;
+}
+.scene-footer {
+  font-size: 14px;
+  line-height: 1.6;
+}
+.scene-footer p {
+  max-width: 760px;
+}
+.scene-footer .archive-link {
+  margin: 0;
+  white-space: nowrap;
+  font-size: 11px;
+}
+.scene-caption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.story-page .portfolio-scene figure {
+  min-width: 0;
+  min-height: 0;
+}
+.story-page .portfolio-scene figcaption {
+  font-size: 11px;
+  line-height: 1.5;
+}
+.scene-navigation {
+  position: fixed;
+  left: 24px;
+  bottom: 20px;
+  display: flex;
+  gap: 8px;
+  z-index: 65;
+  color: #eeeae3;
+}
+.scene-navigation[hidden] {
+  display: none;
+}
+.scene-navigation button {
+  min-width: 44px;
+  height: 44px;
+  border: 1px solid #ffffff38;
+  background: #101012e8;
+  border-radius: 24px;
+  font-size: 18px;
+  backdrop-filter: blur(12px);
+  transition: background 0.2s;
+}
+.scene-navigation button:hover {
+  background: #2b2633;
+}
+.scene-navigation .scene-mode-toggle {
+  font-size: 10px;
+  padding: 0 16px;
+  letter-spacing: 0.04em;
+}
+.scene-navigation button:disabled {
+  opacity: 0.35;
+}
+.story-page .current-chapter {
+  display: none;
+}
+.story-page .chapter-wayfinding {
+  justify-content: flex-end;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.scene-heading > div > h2 {
+  max-width: 100%;
+}
+.scene-heading p {
+  font-size: 14px;
+}
+
+/* A real cover: name and work share one central row, biography stays below. */
+.story-page .story-hero {
+  background: radial-gradient(ellipse at 70% 40%, #27202e 0%, #101012 62%);
+}
+.hero-main {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 3vw;
+  min-height: 0;
+}
+.story-page .hero-main h1 {
+  grid-column: auto;
+  grid-row: auto;
+  font-size: clamp(90px, min(12vw, 21svh), 225px);
+  line-height: 0.87;
+}
+.story-page .hero-work {
+  grid-column: auto;
+  grid-row: auto;
+  height: 100%;
+  padding: 22px 16px;
+  gap: 16px;
+  min-height: 0;
+}
+.story-page .hero-work > figure {
+  min-height: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.story-page .hero-work img {
+  height: 100%;
+  max-height: min(46svh, 510px);
+  width: 100%;
+  object-fit: contain;
+}
+.story-page .hero-edition {
+  font-size: 10px;
+}
+.story-page .hero-introduction {
+  grid-column: auto;
+  gap: 30px;
+  padding-top: 16px;
+  grid-template-columns: 1fr 1fr auto;
+}
+.story-page .hero-introduction strong {
+  font-size: clamp(27px, 2.7vw, 42px);
+}
+.story-page .hero-introduction > div > p {
+  font-size: 13px;
+}
+.story-page .hero-bio {
+  font-size: 14px;
+  line-height: 1.65;
+}
+.story-page .hero-scroll {
+  grid-column: auto;
+  grid-row: auto;
+  font-size: 10px;
+}
+.story-page .hero-disciplines {
+  margin-top: 18px;
+  font-size: 9px;
+}
+.hero-bottom {
+  min-width: 0;
+}
+
+/* Three cards, with space reserved for their small rotations. */
+.story-page .scene-art-deck {
+  height: 100%;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(24px, 3vw, 48px);
+  padding: 22px;
+  margin: 0 auto;
+  max-width: 1360px;
+}
+.story-page .scene-art-deck > figure,
+.story-page .scene-art-deck > figure > div {
+  height: 100%;
+  min-height: 0;
+}
+.story-page .portfolio-scene .scene-art-deck img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 14px 15px #10233120);
+}
+.story-page .scene-art-deck > figure:nth-child(1) {
+  rotate: -3deg;
+}
+.story-page .scene-art-deck > figure:nth-child(2) {
+  rotate: 3deg;
+}
+.story-page .scene-art-deck > figure:nth-child(3) {
+  rotate: -2deg;
+}
+.kike-chapter {
+  background: #172113;
+  color: #eef1e7;
+}
+/* Keep the scene separate from the legacy .kike-presentation image wrapper. */
+.story-page .portfolio-scene.kike-intro-scene {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+.kike-intro-composition {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 6vw;
+}
+.kike-intro-copy {
+  max-width: 490px;
+}
+.kike-intro-copy > p:last-of-type {
+  font-size: 15px;
+  line-height: 1.75;
+  margin-top: 24px;
+  max-width: 380px;
+  color: #bec9b3;
+}
+.kike-intro-copy .story-kicker {
+  font-size: 11px;
+  margin-bottom: 18px;
+  color: #bdd58e;
+}
+.kike-intro-copy em {
+  color: #c3df87;
+}
+.kike-intro-art {
+  height: 100%;
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  gap: 12px;
+}
+.kike-intro-art img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.kike-intro-art figcaption {
+  text-align: center;
+  color: #b4c49c;
+}
+.kike-words em {
+  color: #c3df87;
+  opacity: 1;
+}
+.kike-pair {
+  height: 100%;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 64px minmax(0, 1fr);
+  gap: clamp(24px, 4vw, 76px);
+  align-items: stretch;
+  max-width: 1180px;
+  margin: auto;
+}
+.kike-pair > figure {
+  height: 100%;
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) 20px;
+  gap: 12px;
+  justify-items: center;
+}
+.kike-media {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  aspect-ratio: 9 / 16;
+  min-height: 0;
+  background: #18220f;
+  box-shadow: 0 12px 40px #0004;
+}
+.kike-media > img,
+.kike-media > .video-preview {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 9/16;
+  object-fit: contain;
+}
+.kike-media video {
+  object-fit: contain;
+}
+.kike-pair figcaption {
+  color: #c7d5b4;
+  letter-spacing: 0.06em;
+}
+.kike-transition {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 8px;
+  color: #c3df87;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+}
+.kike-transition-arrow {
+  font-size: 46px;
+  line-height: 1;
+}
+.kike-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+.kike-footer p {
+  font-size: 14px;
+  color: #b7c4a6;
+}
+
+/* Collections stay horizontal, with generous frames rather than giant slides. */
+.scene-switch {
+  height: 100%;
+  min-height: 0;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  gap: 14px;
+}
+.scene-switch-tabs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.scene-switch-tabs button {
+  min-height: 44px;
+  padding: 8px 18px;
+  border: 1px solid currentColor;
+  border-radius: 24px;
+  font-size: 12px;
+  opacity: 0.6;
+}
+.scene-switch-tabs button[aria-selected="true"] {
+  opacity: 1;
+  background: #ffffff35;
+}
+.scene-switch-panel {
+  height: 100%;
+  min-height: 0;
+}
+.scene-switch-panel[hidden] {
+  display: none;
+}
+.scene-switch-panel > div {
+  height: 100%;
+  min-height: 0;
+}
+.story-page .portfolio-scene .media-rail {
+  height: 100%;
+  min-height: 0;
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+}
+.story-page .portfolio-scene .media-rail-viewport {
+  height: 100%;
+  min-height: 0;
+}
+.story-page .portfolio-scene .media-rail-track {
+  height: 100%;
+  padding: 12px 0;
+}
+.story-page .portfolio-scene .media-rail-piece {
+  height: 100%;
+  width: clamp(250px, 29vw, 490px);
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  gap: 12px;
+}
+.story-page .portfolio-scene .media-rail-piece img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.story-page .portfolio-scene .media-rail-piece figcaption {
+  margin: 0;
+  padding-top: 0;
+  font-size: 11px;
+  line-height: 1.6;
+}
+.story-page .portfolio-scene .media-rail-footer {
+  min-height: 44px;
+  padding-top: 0;
+}
+.scene-reel-feature {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6vw;
+  align-items: center;
+}
+.scene-reel-feature > div {
+  max-width: 400px;
+  height: auto;
+}
+.scene-reel-feature p {
+  font-size: 15px;
+  margin-top: 20px;
+}
+.scene-reel-feature > .story-reel {
+  justify-self: center;
+}
+
+/* Product, video and photography fit inside their available scene row. */
+.product-trio {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1.3fr 1fr;
+  gap: 30px;
+  align-items: center;
+}
+.product-trio > figure {
+  height: 100%;
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  gap: 12px;
+}
+.product-trio img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.story-page .portfolio-scene .product-main {
+  width: 100%;
+  max-width: none;
+}
+.story-page .portfolio-scene .editing-reels {
+  height: 100%;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 40px;
+  align-items: stretch;
+  max-width: 1150px;
+  margin: auto;
+}
+.story-page .portfolio-scene .story-reel {
+  height: 100%;
+  min-height: 0;
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  gap: 14px;
+  justify-items: center;
+  width: 100%;
+}
+.story-page .portfolio-scene .story-reel > .video-preview {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  aspect-ratio: 9/16;
+}
+.story-page .portfolio-scene .story-reel > figcaption {
+  width: 100%;
+  max-width: 340px;
+  margin: 0;
+  display: flex;
+  gap: 14px;
+  justify-content: space-between;
+  align-items: center;
+}
+.story-page .portfolio-scene .story-reel figcaption p {
+  font-size: 12px;
+}
+.story-page .portfolio-scene .story-reel figcaption span {
+  font-size: 10px;
+}
+.story-page .portfolio-scene .piece-play {
+  min-height: 44px;
+  font-size: 11px;
+}
+.story-page .portfolio-scene .production-cinema {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  aspect-ratio: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.story-page .portfolio-scene .production-cinema > .video-preview {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  aspect-ratio: 16/9;
+}
+.story-page .portfolio-scene .production-caption {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+.story-page .portfolio-scene .production-caption h3 {
+  font-size: 22px;
+  margin: 0;
+}
+.story-page .portfolio-scene .production-caption p {
+  font-size: 12px;
+}
+.story-page .portfolio-scene .production-caption > div > span {
+  font-size: 10px;
+}
+.story-page .portfolio-scene .cinema-watch {
+  min-height: 44px;
+  font-size: 11px;
+}
+.story-page .portfolio-scene .photo-editorial {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr 1fr;
+  gap: 30px;
+  align-items: stretch;
+}
+.story-page .portfolio-scene .photo-editorial > figure {
+  height: 100%;
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  gap: 12px;
+}
+.story-page .portfolio-scene .photo-editorial img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.story-page .portfolio-scene .photo-editorial figcaption {
+  margin: 0;
+  padding: 0;
+}
+
+/* Digital work: one compact explorer, then an entirely different horizontal view. */
+.development-scene-title {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 28px;
+}
+.development-scene-title > p {
+  font-size: 12px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  text-align: right;
+}
+.development-scene-title > p > span {
+  color: #75677f;
+  letter-spacing: 0;
+}
+.story-page .portfolio-scene .interface-journey {
+  height: 100%;
+  min-height: 0;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1240px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  gap: 12px;
+}
+.story-page .portfolio-scene .interface-tabs {
+  margin: 0;
+  padding: 0;
+  gap: 22px;
+  min-height: 44px;
+}
+.story-page .portfolio-scene .interface-tabs button {
+  font-size: 12px;
+  padding: 8px 0;
+}
+.story-page .portfolio-scene .interface-window {
+  min-height: 0;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 30px minmax(0, 1fr);
+}
+.story-page .portfolio-scene .interface-chrome {
+  height: 30px;
+  font-size: 9px;
+}
+.story-page .portfolio-scene .interface-panel {
+  height: 100%;
+  min-height: 0;
+}
+.story-page .portfolio-scene .interface-panel[hidden] {
+  display: none;
+}
+.story-page .portfolio-scene .interface-description {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.6;
+  max-width: 100%;
+}
+.story-page .portfolio-scene .interface-steps {
+  display: none;
+}
+.story-page .app-scene .media-rail-piece {
+  width: clamp(410px, 43vw, 760px);
+}
+.story-page .app-scene .media-rail-piece img {
+  border-radius: 10px;
+  background: #e5dfed;
+}
+.story-page .app-scene .media-rail-piece figcaption {
+  font-size: 13px;
+  max-width: 560px;
+}
+
+/* A neutral first impression; original logo colours appear on hover and focus. */
+.story-page .clients-scene .scene-heading h2 {
+  font-size: clamp(36px, 4vw, 68px);
+}
+.story-page .clients-scene .scene-body {
+  display: flex;
+  align-items: center;
+}
+.story-page .clients-marquee {
+  padding: 20px 0;
+  width: 100%;
+}
+.story-page .clients-set {
+  gap: 28px;
+  padding: 0 14px;
+}
+.story-page .clients-set figure {
+  width: 220px;
+  height: 160px;
+  padding: 26px;
+  background: #25252b;
+  border-radius: 10px;
+  transition: background 0.3s;
+}
+.story-page .clients-set img {
+  filter: grayscale(1) brightness(1.4);
+  opacity: 0.55;
+  transition:
+    filter 0.4s,
+    opacity 0.4s;
+}
+.story-page .client-logo:hover img,
+.story-page .client-logo:focus-visible img {
+  filter: grayscale(0);
+  opacity: 1;
+}
+.story-page .client-logo:hover,
+.story-page .client-logo:focus-visible {
+  background: #303036;
+}
+.clients-marquee:hover .clients-track,
+.clients-marquee:focus-within .clients-track {
+  animation-play-state: paused;
+}
+.story-page .clients-caption {
+  padding: 0;
+  color: #bbb6be;
+  font-size: 14px;
+}
+.story-page .clients-caption button {
+  font-size: 11px;
+}
+
+/* Prepared to send: no visible unfinished biography, tools or GitHub labels. */
+.story-page .portfolio-scene .about-story-grid {
+  height: 100%;
+  min-height: 0;
+  margin: 0;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 6vw;
+}
+.story-page .portfolio-scene .personal-photo-placeholder {
+  height: 100%;
+  min-height: 0;
+  width: 100%;
+  max-width: 420px;
+  aspect-ratio: auto;
+  border-radius: 8px;
+  padding: 28px;
+  justify-self: center;
+}
+.story-page .portfolio-scene .personal-photo-placeholder strong {
+  font-size: clamp(90px, 14vw, 220px);
+}
+.story-page .portfolio-scene .personal-photo-placeholder > span {
+  font-size: 11px;
+}
+.story-page .portfolio-scene .about-story-copy > p {
+  margin: 0;
+  font-size: clamp(15px, 1.35vw, 20px);
+  line-height: 1.75;
+  max-width: 650px;
+}
+.story-page .portfolio-scene .about-capabilities {
+  font-size: 13px;
+  margin-top: 24px;
+  gap: 12px 20px;
+}
+.about-skills {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 32px;
+  padding-top: 18px;
+  border-top: 1px solid #33273925;
+}
+.about-skills-label {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.08em;
+  margin-bottom: 10px;
+}
+.about-skills-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 0;
+  padding: 0;
+}
+.about-skills-list li {
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 5px 11px;
+  border: 1px solid #33273925;
+  border-radius: 999px;
+  background: #ffffff35;
+}
+.contact-content {
+  height: 100%;
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1fr);
+  gap: clamp(32px, 6vw, 96px);
+  align-items: center;
+}
+.story-page .contact-content h2 {
+  font-size: clamp(54px, min(6.8vw, 14svh), 118px);
+  line-height: 1.04;
+}
+.story-page .portfolio-scene .story-contact-links {
+  margin: 0;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 28px;
+}
+.story-page .portfolio-scene .story-contact-links a {
+  font-size: 14px;
+  min-height: 76px;
+}
+.story-page .portfolio-scene .story-contact-links span {
+  font-size: 10px;
+}
+.story-page .portfolio-scene .story-footer {
+  margin: 0;
+  padding-top: 12px;
+  font-size: 9px;
+}
+
+/* Small desktop heights keep the same scene budget without hiding content. */
+@media (min-width: 1024px) and (max-height: 750px) {
+  .story-page {
+    --scene-top: 88px;
+    --scene-bottom: 78px;
+    --scene-gap: 16px;
+  }
+  .story-page .portfolio-scene h2 {
+    font-size: clamp(32px, 3.6vw, 52px);
+  }
+  .scene-heading .story-kicker {
+    margin-bottom: 7px;
+  }
+  .scene-footer,
+  .kike-footer p,
+  .story-page .hero-bio {
+    font-size: 13px;
+  }
+  .story-page .hero-disciplines {
+    margin-top: 10px;
+  }
+  .story-page .hero-introduction {
+    padding-top: 12px;
+  }
+  .story-page .hero-introduction strong {
+    font-size: 28px;
+  }
+  .kike-intro-copy > p:last-of-type {
+    font-size: 13px;
+    margin-top: 16px;
+  }
+  .kike-intro-copy .archive-link {
+    margin-top: 16px;
+  }
+  .story-page .portfolio-scene .about-story-copy > p {
+    font-size: 15px;
+    line-height: 1.65;
+  }
+  .about-skills {
+    gap: 24px;
+    padding-top: 14px;
+  }
+  .about-skills-label {
+    margin-bottom: 8px;
+  }
+  .about-skills-list li {
+    font-size: 11px;
+    padding: 4px 9px;
+  }
+}
+
+/* Native touch scrolling, simpler layouts and complete artwork. */
+@media (max-width: 1023px), (max-height: 599px) {
+  .scene-navigation {
+    display: none;
+  }
+  .story-page .portfolio-scene {
+    height: auto;
+    min-height: 100svh;
+    padding: 94px var(--story-pad) 90px;
+    gap: 26px;
+    grid-template-rows: auto auto auto;
+  }
+  .story-page .portfolio-scene:not(:has(.scene-footer)) {
+    grid-template-rows: auto auto;
+  }
+  .story-page .scene-body {
+    height: auto;
+  }
+  .story-page .hero-main {
+    grid-template-columns: 1fr;
+    gap: 26px;
+    height: auto;
+  }
+  .story-page .hero-main h1 {
+    font-size: clamp(80px, 20vw, 160px);
+  }
+  .story-page .hero-work {
+    height: 30svh;
+    padding: 14px 8px;
+    gap: 16px;
+  }
+  .story-page .hero-work img {
+    height: 100%;
+    max-height: none;
+  }
+  .story-page .hero-introduction {
+    grid-template-columns: 1fr auto;
+    gap: 20px;
+  }
+  .hero-bio {
+    grid-column: 1/-1;
+    grid-row: 2;
+  }
+  .story-page .hero-disciplines {
+    gap: 10px 16px;
+  }
+  .story-page .scene-art-deck {
+    height: auto;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 26px 20px;
+    padding: 12px 10px;
+  }
+  .story-page .scene-art-deck > figure,
+  .story-page .scene-art-deck > figure > div {
+    height: 38svh;
+  }
+  .story-page .scene-art-deck > figure:last-child {
+    grid-column: 1/-1;
+    width: 64%;
+    justify-self: center;
+  }
+  .kike-intro-composition {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    height: auto;
+  }
+  .kike-intro-copy {
+    max-width: 100%;
+  }
+  .kike-intro-art {
+    height: 58svh;
+  }
+  .kike-pair {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    height: auto;
+  }
+  .kike-pair > figure {
+    height: 64svh;
+  }
+  .kike-media {
+    height: 100%;
+  }
+  .kike-transition-arrow {
+    rotate: 90deg;
+  }
+  .kike-footer,
+  .scene-caption {
+    align-items: start;
+    flex-direction: column;
+    gap: 18px;
+  }
+  .scene-switch {
+    height: auto;
+  }
+  .scene-switch-panel,
+  .scene-switch-panel > div {
+    height: auto;
+  }
+  .story-page .portfolio-scene .media-rail {
+    height: 48svh;
+    min-height: 320px;
+  }
+  .story-page .portfolio-scene .media-rail-piece {
+    width: 64vw;
+  }
+  .scene-reel-feature {
+    grid-template-columns: 1fr;
+    height: auto;
+    gap: 28px;
+  }
+  .story-page .portfolio-scene .story-reel {
+    height: 66svh;
+    width: min(100%, 400px);
+    justify-self: center;
+  }
+  .story-page .portfolio-scene .editing-reels {
+    height: auto;
+    grid-template-columns: 1fr;
+    gap: 38px;
+  }
+  .product-trio {
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    gap: 28px 20px;
+  }
+  .product-trio > figure {
+    height: 38svh;
+  }
+  .product-trio > figure.product-main {
+    grid-column: 1/-1;
+    grid-row: 1;
+    height: 48svh;
+  }
+  .story-page .portfolio-scene .production-cinema {
+    height: auto;
+    aspect-ratio: 16/9;
+  }
+  .story-page .portfolio-scene .production-cinema > .video-preview {
+    width: 100%;
+    height: 100%;
+  }
+  .story-page .portfolio-scene .production-caption {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .story-page .portfolio-scene .photo-editorial {
+    height: auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 26px 20px;
+  }
+  .story-page .portfolio-scene .photo-editorial > figure {
+    height: 40svh;
+  }
+  .story-page .portfolio-scene .photo-editorial > figure:last-child {
+    grid-column: 1/-1;
+    width: 70%;
+    justify-self: center;
+  }
+  .development-scene-title {
+    display: block;
+  }
+  .development-scene-title > p {
+    margin-top: 18px;
+    text-align: left;
+  }
+  .story-page .portfolio-scene .interface-journey {
+    height: 50svh;
+    min-height: 360px;
+    gap: 10px;
+  }
+  .story-page .app-scene .media-rail {
+    height: 44svh;
+    min-height: 310px;
+  }
+  .story-page .app-scene .media-rail-piece {
+    width: 85vw;
+  }
+  .story-page .clients-set figure {
+    width: 190px;
+    height: 140px;
+    padding: 24px;
+  }
+  .story-page .clients-scene .scene-body {
+    min-height: 32svh;
+  }
+  .story-page .clients-caption {
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+  .story-page .portfolio-scene .about-story-grid {
+    height: auto;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .story-page .portfolio-scene .personal-photo-placeholder {
+    height: 32svh;
+    max-width: none;
+  }
+  .about-skills {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+  }
+  .contact-content {
+    height: auto;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 32px;
+  }
+  .story-page .contact-content h2 {
+    font-size: clamp(46px, 10vw, 70px);
+  }
+  .story-page .portfolio-scene .story-contact-links {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .story-page .portfolio-scene .story-footer {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .story-page .portfolio-scene .story-footer > span {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .clients-track {
+    animation: none;
+  }
+  .story-page .client-logo img {
+    transition: none;
+  }
+}
+
+/* Additional collections reuse the same bounded scene and rail controls. */
+.influencers-chapter {
+  background: #e0e6d2;
+  color: #202d17;
+}
+.story-page .portfolio-scene .video-rail .video-rail-piece {
+  flex: 0 0 auto;
+  width: clamp(240px, 24vw, 330px);
+  height: 100%;
+  min-height: 0;
+}
+.story-page .portfolio-scene .video-rail .story-reel {
+  height: 100%;
+  width: 100%;
+}
+.story-page .portfolio-scene .video-rail .media-rail-track {
+  align-items: stretch;
+}
+.story-page .portfolio-scene .personal-portrait {
+  height: 100%;
+  min-height: 0;
+  width: 100%;
+  max-width: 420px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+}
+.personal-portrait img {
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+.story-page .portfolio-scene .about-story-copy > .learning-note {
+  font-size: 13px;
+  line-height: 1.65;
+  margin-top: 24px;
+  max-width: 520px;
+}
+.production-steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+}
+.production-steps li {
+  font-size: 11px;
+  line-height: 1.4;
+}
+.production-steps li + li::before {
+  content: "→";
+  margin-right: 8px;
+  opacity: 0.5;
+}
+.about-page .personal-portrait {
+  margin: 0;
+  width: min(100%, 420px);
+  aspect-ratio: 4/5;
+}
+.about-page .personal-portrait img {
+  width: 100%;
+  height: 100%;
+}
+.tools-placeholder + .tools-placeholder {
+  margin-top: 28px;
+}
+.contact-links {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.avatar-link {
+  display: grid;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, currentColor 30%, transparent);
+  flex-shrink: 0;
+}
+.avatar-link img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 30%;
+}
+.contact-story,
+.contact-section {
+  background: #bea2e8;
+  color: #22132d;
+}
+.contact-story h2 > em {
+  color: #faf5ff;
+}
+.contact-story .story-footer {
+  border-color: #22132d30;
+}
+.contact-story .story-footer > span {
+  color: inherit;
+}
+.contact-story .story-contact-links span {
+  opacity: 1;
+}
+.contact-message {
+  min-width: 0;
+}
+.contact-message > p {
+  margin-top: 26px;
+  max-width: 38ch;
+  font-size: 16px;
+  line-height: 1.7;
+}
+.story-page .portfolio-scene .story-contact-links {
+  --contact-stagger: clamp(56px, 9vw, 180px);
+  grid-template-columns: minmax(0, 1fr);
+  width: calc(100% + var(--contact-stagger));
+  max-width: 840px;
+  margin-inline-end: clamp(32px, 5vw, 96px);
+  justify-self: end;
+  gap: 0;
+}
+.story-page .portfolio-scene .story-contact-links a {
+  --card-ink: #22132d;
+  --card-arrow: #22132d;
+  --card-arrow-ink: #faf5ff;
+  position: relative;
+  width: calc(100% - var(--contact-stagger));
+  justify-self: start;
+  min-height: 154px;
+  border: 1px solid #22132d20;
+  border-radius: 24px;
+  padding: 22px 28px;
+  background: #decef2;
+  color: var(--card-ink);
+  box-shadow: none;
+  transition:
+    transform 0.2s,
+    background 0.2s,
+    box-shadow 0.2s;
+}
+.story-page .portfolio-scene .story-contact-links .contact-card-email {
+  --card-ink: #faf5ff;
+  --card-arrow: #decef2;
+  --card-arrow-ink: #22132d;
+  background: #302039;
+  border-color: #302039;
+}
+.story-page .portfolio-scene .story-contact-links .contact-card-whatsapp {
+  justify-self: end;
+  margin-top: -24px;
+  z-index: 1;
+}
+.story-page .portfolio-scene .story-contact-links a:hover {
+  transform: translateY(-4px);
+  background: #e8dcf7;
+  box-shadow: 0 14px 28px #3c1e5714;
+}
+.story-page .portfolio-scene .story-contact-links .contact-card-email:hover {
+  background: #3c2948;
+}
+.story-contact-links a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+.story-contact-links strong {
+  display: block;
+  font-size: clamp(19px, 1.6vw, 28px);
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: -0.035em;
+}
+.story-page .portfolio-scene .story-contact-links .contact-channel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 32px;
+  margin-bottom: 12px;
+  padding-right: 56px;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+}
+.contact-channel svg {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  stroke: currentColor;
+  stroke-width: 1.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.story-page .portfolio-scene .story-contact-links .contact-action {
+  margin-top: 8px;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 0;
+}
+.story-page .portfolio-scene .story-contact-links i {
+  top: 22px;
+  bottom: auto;
+  right: 24px;
+  transform: none;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  font-size: 24px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--card-arrow);
+  color: var(--card-arrow-ink);
+  transition: transform 0.2s;
+}
+.story-page .portfolio-scene .story-contact-links a:hover i {
+  transform: rotate(45deg);
+}
+.story-page .portfolio-scene [data-video-src] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  min-width: 56px;
+  min-height: 56px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: #fff;
+  color: #15191f;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1;
+  flex-shrink: 0;
+  box-shadow: 0 4px 18px #10101212;
+  transition: transform 0.2s;
+}
+.story-page .portfolio-scene [data-video-src]:hover {
+  transform: scale(1.07);
+}
+.story-page .portfolio-scene [data-video-src]:focus-visible {
+  outline: 2px solid #15191f;
+  outline-offset: 4px;
+  box-shadow: 0 0 0 4px #fff;
+}
+.story-page .photo-scene .media-rail-piece {
+  width: clamp(230px, 24vw, 420px);
+}
+@media (min-width: 1024px) and (max-height: 750px) {
+  .contact-message > p {
+    margin-top: 18px;
+    font-size: 14px;
+  }
+  .story-page .portfolio-scene .story-contact-links a {
+    min-height: 128px;
+    padding-block: 16px;
+  }
+  .story-page .portfolio-scene .story-contact-links .contact-channel {
+    min-height: 24px;
+    margin-bottom: 8px;
+  }
+  .story-page .portfolio-scene .story-contact-links i {
+    top: 16px;
+    width: 32px;
+    height: 32px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 1023px), (max-height: 599px) {
+  .story-page .portfolio-scene .story-contact-links {
+    --contact-stagger: 0px;
+    width: 100%;
+    max-width: none;
+    margin-inline-end: 0;
+    gap: 16px;
+  }
+  .story-page .portfolio-scene .story-contact-links .contact-card-whatsapp {
+    margin-top: 0;
+  }
+  .story-page .portfolio-scene .story-contact-links a {
+    padding: 22px;
+    min-height: 142px;
+  }
+  .story-page .portfolio-scene .story-contact-links i {
+    right: 22px;
+  }
+  .story-contact-links strong {
+    font-size: clamp(18px, 4.7vw, 28px);
+  }
+  .story-page .photo-scene .media-rail-piece {
+    width: 60vw;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .story-page .portfolio-scene .story-contact-links a,
+  .story-page .portfolio-scene .story-contact-links i,
+  .story-page .portfolio-scene [data-video-src] {
+    transition: none;
+  }
+  .story-page .portfolio-scene .story-contact-links a:hover,
+  .story-page .portfolio-scene .story-contact-links a:hover i,
+  .story-page .portfolio-scene [data-video-src]:hover {
+    transform: none;
+  }
+}
+@media (max-width: 700px) {
+  .contact-links {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+@media (max-width: 1023px), (max-height: 599px) {
+  .story-page .portfolio-scene .video-rail {
+    height: 65svh;
+    min-height: 400px;
+  }
+  .story-page .portfolio-scene .video-rail .video-rail-piece {
+    width: min(72vw, 330px);
+  }
+  .story-page .portfolio-scene .personal-portrait {
+    height: min(50svh, 430px);
+  }
+  .about-page .personal-portrait {
+    justify-self: center;
+  }
+}

@@ -1,0 +1,18 @@
+---
+import Image from "./Image.astro";
+import { url } from "../../data/site";
+interface Props {
+  href?: string;
+  label?: string;
+  eager?: boolean;
+}
+const {
+  href = url(),
+  label = "Carlos Toa, inicio",
+  eager = false,
+} = Astro.props;
+---
+
+<a class="wordmark avatar-link" href={href} aria-label={label}>
+  <Image id="carlos-portrait" alt="" sizes="44px" eager={eager} />
+</a>

@@ -1,0 +1,27 @@
+---
+import Preview from "../media/Preview.astro";
+import VideoButton from "../media/VideoButton.astro";
+interface Props {
+  id: string;
+  title: string;
+  label?: string;
+  class?: string;
+}
+const {
+  id,
+  title,
+  label = "EDICIÓN / VIDEO",
+  class: className = "",
+} = Astro.props;
+---
+
+<figure class:list={["story-reel", className]}>
+  <Preview id={id} title={title} />
+  <figcaption>
+    <div>
+      <span>{label}</span>
+      <p>{title}</p>
+    </div>
+    <VideoButton id={id} title={title} class="piece-play" />
+  </figcaption>
+</figure>

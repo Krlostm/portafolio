@@ -1,0 +1,27 @@
+---
+import Image from '../media/Image.astro';
+import {videoById} from '../../data/media';
+import {url} from '../../data/site';
+const motion=videoById('kike');
+---
+<section class="section kike-section" id="work" data-kike aria-labelledby="kike-title">
+<div class="section-top"><p class="eyebrow">Trabajos seleccionados / 01</p><p class="eyebrow">Diseño gráfico → Animación</p></div>
+<div class="kike-grid">
+<div class="kike-copy">
+<h2 id="kike-title" data-reveal>La misma idea.<br /><span>Otra energía.</span></h2>
+<p class="project-label">KIKE / CUARTO DE MILLA</p>
+<p>Primero, una pieza que llama la atención.<br />Después, un diseño que cobra vida.</p>
+<div class="mode-switch" role="tablist" aria-label="Ver diseño estático o en movimiento">
+<button id="mode-static" role="tab" aria-selected="true" aria-controls="kike-stage" data-mode="static">01 — DISEÑO</button>
+<button id="mode-motion" role="tab" aria-selected="false" tabindex="-1" aria-controls="kike-stage" data-mode="motion">02 — ANIMACIÓN <span aria-hidden="true">↗</span></button>
+</div>
+<a class="text-link" href={url('work/kike/')} data-cursor="Ver caso">Explorar el proyecto <span aria-hidden="true">↗</span></a>
+</div>
+<div class="kike-presentation">
+<div class="kike-stage" id="kike-stage" role="tabpanel" aria-labelledby="mode-static">
+<video data-kike-video data-src={url(motion.preview!)} muted playsinline loop preload="none" aria-label="Versión animada del afiche de Kike"></video>
+<Image id="kike-static" sizes="(max-width:700px) 86vw, 35vw" transitionName="project-kike" />
+</div>
+<div class="stage-caption"><span data-kike-status aria-live="polite">Diseño estático</span><button data-kike-pause hidden aria-label="Pausar animación">PAUSAR Ⅱ</button><span>9:16</span></div>
+</div></div>
+</section>

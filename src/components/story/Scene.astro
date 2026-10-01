@@ -1,0 +1,31 @@
+---
+interface Props {
+  id?: string;
+  label: string;
+  class?: string;
+  pointer?: boolean;
+}
+const { id, label, class: className = "", pointer = false } = Astro.props;
+---
+
+<div
+  id={id}
+  class:list={["portfolio-scene", className]}
+  data-scene
+  data-pointer-scene={pointer || undefined}
+  role="group"
+  aria-label={label}
+  tabindex="-1"
+>
+  <header class="scene-heading">
+    <slot name="heading" />
+  </header>
+  <div class="scene-body">
+    <slot />
+  </div>
+  {Astro.slots.has("footer") && (
+    <footer class="scene-footer">
+      <slot name="footer" />
+    </footer>
+  )}
+</div>

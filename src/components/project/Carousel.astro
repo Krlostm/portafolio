@@ -1,0 +1,12 @@
+---
+import MediaRail from "../media/MediaRail.astro";
+interface Props {
+  images: string[];
+  label: string;
+  id: string;
+  portrait?: boolean;
+}
+const { images, label, id } = Astro.props;
+---
+
+<MediaRail images={images} label={label} id={id} />

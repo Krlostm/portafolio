@@ -1,0 +1,36 @@
+---
+import { url } from "../data/site";
+import Avatar from "./media/Avatar.astro";
+const path = Astro.url.pathname;
+---
+
+<header class="site-header">
+  <Avatar eager />
+  <span class="header-note">Diseño. Produzco. Desarrollo.</span>
+  <button
+    class="menu-toggle"
+    aria-label="Abrir navegación"
+    aria-expanded="false"
+    aria-controls="main-nav"
+  >
+    <span></span>
+    <span></span>
+  </button>
+  <nav id="main-nav" aria-label="Navegación principal">
+    <a href={url("#work")} aria-current={path === url() ? "page" : undefined}>
+      TRABAJOS
+    </a>
+    <a
+      href={url("#about")}
+      aria-current={path.includes("/about") ? "page" : undefined}
+    >
+      SOBRE MÍ
+    </a>
+    <a
+      href={url("#contact")}
+      aria-current={path.includes("/contact") ? "page" : undefined}
+    >
+      CONTACTO <span aria-hidden="true">↗</span>
+    </a>
+  </nav>
+</header>

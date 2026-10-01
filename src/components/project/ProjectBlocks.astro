@@ -1,0 +1,60 @@
+---
+import VideoTrigger from "../media/VideoTrigger.astro";
+import Carousel from "./Carousel.astro";
+import MediaRail from "../media/MediaRail.astro";
+import ProductExplorer from "./ProductExplorer.astro";
+import type { Project } from "../../data/projects";
+interface Props {
+  project: Project;
+}
+const { project } = Astro.props;
+---
+
+<div class="project-blocks">
+  {project.blocks.map((block, i) => (
+    <section class:list={["section", "case-block", "block-" + block.type]}>
+      {block.title && (
+        <h2 class="block-heading" data-reveal>
+          {block.title}
+        </h2>
+      )}
+      {block.type === "gallery" && (
+        <MediaRail images={block.images} label={block.title ?? project.name} />
+      )}
+      {block.type === "carousel" && (
+        <Carousel
+          images={block.images}
+          label={block.title}
+          id={project.slug + "-carousel-" + i}
+        />
+      )}
+      {block.type === "videos" && (
+        <div
+          class:list={[
+            "case-videos",
+            { "single-video": block.videos.length === 1 },
+          ]}
+        >
+          {block.videos.map((v) => (
+            <VideoTrigger
+              id={v.id}
+              title={v.title}
+              description={v.description}
+            />
+          ))}
+        </div>
+      )}
+      {block.type === "product" && (
+        <ProductExplorer
+          features={block.features}
+          id={project.slug + "-features"}
+          video={block.video}
+          title={project.name}
+        />
+      )}
+      {"caption" in block && block.caption && (
+        <p class="block-caption">{block.caption}</p>
+      )}
+    </section>
+  ))}
+</div>

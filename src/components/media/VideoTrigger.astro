@@ -1,0 +1,13 @@
+---
+import Preview from './Preview.astro';
+import { videoById } from '../../data/media';
+import { url } from '../../data/site';
+interface Props { id: string; title: string; description?: string; class?: string; }
+const { id, title, description, class: className = '' } = Astro.props;
+const clip = videoById(id);
+---
+<figure class:list={['video-feature', className]}>
+  <Preview id={id} title={title} />
+  <figcaption><strong>{title}</strong>{description && <p>{description}</p>}</figcaption>
+  <button type="button" class="action-button button-dark" data-video-src={url(clip.full)} data-video-title={title}><span aria-hidden="true">▶</span> Ver con sonido <span aria-hidden="true">↗</span></button>
+</figure>

@@ -1,0 +1,33 @@
+---
+interface Props {
+  label: string;
+}
+const { label } = Astro.props;
+---
+
+<div class="media-rail-footer">
+  <label class="rail-seek-control" data-rail-hint hidden>
+    <span>RECORRER</span>
+    <input
+      class="rail-seek"
+      type="range"
+      min="0"
+      max="100"
+      step="0.1"
+      value="0"
+      aria-label={"Recorrer " + label}
+      aria-valuetext="Inicio del recorrido"
+      data-rail-seek
+      disabled
+    />
+  </label>
+  <button
+    type="button"
+    class="rail-pause"
+    data-rail-pause
+    aria-pressed="false"
+    hidden
+  >
+    Pausar movimiento Ⅱ
+  </button>
+</div>

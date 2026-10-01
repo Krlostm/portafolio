@@ -1,0 +1,44 @@
+---
+interface Props {
+  id: string;
+  label: string;
+  items: { id: string; label: string }[];
+}
+const { id, label, items } = Astro.props;
+const panels = await Promise.all(
+  items.map(async (item) => ({
+    ...item,
+    html: await Astro.slots.render(item.id),
+  })),
+);
+---
+
+<div class="scene-switch" data-scene-switch>
+  <div class="scene-switch-tabs" role="tablist" aria-label={label}>
+    {items.map((item, i) => (
+      <button
+        type="button"
+        role="tab"
+        id={id + "-tab-" + item.id}
+        aria-controls={id + "-panel-" + item.id}
+        aria-selected={i === 0 ? "true" : "false"}
+        tabindex={i === 0 ? 0 : -1}
+        data-scene-tab={i}
+      >
+        {item.label}
+      </button>
+    ))}
+  </div>
+  {panels.map((panel, i) => (
+    <div
+      class="scene-switch-panel"
+      role="tabpanel"
+      id={id + "-panel-" + panel.id}
+      aria-labelledby={id + "-tab-" + panel.id}
+      data-scene-panel={i}
+      hidden={i !== 0}
+    >
+      <Fragment set:html={panel.html} />
+    </div>
+  ))}
+</div>

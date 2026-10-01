@@ -1,0 +1,176 @@
+---
+import Chapter from "./Chapter.astro";
+import Scene from "./Scene.astro";
+import SceneSwitch from "./SceneSwitch.astro";
+import Image from "../media/Image.astro";
+import Reel from "./Reel.astro";
+import MediaRail from "../media/MediaRail.astro";
+---
+
+<Chapter id="theraudio" class="thera-chapter">
+  <Scene class="thera-opening" label="Theraudio — Identidad y contenido">
+    <div slot="heading">
+      <p class="story-kicker">04 / THERAUDIO — IDENTIDAD & CONTENIDO</p>
+      <h2>Theraudio.</h2>
+    </div>
+    <div class="thera-collage scene-art-deck">
+      <figure data-parallax="-25">
+        <Image id="thera-brand" sizes="(max-width:700px) 46vw, 30vw" />
+      </figure>
+      <figure data-parallax="25">
+        <Image id="thera-juguete" sizes="(max-width:700px) 46vw, 30vw" />
+      </figure>
+      <figure>
+        <Image id="thera-professor" sizes="(max-width:700px) 46vw, 30vw" />
+      </figure>
+    </div>
+    <p slot="footer">
+      Continuidad visual. Contenido con una identidad reconocible.
+    </p>
+  </Scene>
+  <Scene class="thera-content" label="Theraudio — Publicaciones y video">
+    <div slot="heading">
+      <p class="story-kicker">THERAUDIO / CONTENIDO EDITORIAL</p>
+      <h2>La identidad sigue.</h2>
+    </div>
+    <SceneSwitch
+      id="thera-collection"
+      label="Ver contenido de Theraudio"
+      items={[
+        { id: "covers", label: "Publicaciones" },
+        { id: "film", label: "Video" },
+      ]}
+    >
+      <div slot="covers">
+        <MediaRail
+          images={["thera-gateo", "thera-r", "thera-senses"]}
+          label="Theraudio — portadas de contenidos distintos"
+        />
+      </div>
+      <div slot="film" class="scene-reel-feature">
+        <div>
+          <h3>
+            La misma voz.
+            <br />
+            <em>En movimiento.</em>
+          </h3>
+          <p>Color, jerarquía y personajes construyen la continuidad.</p>
+        </div>
+        <Reel
+          id="thera-language"
+          title="Theraudio / Contenido de marca"
+          label="THERAUDIO / EDICIÓN"
+        />
+      </div>
+    </SceneSwitch>
+  </Scene>
+</Chapter>
+<Chapter id="ferreteria" class="ferre-chapter">
+  <Scene
+    class="ferre-opening"
+    label="Ferretería Reina del Cisne — Diseño comercial"
+  >
+    <div slot="heading">
+      <p class="story-kicker">05 / FERRETERÍA — DISEÑO COMERCIAL</p>
+      <h2>Reina del Cisne.</h2>
+    </div>
+    <div class="ferre-advertising scene-art-deck">
+      <figure>
+        <Image id="ferre-cement" sizes="(max-width:700px) 46vw, 30vw" />
+      </figure>
+      <figure data-parallax="25">
+        <Image id="ferre-wheelbarrow" sizes="(max-width:700px) 46vw, 30vw" />
+      </figure>
+      <figure data-parallax="-25">
+        <Image id="ferre-leafblower" sizes="(max-width:700px) 46vw, 30vw" />
+      </figure>
+    </div>
+    <p slot="footer">
+      Producto y composición. Diseño que trabaja para un negocio.
+    </p>
+  </Scene>
+  <Scene
+    class="ferre-paint-story"
+    label="Ferretería — Secuencia de cinco láminas"
+  >
+    <div slot="heading">
+      <p class="story-kicker">FERRETERÍA / UNA IDEA QUE SE DESPLIEGA</p>
+      <h2>Antes de pintar, mira esto.</h2>
+    </div>
+    <MediaRail
+      images={["ferre-01", "ferre-02", "ferre-03", "ferre-04", "ferre-05"]}
+      label="Errores al pintar — Ferretería Reina del Cisne"
+      id="ferre-swipe"
+    />
+    <p slot="footer">La secuencia original, pieza a pieza.</p>
+  </Scene>
+  {[
+    {
+      title: "Lo que necesitas para pintar.",
+      label: "Herramientas para pintar",
+      images: ["ferre-paint-kit-1", "ferre-paint-kit-2", "ferre-paint-kit-3"],
+    },
+    {
+      title: "Una carretilla. Más posibilidades.",
+      label: "Carretilla",
+      images: ["ferre-cart-1", "ferre-cart-2", "ferre-cart-3"],
+    },
+    {
+      title: "Soluciones para la lavandería.",
+      label: "Lavandería",
+      images: ["ferre-laundry-1", "ferre-laundry-2", "ferre-laundry-3"],
+    },
+    {
+      title: "El producto, paso a paso.",
+      label: "Soldadora",
+      images: ["ferre-weld-1", "ferre-weld-2"],
+    },
+  ].map((collection) => (
+    <Scene
+      class="ferre-collection-scene"
+      label={"Ferretería — " + collection.label}
+    >
+      <div slot="heading">
+        <p class="story-kicker">
+          FERRETERÍA / {collection.label.toUpperCase()}
+        </p>
+        <h2>{collection.title}</h2>
+      </div>
+      <MediaRail
+        images={collection.images}
+        label={"Ferretería Reina del Cisne — " + collection.label}
+      />
+      <p slot="footer">
+        Una secuencia de piezas pensada para informar y mostrar el producto.
+      </p>
+    </Scene>
+  ))}
+</Chapter>
+<Chapter id="product" class="product-chapter">
+  <Scene
+    class="product-commercial"
+    label="Diseño de producto y publicidad comercial"
+  >
+    <div slot="heading">
+      <p class="story-kicker">06 / PRODUCTO — PUBLICIDAD</p>
+      <h2>El producto al centro.</h2>
+    </div>
+    <div class="product-trio">
+      <figure>
+        <Image id="product-wings" sizes="(max-width:700px) 46vw, 27vw" />
+        <figcaption>PUBLICIDAD GASTRONÓMICA / ALITAS</figcaption>
+      </figure>
+      <figure class="product-main">
+        <Image id="product-creatina" sizes="(max-width:700px) 85vw, 38vw" />
+        <figcaption>EDU NUTRITION / PRODUCTO</figcaption>
+      </figure>
+      <figure>
+        <Image id="product-picobul" sizes="(max-width:700px) 46vw, 27vw" />
+        <figcaption>COMPOSICIÓN COMERCIAL / PICOBUL</figcaption>
+      </figure>
+    </div>
+    <p slot="footer">
+      Color, textura y composición con una intención comercial.
+    </p>
+  </Scene>
+</Chapter>

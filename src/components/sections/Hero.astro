@@ -1,0 +1,68 @@
+---
+import Image from "../media/Image.astro";
+import Scene from "../story/Scene.astro";
+import { url, siteConfig } from "../../data/site";
+---
+
+<Scene id="start" class="story-hero" label="Carlos Toa — Diseñador" pointer>
+  <div slot="heading" class="hero-edition">
+    <span>TRABAJOS SELECCIONADOS / CARLOS TOA</span>
+    <span>EL DISEÑO ES EL PUNTO DE PARTIDA.</span>
+  </div>
+  <div class="hero-main">
+    <h1 id="hero-title">
+      <span data-hero-line>CARLOS</span>
+      <span data-hero-line>TOA</span>
+    </h1>
+    <div class="hero-work" aria-hidden="true">
+      <figure class="hero-work-oper" data-pointer="-0.6">
+        <Image
+          id="oper-panama"
+          alt=""
+          eager
+          sizes="(max-width:700px) 28vw, 18vw"
+        />
+      </figure>
+      <figure class="hero-work-kike" data-pointer="0.8">
+        <Image
+          id="kike-static"
+          alt=""
+          eager
+          sizes="(max-width:700px) 33vw, 18vw"
+        />
+      </figure>
+      <figure class="hero-work-top" data-pointer="0.35">
+        <Image
+          id="top-store"
+          alt=""
+          eager
+          sizes="(max-width:700px) 34vw, 18vw"
+        />
+      </figure>
+    </div>
+  </div>
+  <div slot="footer" class="hero-bottom">
+    <div class="hero-introduction">
+      <div>
+        <strong>DISEÑADOR</strong>
+        <p>Creador audiovisual · Desarrollador</p>
+      </div>
+      <p class="hero-bio">{siteConfig.heroBio}</p>
+      <a href={url("#work")} class="hero-scroll" data-cursor="EXPLORAR">
+        <span>
+          EXPLORAR
+          <br />
+          EL PORTAFOLIO
+        </span>
+        <i aria-hidden="true">↓</i>
+      </a>
+    </div>
+    <div class="hero-disciplines">
+      <span>DISEÑO</span>
+      <span>ANIMACIÓN</span>
+      <span>PRODUCCIÓN</span>
+      <span>FOTOGRAFÍA</span>
+      <span>DESARROLLO</span>
+    </div>
+  </div>
+</Scene>

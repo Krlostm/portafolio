@@ -1,0 +1,128 @@
+---
+import Chapter from "./Chapter.astro";
+import Scene from "./Scene.astro";
+import Image from "../media/Image.astro";
+import MediaRail from "../media/MediaRail.astro";
+import { projectBySlug } from "../../data/projects";
+import VideoButton from "../media/VideoButton.astro";
+const inmoBlock = projectBySlug("inmobiliaria").blocks.find(
+  (block) => block.type === "product",
+);
+const appBlock = projectBySlug("aplicacion-infantil").blocks.find(
+  (block) => block.type === "product",
+);
+const inmo =
+  inmoBlock?.type === "product"
+    ? [
+        {
+          label: "Inicio",
+          image: "inmo-cover",
+          description: "El punto de partida para explorar el catálogo.",
+        },
+        ...inmoBlock.features,
+      ]
+    : [];
+const app = appBlock?.type === "product" ? appBlock.features : [];
+---
+
+<Chapter id="development" class="development-chapter">
+  <Scene
+    id="inmobiliaria"
+    class="inmo-scene"
+    label="Desarrollo — Web inmobiliaria"
+  >
+    <div slot="heading" class="development-scene-title">
+      <div>
+        <p class="story-kicker">11 / DESARROLLO</p>
+        <h2>También construyo.</h2>
+      </div>
+      <p>
+        WEB INMOBILIARIA
+        <br />
+        <span>Explorar. Filtrar. Encontrar.</span>
+      </p>
+    </div>
+    <div
+      class="interface-journey"
+      data-interface-story
+      data-interface-mode="compact"
+    >
+      <div
+        class="interface-tabs"
+        role="tablist"
+        aria-label="Explorar la interfaz inmobiliaria"
+      >
+        {inmo.map((feature, i) => (
+          <button
+            type="button"
+            role="tab"
+            id={"inmo-story-tab-" + i}
+            aria-controls={"inmo-story-panel-" + i}
+            aria-selected={i === 0 ? "true" : "false"}
+            tabindex={i === 0 ? 0 : -1}
+            data-interface-tab={i}
+          >
+            {feature.label}
+          </button>
+        ))}
+      </div>
+      <div class="interface-window">
+        <div class="interface-chrome" aria-hidden="true">
+          <span>● ● ●</span>
+          <span>WEB INMOBILIARIA</span>
+          <span>↗</span>
+        </div>
+        {inmo.map((feature, i) => (
+          <div
+            class="interface-panel"
+            id={"inmo-story-panel-" + i}
+            role="tabpanel"
+            aria-labelledby={"inmo-story-tab-" + i}
+            data-interface-panel={i}
+            hidden={i !== 0}
+          >
+            <Image id={feature.image} sizes="(max-width:700px) 90vw, 82vw" />
+          </div>
+        ))}
+      </div>
+      <p class="interface-description" data-interface-description>
+        {inmo[0]?.description}
+      </p>
+      <div class="interface-steps" hidden>
+        {inmo.map((feature, i) => (
+          <div
+            data-interface-step={i}
+            data-interface-copy={feature.description}
+            hidden
+          />
+        ))}
+      </div>
+    </div>
+    <VideoButton
+      slot="footer"
+      id="inmobiliaria"
+      title="Web inmobiliaria / Recorrido por la interfaz"
+    />
+  </Scene>
+  <Scene
+    id="aplicacion-infantil"
+    class="app-scene"
+    label="Desarrollo — Aplicación infantil"
+  >
+    <div slot="heading">
+      <p class="story-kicker">DESARROLLO / APLICACIÓN INFANTIL</p>
+      <h2>Pequeñas acciones.</h2>
+    </div>
+    <MediaRail
+      images={app.map((feature) => feature.image)}
+      captions={app.map(
+        (feature) => feature.label + " — " + feature.description,
+      )}
+      label="Aplicación infantil — funciones visibles en la demostración"
+    />
+    <div slot="footer" class="scene-caption">
+      <p>Tareas, rutinas, tiempo y juegos. Una experiencia digital.</p>
+      <VideoButton id="aplicacion" title="Aplicación infantil / Demostración" />
+    </div>
+  </Scene>
+</Chapter>

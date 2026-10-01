@@ -1,0 +1,50 @@
+---
+import { siteConfig, contactLinks, url } from "../../data/site";
+interface Props {
+  standalone?: boolean;
+}
+const { standalone = false } = Astro.props;
+const Heading = standalone ? "h1" : "h2";
+---
+
+<section
+  class:list={[
+    "section",
+    "contact-section",
+    { "contact-standalone": standalone },
+  ]}
+  aria-labelledby="contact-title"
+>
+  <div class="section-top">
+    <p class="eyebrow">¿La próxima idea?</p>
+    <p class="eyebrow">Hagámosla realidad.</p>
+  </div>
+  <Heading id="contact-title" data-reveal>
+    HAGAMOS
+    <br />
+    ALGO QUE
+    <br />
+    <a href={contactLinks.email}>
+      SE VEA<span>↗</span>
+    </a>
+  </Heading>
+  <div class="contact-links">
+    <a href={contactLinks.email}>
+      <span>CORREO</span>
+      {siteConfig.email}
+      <i aria-hidden="true">↗</i>
+    </a>
+    <a href={contactLinks.whatsapp} target="_blank" rel="noopener noreferrer">
+      <span>WHATSAPP</span>
+      {siteConfig.phone}
+      <i aria-hidden="true">↗</i>
+    </a>
+  </div>
+  <footer class="site-footer">
+    <a href={url()}>{siteConfig.name.toUpperCase()} / PORTAFOLIO CREATIVO</a>
+    <span>Diseño. Produzco. Desarrollo.</span>
+    <a href="#main" aria-label="Volver al inicio">
+      VOLVER AL INICIO ↑
+    </a>
+  </footer>
+</section>

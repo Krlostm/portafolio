@@ -1,0 +1,3254 @@
+{
+  "images": {
+    "kike-static": {
+      "source": "flyers influencers/Cuarto-de-milla-Kike.jpg",
+      "alt": "Flyer de Kike: cuarto de milla, retrato y composición tipográfica",
+      "width": 1080,
+      "height": 1920,
+      "src": "media/images/kike-static-960.webp",
+      "variants": [
+        {
+          "src": "media/images/kike-static-480.webp",
+          "width": 480,
+          "height": 853,
+          "bytes": 132820
+        },
+        {
+          "src": "media/images/kike-static-960.webp",
+          "width": 960,
+          "height": 1707,
+          "bytes": 401650
+        },
+        {
+          "src": "media/images/kike-static-1080.webp",
+          "width": 1080,
+          "height": 1920,
+          "bytes": 459006
+        }
+      ]
+    },
+    "kike-quito": {
+      "source": "flyers influencers/FIESTAS-DE-QUITO.jpg",
+      "alt": "Flyer de Kike para las fiestas de Quito",
+      "width": 1080,
+      "height": 1920,
+      "src": "media/images/kike-quito-960.webp",
+      "variants": [
+        {
+          "src": "media/images/kike-quito-480.webp",
+          "width": 480,
+          "height": 853,
+          "bytes": 147522
+        },
+        {
+          "src": "media/images/kike-quito-960.webp",
+          "width": 960,
+          "height": 1707,
+          "bytes": 408706
+        },
+        {
+          "src": "media/images/kike-quito-1080.webp",
+          "width": 1080,
+          "height": 1920,
+          "bytes": 492182
+        }
+      ]
+    },
+    "kike-playa": {
+      "source": "flyers influencers/Stream_Playero_kike.png",
+      "alt": "Flyer de Kike para un stream playero",
+      "width": 1080,
+      "height": 1920,
+      "src": "media/images/kike-playa-960.webp",
+      "variants": [
+        {
+          "src": "media/images/kike-playa-480.webp",
+          "width": 480,
+          "height": 853,
+          "bytes": 160384
+        },
+        {
+          "src": "media/images/kike-playa-960.webp",
+          "width": 960,
+          "height": 1707,
+          "bytes": 491132
+        },
+        {
+          "src": "media/images/kike-playa-1080.webp",
+          "width": 1080,
+          "height": 1920,
+          "bytes": 602278
+        }
+      ]
+    },
+    "top-01": {
+      "source": "top_media/Carruseles/1/CARRUSEL-SEMANA-4-DIA-1_01.jpg",
+      "alt": "Top Media: lámina 1 de un carrusel de cuatro piezas",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/top-01-960.webp",
+      "variants": [
+        {
+          "src": "media/images/top-01-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 44240
+        },
+        {
+          "src": "media/images/top-01-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 116508
+        },
+        {
+          "src": "media/images/top-01-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 138778
+        }
+      ]
+    },
+    "top-02": {
+      "source": "top_media/Carruseles/1/CARRUSEL-SEMANA-4-DIA-1_02.jpg",
+      "alt": "Top Media: lámina 2 de un carrusel de cuatro piezas",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/top-02-960.webp",
+      "variants": [
+        {
+          "src": "media/images/top-02-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 73796
+        },
+        {
+          "src": "media/images/top-02-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 198544
+        },
+        {
+          "src": "media/images/top-02-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 226500
+        }
+      ]
+    },
+    "top-03": {
+      "source": "top_media/Carruseles/1/CARRUSEL-SEMANA-4-DIA-1_03.jpg",
+      "alt": "Top Media: lámina 3 de un carrusel de cuatro piezas",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/top-03-960.webp",
+      "variants": [
+        {
+          "src": "media/images/top-03-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 56580
+        },
+        {
+          "src": "media/images/top-03-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 169604
+        },
+        {
+          "src": "media/images/top-03-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 205838
+        }
+      ]
+    },
+    "top-04": {
+      "source": "top_media/Carruseles/1/CARRUSEL-SEMANA-4-DIA-1_04.jpg",
+      "alt": "Top Media: lámina 4 de un carrusel de cuatro piezas",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/top-04-960.webp",
+      "variants": [
+        {
+          "src": "media/images/top-04-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 46332
+        },
+        {
+          "src": "media/images/top-04-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 123726
+        },
+        {
+          "src": "media/images/top-04-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 153750
+        }
+      ]
+    },
+    "top-store": {
+      "source": "top_media/Estatico 1.jpg",
+      "alt": "Top Media: composición comercial en amarillo y negro",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/top-store-960.webp",
+      "variants": [
+        {
+          "src": "media/images/top-store-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 73760
+        },
+        {
+          "src": "media/images/top-store-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 215722
+        },
+        {
+          "src": "media/images/top-store-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 255580
+        }
+      ]
+    },
+    "top-burger": {
+      "source": "top_media/ESTATICO-SEP 08.jpg",
+      "alt": "Top Media: publicación comercial con fotografía de producto",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/top-burger-960.webp",
+      "variants": [
+        {
+          "src": "media/images/top-burger-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 85854
+        },
+        {
+          "src": "media/images/top-burger-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 242800
+        },
+        {
+          "src": "media/images/top-burger-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 282014
+        }
+      ]
+    },
+    "top-sign": {
+      "source": "top_media/Mesa de trabajo 1.jpg",
+      "alt": "Top Media: pieza gráfica de marca",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/top-sign-960.webp",
+      "variants": [
+        {
+          "src": "media/images/top-sign-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 85516
+        },
+        {
+          "src": "media/images/top-sign-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 237320
+        },
+        {
+          "src": "media/images/top-sign-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 273988
+        }
+      ]
+    },
+    "oper-brochure": {
+      "source": "proyectos_varios/1/Galápagos Student Travel Brochure Mockup.png",
+      "alt": "Mockup del folleto de Galápagos para Opermundo",
+      "width": 1448,
+      "height": 1086,
+      "src": "media/images/oper-brochure-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-brochure-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 56314
+        },
+        {
+          "src": "media/images/oper-brochure-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 177948
+        },
+        {
+          "src": "media/images/oper-brochure-1448.webp",
+          "width": 1448,
+          "height": 1086,
+          "bytes": 330474
+        }
+      ]
+    },
+    "oper-folder": {
+      "source": "proyectos_varios/2/Mock up carpeta general.png",
+      "alt": "Carpeta corporativa de Opermundo aplicada en un mockup",
+      "width": 1448,
+      "height": 1086,
+      "src": "media/images/oper-folder-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-folder-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 37512
+        },
+        {
+          "src": "media/images/oper-folder-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 109528
+        },
+        {
+          "src": "media/images/oper-folder-1448.webp",
+          "width": 1448,
+          "height": 1086,
+          "bytes": 203406
+        }
+      ]
+    },
+    "oper-trifold": {
+      "source": "proyectos_varios/3/Vibrant Ecuador Travel Brochure Mockup.png",
+      "alt": "Mockup de tríptico turístico de Ecuador para Opermundo",
+      "width": 1448,
+      "height": 1086,
+      "src": "media/images/oper-trifold-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-trifold-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 71642
+        },
+        {
+          "src": "media/images/oper-trifold-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 235436
+        },
+        {
+          "src": "media/images/oper-trifold-1448.webp",
+          "width": 1448,
+          "height": 1086,
+          "bytes": 443200
+        }
+      ]
+    },
+    "oper-galapagos": {
+      "source": "opermundo/posts de venta/SUPER LOBITO (1).jpg",
+      "alt": "Publicación turística de Galápagos para Opermundo",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/oper-galapagos-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-galapagos-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 123254
+        },
+        {
+          "src": "media/images/oper-galapagos-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 319016
+        },
+        {
+          "src": "media/images/oper-galapagos-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 366850
+        }
+      ]
+    },
+    "oper-eje": {
+      "source": "opermundo/posts de venta/EJE CAFETERO.jpg",
+      "alt": "Campaña turística del Eje Cafetero para Opermundo",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/oper-eje-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-eje-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 115802
+        },
+        {
+          "src": "media/images/oper-eje-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 332238
+        },
+        {
+          "src": "media/images/oper-eje-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 377694
+        }
+      ]
+    },
+    "oper-anniversary": {
+      "source": "opermundo/posts de venta/16-años.jpg",
+      "alt": "Pieza de aniversario de Opermundo",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/oper-anniversary-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-anniversary-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 62816
+        },
+        {
+          "src": "media/images/oper-anniversary-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 172076
+        },
+        {
+          "src": "media/images/oper-anniversary-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 205672
+        }
+      ]
+    },
+    "oper-turquia": {
+      "source": "opermundo/posts de venta/TURQUÍA CON TROYA 2x1 10d - 9n 2027 (3).jpg",
+      "alt": "Pieza comercial de Turquía para Opermundo",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/oper-turquia-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-turquia-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 109060
+        },
+        {
+          "src": "media/images/oper-turquia-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 290472
+        },
+        {
+          "src": "media/images/oper-turquia-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 339162
+        }
+      ]
+    },
+    "thera-gateo": {
+      "source": "theraudio/gateo-110526_01.jpg",
+      "alt": "Theraudio: portada sobre desarrollo infantil",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/thera-gateo-960.webp",
+      "variants": [
+        {
+          "src": "media/images/thera-gateo-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 67606
+        },
+        {
+          "src": "media/images/thera-gateo-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 180744
+        },
+        {
+          "src": "media/images/thera-gateo-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 213726
+        }
+      ]
+    },
+    "thera-r": {
+      "source": "theraudio/carrusel-R_01.jpg",
+      "alt": "Theraudio: portada editorial de contenido de marca",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/thera-r-960.webp",
+      "variants": [
+        {
+          "src": "media/images/thera-r-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 54878
+        },
+        {
+          "src": "media/images/thera-r-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 144942
+        },
+        {
+          "src": "media/images/thera-r-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 171838
+        }
+      ]
+    },
+    "thera-juguete": {
+      "source": "theraudio/ChatGPT Image Sep 29, 2026, 12_22_47 AM.png",
+      "alt": "Theraudio: composición de contenido para redes sociales",
+      "width": 1122,
+      "height": 1402,
+      "src": "media/images/thera-juguete-960.webp",
+      "variants": [
+        {
+          "src": "media/images/thera-juguete-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 55152
+        },
+        {
+          "src": "media/images/thera-juguete-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 146344
+        },
+        {
+          "src": "media/images/thera-juguete-1122.webp",
+          "width": 1122,
+          "height": 1402,
+          "bytes": 177972
+        }
+      ]
+    },
+    "thera-brand": {
+      "source": "theraudio/POST 1 - JULIO.png",
+      "alt": "Theraudio: publicación de marca",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/thera-brand-960.webp",
+      "variants": [
+        {
+          "src": "media/images/thera-brand-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 52424
+        },
+        {
+          "src": "media/images/thera-brand-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 125826
+        },
+        {
+          "src": "media/images/thera-brand-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 145194
+        }
+      ]
+    },
+    "ferre-01": {
+      "source": "ferretería/carruseles/errores al pintar/images/errores-al-pintar_01.jpg",
+      "alt": "Ferretería Reina del Cisne: lámina 1 de cinco sobre errores al pintar",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/ferre-01-960.webp",
+      "variants": [
+        {
+          "src": "media/images/ferre-01-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 63474
+        },
+        {
+          "src": "media/images/ferre-01-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 179622
+        },
+        {
+          "src": "media/images/ferre-01-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 214170
+        }
+      ]
+    },
+    "ferre-02": {
+      "source": "ferretería/carruseles/errores al pintar/images/errores-al-pintar_02.jpg",
+      "alt": "Ferretería Reina del Cisne: lámina 2 de cinco sobre errores al pintar",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/ferre-02-960.webp",
+      "variants": [
+        {
+          "src": "media/images/ferre-02-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 43950
+        },
+        {
+          "src": "media/images/ferre-02-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 127548
+        },
+        {
+          "src": "media/images/ferre-02-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 156062
+        }
+      ]
+    },
+    "ferre-03": {
+      "source": "ferretería/carruseles/errores al pintar/images/errores-al-pintar_03.jpg",
+      "alt": "Ferretería Reina del Cisne: lámina 3 de cinco sobre errores al pintar",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/ferre-03-960.webp",
+      "variants": [
+        {
+          "src": "media/images/ferre-03-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 51450
+        },
+        {
+          "src": "media/images/ferre-03-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 130480
+        },
+        {
+          "src": "media/images/ferre-03-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 151812
+        }
+      ]
+    },
+    "ferre-04": {
+      "source": "ferretería/carruseles/errores al pintar/images/errores-al-pintar_04.jpg",
+      "alt": "Ferretería Reina del Cisne: lámina 4 de cinco sobre errores al pintar",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/ferre-04-960.webp",
+      "variants": [
+        {
+          "src": "media/images/ferre-04-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 47268
+        },
+        {
+          "src": "media/images/ferre-04-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 124816
+        },
+        {
+          "src": "media/images/ferre-04-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 151890
+        }
+      ]
+    },
+    "ferre-05": {
+      "source": "ferretería/carruseles/errores al pintar/images/errores-al-pintar_05.jpg",
+      "alt": "Ferretería Reina del Cisne: lámina 5 de cinco sobre errores al pintar",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/ferre-05-960.webp",
+      "variants": [
+        {
+          "src": "media/images/ferre-05-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 60418
+        },
+        {
+          "src": "media/images/ferre-05-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 163734
+        },
+        {
+          "src": "media/images/ferre-05-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 192118
+        }
+      ]
+    },
+    "product-creatina": {
+      "source": "productos/CREATINA MUTANT - EDU NUTRITION.jpg",
+      "alt": "Composición publicitaria de Creatina Mutant para Edu Nutrition",
+      "width": 1080,
+      "height": 1080,
+      "src": "media/images/product-creatina-960.webp",
+      "variants": [
+        {
+          "src": "media/images/product-creatina-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 69176
+        },
+        {
+          "src": "media/images/product-creatina-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 194116
+        },
+        {
+          "src": "media/images/product-creatina-1080.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 230678
+        }
+      ]
+    },
+    "photo-01": {
+      "source": "fotografía/_MG_3284_1.jpg",
+      "alt": "Retrato femenino con iluminación lateral y mirada hacia arriba",
+      "width": 3894,
+      "height": 6000,
+      "src": "media/images/photo-01-960.webp",
+      "variants": [
+        {
+          "src": "media/images/photo-01-480.webp",
+          "width": 480,
+          "height": 740,
+          "bytes": 32344
+        },
+        {
+          "src": "media/images/photo-01-960.webp",
+          "width": 960,
+          "height": 1479,
+          "bytes": 84922
+        },
+        {
+          "src": "media/images/photo-01-1600.webp",
+          "width": 1600,
+          "height": 2465,
+          "bytes": 264898
+        }
+      ]
+    },
+    "photo-02": {
+      "source": "fotografía/_MG_3378.jpg",
+      "alt": "Retrato masculino con chaqueta e iluminación azul",
+      "width": 3376,
+      "height": 6000,
+      "src": "media/images/photo-02-960.webp",
+      "variants": [
+        {
+          "src": "media/images/photo-02-480.webp",
+          "width": 480,
+          "height": 853,
+          "bytes": 35172
+        },
+        {
+          "src": "media/images/photo-02-960.webp",
+          "width": 960,
+          "height": 1706,
+          "bytes": 122888
+        },
+        {
+          "src": "media/images/photo-02-1600.webp",
+          "width": 1600,
+          "height": 2844,
+          "bytes": 434054
+        }
+      ]
+    },
+    "photo-03": {
+      "source": "fotografía/_MG_3392.jpg",
+      "alt": "Retrato de cuerpo completo con vestuario claro y fondo oscuro",
+      "width": 3376,
+      "height": 5708,
+      "src": "media/images/photo-03-960.webp",
+      "variants": [
+        {
+          "src": "media/images/photo-03-480.webp",
+          "width": 480,
+          "height": 812,
+          "bytes": 41142
+        },
+        {
+          "src": "media/images/photo-03-960.webp",
+          "width": 960,
+          "height": 1623,
+          "bytes": 158786
+        },
+        {
+          "src": "media/images/photo-03-1600.webp",
+          "width": 1600,
+          "height": 2705,
+          "bytes": 605272
+        }
+      ]
+    },
+    "photo-04": {
+      "source": "fotografía/_MG_3368_1.jpg",
+      "alt": "Retrato de dos personas con contraste de vestuario",
+      "width": 3854,
+      "height": 5523,
+      "src": "media/images/photo-04-960.webp",
+      "variants": [
+        {
+          "src": "media/images/photo-04-480.webp",
+          "width": 480,
+          "height": 688,
+          "bytes": 43452
+        },
+        {
+          "src": "media/images/photo-04-960.webp",
+          "width": 960,
+          "height": 1376,
+          "bytes": 187426
+        },
+        {
+          "src": "media/images/photo-04-1600.webp",
+          "width": 1600,
+          "height": 2293,
+          "bytes": 670460
+        }
+      ]
+    },
+    "photo-05": {
+      "source": "fotografía/_MG_3406.jpg",
+      "alt": "Retrato experimental con trazos de luz",
+      "width": 4000,
+      "height": 5921,
+      "src": "media/images/photo-05-960.webp",
+      "variants": [
+        {
+          "src": "media/images/photo-05-480.webp",
+          "width": 480,
+          "height": 711,
+          "bytes": 27348
+        },
+        {
+          "src": "media/images/photo-05-960.webp",
+          "width": 960,
+          "height": 1421,
+          "bytes": 70538
+        },
+        {
+          "src": "media/images/photo-05-1600.webp",
+          "width": 1600,
+          "height": 2368,
+          "bytes": 131158
+        }
+      ]
+    },
+    "logo-artex": {
+      "source": "marcas_clientes/Artex BRecurso 1.png",
+      "alt": "Logo de Artex",
+      "width": 794,
+      "height": 857,
+      "src": "media/images/logo-artex-480.webp",
+      "variants": [
+        {
+          "src": "media/images/logo-artex-480.webp",
+          "width": 480,
+          "height": 518,
+          "bytes": 58748
+        }
+      ]
+    },
+    "logo-astral": {
+      "source": "marcas_clientes/ASTRAL BRecurso 4.png",
+      "alt": "Logo de Astral",
+      "width": 661,
+      "height": 707,
+      "src": "media/images/logo-astral-480.webp",
+      "variants": [
+        {
+          "src": "media/images/logo-astral-480.webp",
+          "width": 480,
+          "height": 513,
+          "bytes": 17284
+        }
+      ]
+    },
+    "logo-incognito": {
+      "source": "marcas_clientes/INCOGNITO b y naRecurso 4.png",
+      "alt": "Logo de Incógnito",
+      "width": 874,
+      "height": 506,
+      "src": "media/images/logo-incognito-480.webp",
+      "variants": [
+        {
+          "src": "media/images/logo-incognito-480.webp",
+          "width": 480,
+          "height": 278,
+          "bytes": 17946
+        }
+      ]
+    },
+    "logo-ferreteria": {
+      "source": "marcas_clientes/LOGO FERRETERIA REINA DEL CISNE  OFICIAL HD.png",
+      "alt": "Logo de Ferretería Reina del Cisne",
+      "width": 4016,
+      "height": 4028,
+      "src": "media/images/logo-ferreteria-480.webp",
+      "variants": [
+        {
+          "src": "media/images/logo-ferreteria-480.webp",
+          "width": 480,
+          "height": 481,
+          "bytes": 103094
+        }
+      ]
+    },
+    "logo-top": {
+      "source": "marcas_clientes/logo top media color.png",
+      "alt": "Logo de Top Media",
+      "width": 15979,
+      "height": 5248,
+      "src": "media/images/logo-top-480.webp",
+      "variants": [
+        {
+          "src": "media/images/logo-top-480.webp",
+          "width": 480,
+          "height": 158,
+          "bytes": 16676
+        }
+      ]
+    },
+    "logo-operecuador": {
+      "source": "marcas_clientes/operecuador blanco.png",
+      "alt": "Logo de Operecuador",
+      "width": 1223,
+      "height": 713,
+      "src": "media/images/logo-operecuador-480.webp",
+      "variants": [
+        {
+          "src": "media/images/logo-operecuador-480.webp",
+          "width": 480,
+          "height": 280,
+          "bytes": 16156
+        }
+      ]
+    },
+    "logo-opermundo": {
+      "source": "marcas_clientes/opermundo blanco.png",
+      "alt": "Logo de Opermundo",
+      "width": 598,
+      "height": 712,
+      "src": "media/images/logo-opermundo-480.webp",
+      "variants": [
+        {
+          "src": "media/images/logo-opermundo-480.webp",
+          "width": 480,
+          "height": 572,
+          "bytes": 35868
+        }
+      ]
+    },
+    "logo-thera": {
+      "source": "marcas_clientes/Thera logo Sin Fondo.png",
+      "alt": "Logo de Theraudio",
+      "width": 988,
+      "height": 660,
+      "src": "media/images/logo-thera-480.webp",
+      "variants": [
+        {
+          "src": "media/images/logo-thera-480.webp",
+          "width": 480,
+          "height": 321,
+          "bytes": 132302
+        }
+      ]
+    },
+    "mma-poster": {
+      "source": "producción/VIDEO CORTO PRODUCCION MMA.mp4",
+      "alt": "Fotograma de la producción audiovisual de MMA",
+      "width": 1920,
+      "height": 1080,
+      "src": "media/images/mma-poster-960.webp",
+      "variants": [
+        {
+          "src": "media/images/mma-poster-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 12232
+        },
+        {
+          "src": "media/images/mma-poster-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 31044
+        },
+        {
+          "src": "media/images/mma-poster-1600.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 62598
+        }
+      ]
+    },
+    "mma-detail": {
+      "source": "producción/VIDEO CORTO PRODUCCION MMA.mp4",
+      "alt": "Detalle cinematográfico del entrenamiento de MMA",
+      "width": 1920,
+      "height": 1080,
+      "src": "media/images/mma-detail-960.webp",
+      "variants": [
+        {
+          "src": "media/images/mma-detail-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 12586
+        },
+        {
+          "src": "media/images/mma-detail-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 30618
+        },
+        {
+          "src": "media/images/mma-detail-1600.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 66310
+        }
+      ]
+    },
+    "mma-interview": {
+      "source": "producción/VIDEO CORTO PRODUCCION MMA.mp4",
+      "alt": "Entrevista en la producción de MMA",
+      "width": 1920,
+      "height": 1080,
+      "src": "media/images/mma-interview-960.webp",
+      "variants": [
+        {
+          "src": "media/images/mma-interview-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 29994
+        },
+        {
+          "src": "media/images/mma-interview-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 80492
+        },
+        {
+          "src": "media/images/mma-interview-1600.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 160352
+        }
+      ]
+    },
+    "mma-action": {
+      "source": "producción/VIDEO CORTO PRODUCCION MMA.mp4",
+      "alt": "Acción en el entrenamiento de MMA",
+      "width": 1920,
+      "height": 1080,
+      "src": "media/images/mma-action-960.webp",
+      "variants": [
+        {
+          "src": "media/images/mma-action-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 20318
+        },
+        {
+          "src": "media/images/mma-action-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 48568
+        },
+        {
+          "src": "media/images/mma-action-1600.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 99150
+        }
+      ]
+    },
+    "top-event-poster": {
+      "source": "reels_edicion_videos/14 SEPTIEMBRE REEL.mp4",
+      "alt": "Fotograma de un reel de Top Media",
+      "width": 1080,
+      "height": 1920,
+      "src": "media/images/top-event-poster-960.webp",
+      "variants": [
+        {
+          "src": "media/images/top-event-poster-480.webp",
+          "width": 480,
+          "height": 853,
+          "bytes": 66524
+        },
+        {
+          "src": "media/images/top-event-poster-960.webp",
+          "width": 960,
+          "height": 1707,
+          "bytes": 161210
+        },
+        {
+          "src": "media/images/top-event-poster-1080.webp",
+          "width": 1080,
+          "height": 1920,
+          "bytes": 173142
+        }
+      ]
+    },
+    "top-tebis-poster": {
+      "source": "reels_edicion_videos/03 SEPTIEMBRE.mp4",
+      "alt": "Fotograma de un reel de Top Media para Tebis",
+      "width": 1080,
+      "height": 1920,
+      "src": "media/images/top-tebis-poster-960.webp",
+      "variants": [
+        {
+          "src": "media/images/top-tebis-poster-480.webp",
+          "width": 480,
+          "height": 853,
+          "bytes": 34952
+        },
+        {
+          "src": "media/images/top-tebis-poster-960.webp",
+          "width": 960,
+          "height": 1707,
+          "bytes": 81486
+        },
+        {
+          "src": "media/images/top-tebis-poster-1080.webp",
+          "width": 1080,
+          "height": 1920,
+          "bytes": 96436
+        }
+      ]
+    },
+    "thera-language-poster": {
+      "source": "reels_edicion_videos/VIERNES-28-AGOSTO-2026-TERAPIA DE LENGUAJE (1).mp4",
+      "alt": "Fotograma de un reel de Theraudio",
+      "width": 1080,
+      "height": 1920,
+      "src": "media/images/thera-language-poster-960.webp",
+      "variants": [
+        {
+          "src": "media/images/thera-language-poster-480.webp",
+          "width": 480,
+          "height": 853,
+          "bytes": 55228
+        },
+        {
+          "src": "media/images/thera-language-poster-960.webp",
+          "width": 960,
+          "height": 1707,
+          "bytes": 124212
+        },
+        {
+          "src": "media/images/thera-language-poster-1080.webp",
+          "width": 1080,
+          "height": 1920,
+          "bytes": 145448
+        }
+      ]
+    },
+    "thera-psych-poster": {
+      "source": "reels_edicion_videos/VIERNES-PSICOLOGIA-SEPTIEMBRE (2).mp4",
+      "alt": "Fotograma de un reel de Theraudio",
+      "width": 1080,
+      "height": 1920,
+      "src": "media/images/thera-psych-poster-960.webp",
+      "variants": [
+        {
+          "src": "media/images/thera-psych-poster-480.webp",
+          "width": 480,
+          "height": 853,
+          "bytes": 45550
+        },
+        {
+          "src": "media/images/thera-psych-poster-960.webp",
+          "width": 960,
+          "height": 1707,
+          "bytes": 94918
+        },
+        {
+          "src": "media/images/thera-psych-poster-1080.webp",
+          "width": 1080,
+          "height": 1920,
+          "bytes": 109628
+        }
+      ]
+    },
+    "inmo-cover": {
+      "source": "programacion/Web inmobiliaria.mp4",
+      "alt": "Interfaz principal del proyecto web inmobiliario",
+      "width": 1280,
+      "height": 720,
+      "src": "media/images/inmo-cover-960.webp",
+      "variants": [
+        {
+          "src": "media/images/inmo-cover-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 31380
+        },
+        {
+          "src": "media/images/inmo-cover-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 81666
+        },
+        {
+          "src": "media/images/inmo-cover-1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 117492
+        }
+      ]
+    },
+    "inmo-filters": {
+      "source": "programacion/Web inmobiliaria.mp4",
+      "alt": "Filtros de búsqueda del proyecto inmobiliario",
+      "width": 1280,
+      "height": 720,
+      "src": "media/images/inmo-filters-960.webp",
+      "variants": [
+        {
+          "src": "media/images/inmo-filters-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 12638
+        },
+        {
+          "src": "media/images/inmo-filters-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 33518
+        },
+        {
+          "src": "media/images/inmo-filters-1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 47884
+        }
+      ]
+    },
+    "inmo-property": {
+      "source": "programacion/Web inmobiliaria.mp4",
+      "alt": "Ficha de propiedad en la interfaz inmobiliaria",
+      "width": 1280,
+      "height": 720,
+      "src": "media/images/inmo-property-960.webp",
+      "variants": [
+        {
+          "src": "media/images/inmo-property-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 17252
+        },
+        {
+          "src": "media/images/inmo-property-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 44182
+        },
+        {
+          "src": "media/images/inmo-property-1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 68478
+        }
+      ]
+    },
+    "inmo-location": {
+      "source": "programacion/Web inmobiliaria.mp4",
+      "alt": "Ubicación y plano del proyecto inmobiliario",
+      "width": 1280,
+      "height": 720,
+      "src": "media/images/inmo-location-960.webp",
+      "variants": [
+        {
+          "src": "media/images/inmo-location-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 20776
+        },
+        {
+          "src": "media/images/inmo-location-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 57374
+        },
+        {
+          "src": "media/images/inmo-location-1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 86146
+        }
+      ]
+    },
+    "inmo-calculator": {
+      "source": "programacion/Web inmobiliaria.mp4",
+      "alt": "Calculadora del proyecto inmobiliario",
+      "width": 1280,
+      "height": 720,
+      "src": "media/images/inmo-calculator-960.webp",
+      "variants": [
+        {
+          "src": "media/images/inmo-calculator-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 10976
+        },
+        {
+          "src": "media/images/inmo-calculator-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 30508
+        },
+        {
+          "src": "media/images/inmo-calculator-1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 46600
+        }
+      ]
+    },
+    "app-cover": {
+      "source": "programacion/Aplicacion enfocada en niños con tdh.mp4",
+      "alt": "Interfaz del proyecto de aplicación infantil",
+      "width": 1920,
+      "height": 1080,
+      "src": "media/images/app-cover-960.webp",
+      "variants": [
+        {
+          "src": "media/images/app-cover-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 12900
+        },
+        {
+          "src": "media/images/app-cover-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 31780
+        },
+        {
+          "src": "media/images/app-cover-1600.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 57296
+        }
+      ]
+    },
+    "app-routines": {
+      "source": "programacion/Aplicacion enfocada en niños con tdh.mp4",
+      "alt": "Rutinas y tareas de la aplicación infantil",
+      "width": 1920,
+      "height": 1080,
+      "src": "media/images/app-routines-960.webp",
+      "variants": [
+        {
+          "src": "media/images/app-routines-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 15190
+        },
+        {
+          "src": "media/images/app-routines-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 37510
+        },
+        {
+          "src": "media/images/app-routines-1600.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 68808
+        }
+      ]
+    },
+    "app-timer": {
+      "source": "programacion/Aplicacion enfocada en niños con tdh.mp4",
+      "alt": "Temporizador de la aplicación infantil",
+      "width": 1920,
+      "height": 1080,
+      "src": "media/images/app-timer-960.webp",
+      "variants": [
+        {
+          "src": "media/images/app-timer-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 13880
+        },
+        {
+          "src": "media/images/app-timer-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 31588
+        },
+        {
+          "src": "media/images/app-timer-1600.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 56704
+        }
+      ]
+    },
+    "app-games": {
+      "source": "programacion/Aplicacion enfocada en niños con tdh.mp4",
+      "alt": "Juegos de la aplicación infantil",
+      "width": 1920,
+      "height": 1080,
+      "src": "media/images/app-games-960.webp",
+      "variants": [
+        {
+          "src": "media/images/app-games-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 7350
+        },
+        {
+          "src": "media/images/app-games-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 18100
+        },
+        {
+          "src": "media/images/app-games-1600.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 32578
+        }
+      ]
+    },
+    "app-panel": {
+      "source": "programacion/Aplicacion enfocada en niños con tdh.mp4",
+      "alt": "Panel de la aplicación infantil",
+      "width": 1920,
+      "height": 1080,
+      "src": "media/images/app-panel-960.webp",
+      "variants": [
+        {
+          "src": "media/images/app-panel-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 13742
+        },
+        {
+          "src": "media/images/app-panel-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 33520
+        },
+        {
+          "src": "media/images/app-panel-1600.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 60190
+        }
+      ]
+    },
+    "product-cariocas": {
+      "source": "productos/Cariocas.jpg",
+      "alt": "Composición publicitaria de cariocas para carnaval",
+      "width": 2480,
+      "height": 3508,
+      "src": "media/images/product-cariocas-960.webp",
+      "variants": [
+        {
+          "src": "media/images/product-cariocas-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 126628
+        },
+        {
+          "src": "media/images/product-cariocas-960.webp",
+          "width": 960,
+          "height": 1358,
+          "bytes": 407510
+        },
+        {
+          "src": "media/images/product-cariocas-1600.webp",
+          "width": 1600,
+          "height": 2263,
+          "bytes": 1019982
+        }
+      ]
+    },
+    "product-wings": {
+      "source": "productos/Post 30 Alitas_v_2.png",
+      "alt": "Publicidad de alitas con fotografía gastronómica",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/product-wings-960.webp",
+      "variants": [
+        {
+          "src": "media/images/product-wings-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 102918
+        },
+        {
+          "src": "media/images/product-wings-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 319064
+        },
+        {
+          "src": "media/images/product-wings-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 398782
+        }
+      ]
+    },
+    "product-picobul": {
+      "source": "productos/Post Ig_v2.png",
+      "alt": "Composición comercial de PicoBul",
+      "width": 1080,
+      "height": 1080,
+      "src": "media/images/product-picobul-960.webp",
+      "variants": [
+        {
+          "src": "media/images/product-picobul-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 78664
+        },
+        {
+          "src": "media/images/product-picobul-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 240248
+        },
+        {
+          "src": "media/images/product-picobul-1080.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 294750
+        }
+      ]
+    },
+    "ferre-gas": {
+      "source": "ferretería/productos/AGIPGAS.jpg",
+      "alt": "Publicidad de gas para Ferretería Reina del Cisne",
+      "width": 1080,
+      "height": 1080,
+      "src": "media/images/ferre-gas-960.webp",
+      "variants": [
+        {
+          "src": "media/images/ferre-gas-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 55384
+        },
+        {
+          "src": "media/images/ferre-gas-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 146282
+        },
+        {
+          "src": "media/images/ferre-gas-1080.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 179072
+        }
+      ]
+    },
+    "ferre-wheelbarrow": {
+      "source": "ferretería/productos/CARRETILLA.jpg",
+      "alt": "Publicidad de carretilla de Ferretería Reina del Cisne",
+      "width": 1080,
+      "height": 1080,
+      "src": "media/images/ferre-wheelbarrow-960.webp",
+      "variants": [
+        {
+          "src": "media/images/ferre-wheelbarrow-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 93408
+        },
+        {
+          "src": "media/images/ferre-wheelbarrow-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 299248
+        },
+        {
+          "src": "media/images/ferre-wheelbarrow-1080.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 374070
+        }
+      ]
+    },
+    "ferre-cement": {
+      "source": "ferretería/productos/PUBLICIDAD-CEMENTO-CH-FERRETERIA-REINA-DEL-CISNE.jpg",
+      "alt": "Composición comercial de cemento",
+      "width": 1080,
+      "height": 1080,
+      "src": "media/images/ferre-cement-960.webp",
+      "variants": [
+        {
+          "src": "media/images/ferre-cement-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 97742
+        },
+        {
+          "src": "media/images/ferre-cement-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 299958
+        },
+        {
+          "src": "media/images/ferre-cement-1080.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 362816
+        }
+      ]
+    },
+    "ferre-brushes": {
+      "source": "ferretería/productos/Set de brochas.jpg",
+      "alt": "Publicidad de set de brochas",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/ferre-brushes-960.webp",
+      "variants": [
+        {
+          "src": "media/images/ferre-brushes-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 66864
+        },
+        {
+          "src": "media/images/ferre-brushes-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 191836
+        },
+        {
+          "src": "media/images/ferre-brushes-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 237062
+        }
+      ]
+    },
+    "ferre-character": {
+      "source": "ferretería/productos/therian.jpg",
+      "alt": "Pieza con personaje para Ferretería Reina del Cisne",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/ferre-character-960.webp",
+      "variants": [
+        {
+          "src": "media/images/ferre-character-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 65768
+        },
+        {
+          "src": "media/images/ferre-character-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 210936
+        },
+        {
+          "src": "media/images/ferre-character-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 259310
+        }
+      ]
+    },
+    "thera-anxiety": {
+      "source": "theraudio/ansiedad-ayuda-150426_01.jpg",
+      "alt": "Portada de contenido de Theraudio sobre ansiedad",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/thera-anxiety-960.webp",
+      "variants": [
+        {
+          "src": "media/images/thera-anxiety-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 52856
+        },
+        {
+          "src": "media/images/thera-anxiety-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 129116
+        },
+        {
+          "src": "media/images/thera-anxiety-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 150396
+        }
+      ]
+    },
+    "thera-professor": {
+      "source": "theraudio/ChatGPT Image Sep 17, 2026, 09_53_48 PM (1).png",
+      "alt": "Pieza de Theraudio por el día del profesor",
+      "width": 1122,
+      "height": 1402,
+      "src": "media/images/thera-professor-960.webp",
+      "variants": [
+        {
+          "src": "media/images/thera-professor-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 42588
+        },
+        {
+          "src": "media/images/thera-professor-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 130738
+        },
+        {
+          "src": "media/images/thera-professor-1122.webp",
+          "width": 1122,
+          "height": 1402,
+          "bytes": 170528
+        }
+      ]
+    },
+    "thera-senses": {
+      "source": "theraudio/Tilares-de-tp-2-1901_01.jpg",
+      "alt": "Portada de contenido de Theraudio sobre integración sensorial",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/thera-senses-960.webp",
+      "variants": [
+        {
+          "src": "media/images/thera-senses-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 57870
+        },
+        {
+          "src": "media/images/thera-senses-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 140194
+        },
+        {
+          "src": "media/images/thera-senses-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 166508
+        }
+      ]
+    },
+    "thera-course": {
+      "source": "theraudio/Vacacional Nivelacion.png",
+      "alt": "Contenido visual de Theraudio para curso vacacional",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/thera-course-960.webp",
+      "variants": [
+        {
+          "src": "media/images/thera-course-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 70560
+        },
+        {
+          "src": "media/images/thera-course-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 177894
+        },
+        {
+          "src": "media/images/thera-course-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 210622
+        }
+      ]
+    },
+    "oper-galapagos-print": {
+      "source": "opermundo/FLYER_CARA_1_GALAPAGOS_CMYK.png",
+      "alt": "Flyer impreso de Galápagos para Opermundo",
+      "width": 1748,
+      "height": 2480,
+      "src": "media/images/oper-galapagos-print-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-galapagos-print-480.webp",
+          "width": 480,
+          "height": 681,
+          "bytes": 132712
+        },
+        {
+          "src": "media/images/oper-galapagos-print-960.webp",
+          "width": 960,
+          "height": 1362,
+          "bytes": 398032
+        },
+        {
+          "src": "media/images/oper-galapagos-print-1600.webp",
+          "width": 1600,
+          "height": 2270,
+          "bytes": 1008728
+        }
+      ]
+    },
+    "oper-argentina-print": {
+      "source": "opermundo/FLYER_ARG-CARA_2_CMYK.png",
+      "alt": "Flyer impreso de Argentina para Opermundo",
+      "width": 1748,
+      "height": 2480,
+      "src": "media/images/oper-argentina-print-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-argentina-print-480.webp",
+          "width": 480,
+          "height": 681,
+          "bytes": 106070
+        },
+        {
+          "src": "media/images/oper-argentina-print-960.webp",
+          "width": 960,
+          "height": 1362,
+          "bytes": 294968
+        },
+        {
+          "src": "media/images/oper-argentina-print-1600.webp",
+          "width": 1600,
+          "height": 2270,
+          "bytes": 603412
+        }
+      ]
+    },
+    "oper-mexico": {
+      "source": "opermundo/posts de venta/4to PARTIDO COPA DEL MUNDO - MEX - 4D - 3N.jpg",
+      "alt": "Campaña turística de México para Opermundo",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/oper-mexico-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-mexico-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 110076
+        },
+        {
+          "src": "media/images/oper-mexico-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 328630
+        },
+        {
+          "src": "media/images/oper-mexico-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 405050
+        }
+      ]
+    },
+    "oper-romana": {
+      "source": "opermundo/posts de venta/LA ROMANA LT 4D 3N BAHIA PRINCIPE (1).jpg",
+      "alt": "Campaña de La Romana para Opermundo",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/oper-romana-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-romana-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 103380
+        },
+        {
+          "src": "media/images/oper-romana-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 286254
+        },
+        {
+          "src": "media/images/oper-romana-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 341792
+        }
+      ]
+    },
+    "oper-edad": {
+      "source": "opermundo/posts de venta/EJE CAFETERO OFERTA ESPECIAL EDAD DE ORO 2X1 (4).jpg",
+      "alt": "Campaña del Eje Cafetero para Opermundo",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/oper-edad-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-edad-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 113680
+        },
+        {
+          "src": "media/images/oper-edad-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 304284
+        },
+        {
+          "src": "media/images/oper-edad-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 364946
+        }
+      ]
+    },
+    "oper-rollup": {
+      "source": "proyectos_varios/_ROLL UP SORTEO PUNTA CANA OPERMUNDO (1).jpg",
+      "alt": "Roll-up de una campaña de Opermundo",
+      "width": 3213,
+      "height": 7559,
+      "src": "media/images/oper-rollup-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-rollup-480.webp",
+          "width": 480,
+          "height": 1129,
+          "bytes": 161504
+        },
+        {
+          "src": "media/images/oper-rollup-960.webp",
+          "width": 960,
+          "height": 2259,
+          "bytes": 415768
+        },
+        {
+          "src": "media/images/oper-rollup-1600.webp",
+          "width": 1600,
+          "height": 3764,
+          "bytes": 814186
+        }
+      ]
+    },
+    "top-brand-poster": {
+      "source": "reels_edicion_videos/23 SEP TOP MEDIA.mp4",
+      "alt": "Vista previa de una pieza animada de Top Media",
+      "width": 1080,
+      "height": 1920,
+      "src": "media/images/top-brand-poster-960.webp",
+      "variants": [
+        {
+          "src": "media/images/top-brand-poster-480.webp",
+          "width": 480,
+          "height": 853,
+          "bytes": 18594
+        },
+        {
+          "src": "media/images/top-brand-poster-960.webp",
+          "width": 960,
+          "height": 1707,
+          "bytes": 37308
+        },
+        {
+          "src": "media/images/top-brand-poster-1080.webp",
+          "width": 1080,
+          "height": 1920,
+          "bytes": 41084
+        }
+      ]
+    },
+    "thera-focus-poster": {
+      "source": "reels_edicion_videos/0821dsadasda3efae-VIERNES (2).mp4",
+      "alt": "Vista previa de un video con tipografía e ilustraciones",
+      "width": 1080,
+      "height": 1920,
+      "src": "media/images/thera-focus-poster-960.webp",
+      "variants": [
+        {
+          "src": "media/images/thera-focus-poster-480.webp",
+          "width": 480,
+          "height": 853,
+          "bytes": 57690
+        },
+        {
+          "src": "media/images/thera-focus-poster-960.webp",
+          "width": 960,
+          "height": 1707,
+          "bytes": 132244
+        },
+        {
+          "src": "media/images/thera-focus-poster-1080.webp",
+          "width": 1080,
+          "height": 1920,
+          "bytes": 155654
+        }
+      ]
+    },
+    "social-edit-poster": {
+      "source": "reels_edicion_videos/final-final-final.mp4",
+      "alt": "Vista previa de un video editado para redes sociales",
+      "width": 1080,
+      "height": 1920,
+      "src": "media/images/social-edit-poster-960.webp",
+      "variants": [
+        {
+          "src": "media/images/social-edit-poster-480.webp",
+          "width": 480,
+          "height": 853,
+          "bytes": 42052
+        },
+        {
+          "src": "media/images/social-edit-poster-960.webp",
+          "width": 960,
+          "height": 1707,
+          "bytes": 101472
+        },
+        {
+          "src": "media/images/social-edit-poster-1080.webp",
+          "width": 1080,
+          "height": 1920,
+          "bytes": 116904
+        }
+      ]
+    },
+    "carlos-portrait": {
+      "source": "site/assets/source/carlos-toa.jpeg",
+      "alt": "Retrato personal de Carlos Toa",
+      "width": 1024,
+      "height": 1280,
+      "src": "media/images/carlos-portrait-960.webp",
+      "variants": [
+        {
+          "src": "media/images/carlos-portrait-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 60044
+        },
+        {
+          "src": "media/images/carlos-portrait-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 210112
+        },
+        {
+          "src": "media/images/carlos-portrait-1024.webp",
+          "width": 1024,
+          "height": 1280,
+          "bytes": 220926
+        }
+      ]
+    },
+    "ferre-leafblower": {
+      "source": "ferretería/productos/SOPLO ASPIRADORA.jpg",
+      "alt": "Publicidad de soplahojas y aspiradora para Ferretería Reina del Cisne",
+      "width": 1080,
+      "height": 1080,
+      "src": "media/images/ferre-leafblower-960.webp",
+      "variants": [
+        {
+          "src": "media/images/ferre-leafblower-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 88402
+        },
+        {
+          "src": "media/images/ferre-leafblower-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 232650
+        },
+        {
+          "src": "media/images/ferre-leafblower-1080.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 279798
+        }
+      ]
+    },
+    "oper-panama": {
+      "source": "opermundo/posts de venta/PANAMA BLACK FRIDAY  (2).jpg",
+      "alt": "Campaña de Panamá Black Friday para Opermundo",
+      "width": 1620,
+      "height": 2025,
+      "src": "media/images/oper-panama-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-panama-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 102344
+        },
+        {
+          "src": "media/images/oper-panama-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 267296
+        },
+        {
+          "src": "media/images/oper-panama-1600.webp",
+          "width": 1600,
+          "height": 2000,
+          "bytes": 519054
+        }
+      ]
+    },
+    "oper-eje-student": {
+      "source": "opermundo/FLYER TIRO Y RETIRO - EJE CAFETERO ESTUDIANTIL 2027 (2).png",
+      "alt": "Eje Cafetero estudiantil 2027: afiche de tiro y retiro",
+      "width": 1587,
+      "height": 2245,
+      "src": "media/images/oper-eje-student-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-eje-student-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 115062
+        },
+        {
+          "src": "media/images/oper-eje-student-960.webp",
+          "width": 960,
+          "height": 1358,
+          "bytes": 317724
+        },
+        {
+          "src": "media/images/oper-eje-student-1587.webp",
+          "width": 1587,
+          "height": 2245,
+          "bytes": 609680
+        }
+      ]
+    },
+    "oper-eje-student-back": {
+      "source": "opermundo/FLYER TIRO Y RETIRO - EJE CAFETERO ESTUDIANTIL 2027 (10).jpg",
+      "alt": "Eje Cafetero estudiantil 2027: segunda cara del afiche",
+      "width": 1587,
+      "height": 2245,
+      "src": "media/images/oper-eje-student-back-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-eje-student-back-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 125768
+        },
+        {
+          "src": "media/images/oper-eje-student-back-960.webp",
+          "width": 960,
+          "height": 1358,
+          "bytes": 363832
+        },
+        {
+          "src": "media/images/oper-eje-student-back-1587.webp",
+          "width": 1587,
+          "height": 2245,
+          "bytes": 748708
+        }
+      ]
+    },
+    "oper-eje-latam": {
+      "source": "opermundo/posts de venta/EJE CAFETERO 4D 3N CON LATAM.jpg",
+      "alt": "Eje Cafetero de cuatro días y tres noches con LATAM",
+      "width": 1620,
+      "height": 2025,
+      "src": "media/images/oper-eje-latam-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-eje-latam-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 133758
+        },
+        {
+          "src": "media/images/oper-eje-latam-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 397678
+        },
+        {
+          "src": "media/images/oper-eje-latam-1600.webp",
+          "width": 1600,
+          "height": 2000,
+          "bytes": 797014
+        }
+      ]
+    },
+    "oper-olon-student": {
+      "source": "opermundo/posts de venta/OLÓN ESTUDIANTIL - 4D 3N  (3).jpg",
+      "alt": "Campaña de Olón estudiantil",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/oper-olon-student-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-olon-student-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 91412
+        },
+        {
+          "src": "media/images/oper-olon-student-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 236872
+        },
+        {
+          "src": "media/images/oper-olon-student-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 271202
+        }
+      ]
+    },
+    "oper-galapagos-student": {
+      "source": "opermundo/posts de venta/GALÁPAGOS ESTUDIANTIL PELICANO (8).jpg",
+      "alt": "Campaña de Galápagos estudiantil",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/oper-galapagos-student-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-galapagos-student-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 92256
+        },
+        {
+          "src": "media/images/oper-galapagos-student-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 226336
+        },
+        {
+          "src": "media/images/oper-galapagos-student-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 262196
+        }
+      ]
+    },
+    "oper-rp-student": {
+      "source": "opermundo/FLYER TIRO Y RETIRO - RP ESTUDIANTIL 2027.png",
+      "alt": "Afiche de viaje estudiantil 2027",
+      "width": 2381,
+      "height": 3367,
+      "src": "media/images/oper-rp-student-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-rp-student-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 107150
+        },
+        {
+          "src": "media/images/oper-rp-student-960.webp",
+          "width": 960,
+          "height": 1358,
+          "bytes": 316342
+        },
+        {
+          "src": "media/images/oper-rp-student-1600.webp",
+          "width": 1600,
+          "height": 2263,
+          "bytes": 651746
+        }
+      ]
+    },
+    "ferre-weld-1": {
+      "source": "ferretería/carruseles/soldadora/images/soldadora_01.jpg",
+      "alt": "Soldadora: lámina 1 de 2",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/ferre-weld-1-960.webp",
+      "variants": [
+        {
+          "src": "media/images/ferre-weld-1-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 61564
+        },
+        {
+          "src": "media/images/ferre-weld-1-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 156364
+        },
+        {
+          "src": "media/images/ferre-weld-1-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 183560
+        }
+      ]
+    },
+    "ferre-weld-2": {
+      "source": "ferretería/carruseles/soldadora/images/soldadora_02.jpg",
+      "alt": "Soldadora: lámina 2 de 2",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/ferre-weld-2-960.webp",
+      "variants": [
+        {
+          "src": "media/images/ferre-weld-2-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 63582
+        },
+        {
+          "src": "media/images/ferre-weld-2-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 175186
+        },
+        {
+          "src": "media/images/ferre-weld-2-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 208082
+        }
+      ]
+    },
+    "ferre-cart-1": {
+      "source": "ferretería/carruseles/carretilla/CARRETILLA-carrusel_01.jpg",
+      "alt": "Carretilla: lámina 1 de 3",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/ferre-cart-1-960.webp",
+      "variants": [
+        {
+          "src": "media/images/ferre-cart-1-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 50854
+        },
+        {
+          "src": "media/images/ferre-cart-1-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 137884
+        },
+        {
+          "src": "media/images/ferre-cart-1-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 164884
+        }
+      ]
+    },
+    "ferre-cart-2": {
+      "source": "ferretería/carruseles/carretilla/CARRETILLA-carrusel_02.jpg",
+      "alt": "Carretilla: lámina 2 de 3",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/ferre-cart-2-960.webp",
+      "variants": [
+        {
+          "src": "media/images/ferre-cart-2-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 56194
+        },
+        {
+          "src": "media/images/ferre-cart-2-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 141088
+        },
+        {
+          "src": "media/images/ferre-cart-2-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 166412
+        }
+      ]
+    },
+    "ferre-cart-3": {
+      "source": "ferretería/carruseles/carretilla/CARRETILLA-carrusel_03.jpg",
+      "alt": "Carretilla: lámina 3 de 3",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/ferre-cart-3-960.webp",
+      "variants": [
+        {
+          "src": "media/images/ferre-cart-3-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 53384
+        },
+        {
+          "src": "media/images/ferre-cart-3-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 132888
+        },
+        {
+          "src": "media/images/ferre-cart-3-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 156878
+        }
+      ]
+    },
+    "ferre-paint-kit-1": {
+      "source": "ferretería/carruseles/SI VAS A PINTAR NECESITAS/images/si-vas-a-pintar-necesitas-esto_01.jpg",
+      "alt": "Herramientas para pintar: lámina 1 de 3",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/ferre-paint-kit-1-960.webp",
+      "variants": [
+        {
+          "src": "media/images/ferre-paint-kit-1-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 52502
+        },
+        {
+          "src": "media/images/ferre-paint-kit-1-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 138274
+        },
+        {
+          "src": "media/images/ferre-paint-kit-1-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 163888
+        }
+      ]
+    },
+    "ferre-paint-kit-2": {
+      "source": "ferretería/carruseles/SI VAS A PINTAR NECESITAS/images/si-vas-a-pintar-necesitas-esto_02.jpg",
+      "alt": "Herramientas para pintar: lámina 2 de 3",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/ferre-paint-kit-2-960.webp",
+      "variants": [
+        {
+          "src": "media/images/ferre-paint-kit-2-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 50698
+        },
+        {
+          "src": "media/images/ferre-paint-kit-2-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 134078
+        },
+        {
+          "src": "media/images/ferre-paint-kit-2-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 160510
+        }
+      ]
+    },
+    "ferre-paint-kit-3": {
+      "source": "ferretería/carruseles/SI VAS A PINTAR NECESITAS/images/si-vas-a-pintar-necesitas-esto_03.jpg",
+      "alt": "Herramientas para pintar: lámina 3 de 3",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/ferre-paint-kit-3-960.webp",
+      "variants": [
+        {
+          "src": "media/images/ferre-paint-kit-3-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 50450
+        },
+        {
+          "src": "media/images/ferre-paint-kit-3-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 134058
+        },
+        {
+          "src": "media/images/ferre-paint-kit-3-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 158778
+        }
+      ]
+    },
+    "ferre-laundry-1": {
+      "source": "ferretería/carruseles/lavanderia/Carrusel-Lavanderia_01.jpg",
+      "alt": "Lavandería: lámina 1 de 3",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/ferre-laundry-1-960.webp",
+      "variants": [
+        {
+          "src": "media/images/ferre-laundry-1-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 59676
+        },
+        {
+          "src": "media/images/ferre-laundry-1-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 141962
+        },
+        {
+          "src": "media/images/ferre-laundry-1-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 162502
+        }
+      ]
+    },
+    "ferre-laundry-2": {
+      "source": "ferretería/carruseles/lavanderia/Carrusel-Lavanderia_02.jpg",
+      "alt": "Lavandería: lámina 2 de 3",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/ferre-laundry-2-960.webp",
+      "variants": [
+        {
+          "src": "media/images/ferre-laundry-2-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 71268
+        },
+        {
+          "src": "media/images/ferre-laundry-2-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 203304
+        },
+        {
+          "src": "media/images/ferre-laundry-2-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 240884
+        }
+      ]
+    },
+    "ferre-laundry-3": {
+      "source": "ferretería/carruseles/lavanderia/Carrusel-Lavanderia_03.jpg",
+      "alt": "Lavandería: lámina 3 de 3",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/ferre-laundry-3-960.webp",
+      "variants": [
+        {
+          "src": "media/images/ferre-laundry-3-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 47610
+        },
+        {
+          "src": "media/images/ferre-laundry-3-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 118186
+        },
+        {
+          "src": "media/images/ferre-laundry-3-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 134470
+        }
+      ]
+    },
+    "top-exterior-1": {
+      "source": "top_media/Carruseles/4/CARRUSEL-29-SEP_01.jpg",
+      "alt": "Top Media: identificación exterior, lámina 1 de cinco",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/top-exterior-1-960.webp",
+      "variants": [
+        {
+          "src": "media/images/top-exterior-1-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 101304
+        },
+        {
+          "src": "media/images/top-exterior-1-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 311458
+        },
+        {
+          "src": "media/images/top-exterior-1-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 366468
+        }
+      ]
+    },
+    "top-exterior-2": {
+      "source": "top_media/Carruseles/4/CARRUSEL-29-SEP_02.jpg",
+      "alt": "Top Media: identificación exterior, lámina 2 de cinco",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/top-exterior-2-960.webp",
+      "variants": [
+        {
+          "src": "media/images/top-exterior-2-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 119160
+        },
+        {
+          "src": "media/images/top-exterior-2-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 336336
+        },
+        {
+          "src": "media/images/top-exterior-2-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 393656
+        }
+      ]
+    },
+    "top-exterior-3": {
+      "source": "top_media/Carruseles/4/CARRUSEL-29-SEP_03.jpg",
+      "alt": "Top Media: identificación exterior, lámina 3 de cinco",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/top-exterior-3-960.webp",
+      "variants": [
+        {
+          "src": "media/images/top-exterior-3-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 120668
+        },
+        {
+          "src": "media/images/top-exterior-3-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 363620
+        },
+        {
+          "src": "media/images/top-exterior-3-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 426670
+        }
+      ]
+    },
+    "top-exterior-4": {
+      "source": "top_media/Carruseles/4/CARRUSEL-29-SEP_04.jpg",
+      "alt": "Top Media: identificación exterior, lámina 4 de cinco",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/top-exterior-4-960.webp",
+      "variants": [
+        {
+          "src": "media/images/top-exterior-4-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 120250
+        },
+        {
+          "src": "media/images/top-exterior-4-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 343290
+        },
+        {
+          "src": "media/images/top-exterior-4-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 404212
+        }
+      ]
+    },
+    "top-exterior-5": {
+      "source": "top_media/Carruseles/4/CARRUSEL-29-SEP_05.jpg",
+      "alt": "Top Media: identificación exterior, lámina 5 de cinco",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/top-exterior-5-960.webp",
+      "variants": [
+        {
+          "src": "media/images/top-exterior-5-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 117756
+        },
+        {
+          "src": "media/images/top-exterior-5-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 343426
+        },
+        {
+          "src": "media/images/top-exterior-5-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 414890
+        }
+      ]
+    },
+    "photo-06": {
+      "source": "fotografía/_MG_3292.jpg",
+      "alt": "Retrato femenino de perfil con fondo oscuro",
+      "width": 4000,
+      "height": 6000,
+      "src": "media/images/photo-06-960.webp",
+      "variants": [
+        {
+          "src": "media/images/photo-06-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 26018
+        },
+        {
+          "src": "media/images/photo-06-960.webp",
+          "width": 960,
+          "height": 1440,
+          "bytes": 65996
+        },
+        {
+          "src": "media/images/photo-06-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 150196
+        }
+      ]
+    },
+    "photo-07": {
+      "source": "fotografía/_MG_3294.jpg",
+      "alt": "Retrato femenino con iluminación lateral",
+      "width": 3761,
+      "height": 6000,
+      "src": "media/images/photo-07-960.webp",
+      "variants": [
+        {
+          "src": "media/images/photo-07-480.webp",
+          "width": 480,
+          "height": 766,
+          "bytes": 37898
+        },
+        {
+          "src": "media/images/photo-07-960.webp",
+          "width": 960,
+          "height": 1532,
+          "bytes": 119476
+        },
+        {
+          "src": "media/images/photo-07-1600.webp",
+          "width": 1600,
+          "height": 2553,
+          "bytes": 326438
+        }
+      ]
+    },
+    "photo-08": {
+      "source": "fotografía/_MG_3355_1.jpg",
+      "alt": "Retrato femenino con capucha y fondo oscuro",
+      "width": 3376,
+      "height": 4675,
+      "src": "media/images/photo-08-960.webp",
+      "variants": [
+        {
+          "src": "media/images/photo-08-480.webp",
+          "width": 480,
+          "height": 665,
+          "bytes": 24250
+        },
+        {
+          "src": "media/images/photo-08-960.webp",
+          "width": 960,
+          "height": 1329,
+          "bytes": 61148
+        },
+        {
+          "src": "media/images/photo-08-1600.webp",
+          "width": 1600,
+          "height": 2216,
+          "bytes": 145292
+        }
+      ]
+    },
+    "photo-09": {
+      "source": "fotografía/_MG_3383.jpg",
+      "alt": "Retrato masculino visto de espaldas",
+      "width": 3788,
+      "height": 5814,
+      "src": "media/images/photo-09-960.webp",
+      "variants": [
+        {
+          "src": "media/images/photo-09-480.webp",
+          "width": 480,
+          "height": 737,
+          "bytes": 40452
+        },
+        {
+          "src": "media/images/photo-09-960.webp",
+          "width": 960,
+          "height": 1473,
+          "bytes": 268518
+        },
+        {
+          "src": "media/images/photo-09-1600.webp",
+          "width": 1600,
+          "height": 2456,
+          "bytes": 978952
+        }
+      ]
+    },
+    "oper-thailand": {
+      "source": "opermundo/posts de venta/TAILANDIA UNICA 7D - 6N LT (2).jpg",
+      "alt": "Campaña turística de Tailandia para Opermundo",
+      "width": 1620,
+      "height": 2025,
+      "src": "media/images/oper-thailand-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-thailand-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 111854
+        },
+        {
+          "src": "media/images/oper-thailand-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 301852
+        },
+        {
+          "src": "media/images/oper-thailand-1600.webp",
+          "width": 1600,
+          "height": 2000,
+          "bytes": 576298
+        }
+      ]
+    },
+    "oper-egypt": {
+      "source": "opermundo/posts de venta/MARAVILLAS DE EGIPTO 8D - 7N LT.jpg",
+      "alt": "Campaña turística de Egipto para Opermundo",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/oper-egypt-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-egypt-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 87832
+        },
+        {
+          "src": "media/images/oper-egypt-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 236714
+        },
+        {
+          "src": "media/images/oper-egypt-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 278410
+        }
+      ]
+    },
+    "oper-china": {
+      "source": "opermundo/posts de venta/China CLÁSICA 2027 8D 7N (1).jpg",
+      "alt": "Campaña turística de China para Opermundo",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/oper-china-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-china-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 99716
+        },
+        {
+          "src": "media/images/oper-china-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 275322
+        },
+        {
+          "src": "media/images/oper-china-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 326096
+        }
+      ]
+    },
+    "oper-brazil": {
+      "source": "opermundo/posts de venta/SAO PAULO PARATY RIO DE JANEIRO LT 9D 8N SALIDAS DIARIAS.jpg",
+      "alt": "Campaña turística de Brasil para Opermundo",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/oper-brazil-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-brazil-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 104616
+        },
+        {
+          "src": "media/images/oper-brazil-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 287232
+        },
+        {
+          "src": "media/images/oper-brazil-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 339986
+        }
+      ]
+    },
+    "oper-newyork": {
+      "source": "opermundo/posts de venta/PRIMER PARTIDO COPA DEL MUNDO - NY - 4D - 3N.jpg",
+      "alt": "Campaña de Nueva York y Copa del Mundo para Opermundo",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/oper-newyork-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-newyork-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 106238
+        },
+        {
+          "src": "media/images/oper-newyork-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 308052
+        },
+        {
+          "src": "media/images/oper-newyork-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 379886
+        }
+      ]
+    },
+    "oper-buenos-aires": {
+      "source": "opermundo/posts de venta/BUENOS AIRES MAS BARILOCHE 7D - 6 N - POST CUADRADO.jpg",
+      "alt": "Campaña de Buenos Aires y Bariloche para Opermundo",
+      "width": 2430,
+      "height": 2430,
+      "src": "media/images/oper-buenos-aires-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-buenos-aires-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 90030
+        },
+        {
+          "src": "media/images/oper-buenos-aires-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 273488
+        },
+        {
+          "src": "media/images/oper-buenos-aires-1600.webp",
+          "width": 1600,
+          "height": 1600,
+          "bytes": 611282
+        }
+      ]
+    },
+    "oper-music": {
+      "source": "opermundo/posts de venta/RUTA DE LA MUSICA LT  - 9D 8N  (1).jpg",
+      "alt": "Campaña Ruta de la Música para Opermundo",
+      "width": 2430,
+      "height": 3038,
+      "src": "media/images/oper-music-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-music-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 118768
+        },
+        {
+          "src": "media/images/oper-music-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 368380
+        },
+        {
+          "src": "media/images/oper-music-1600.webp",
+          "width": 1600,
+          "height": 2000,
+          "bytes": 769558
+        }
+      ]
+    },
+    "oper-east": {
+      "source": "opermundo/posts de venta/JOYAS DEL ESTE  -  6D 5N  LT (2).jpg",
+      "alt": "Campaña Joyas del Este para Opermundo",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/oper-east-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-east-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 112348
+        },
+        {
+          "src": "media/images/oper-east-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 302242
+        },
+        {
+          "src": "media/images/oper-east-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 358316
+        }
+      ]
+    },
+    "oper-galapagos-student-alt": {
+      "source": "opermundo/posts de venta/GALAPAGOS ESTUDIANTIL  (7).jpg",
+      "alt": "Otra campaña de Galápagos estudiantil para Opermundo",
+      "width": 1080,
+      "height": 1350,
+      "src": "media/images/oper-galapagos-student-alt-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-galapagos-student-alt-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 114470
+        },
+        {
+          "src": "media/images/oper-galapagos-student-alt-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 287810
+        },
+        {
+          "src": "media/images/oper-galapagos-student-alt-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 334312
+        }
+      ]
+    },
+    "oper-rp-student-front": {
+      "source": "opermundo/FLYER TIRO Y RETIRO - RP ESTUDIANTIL 2027 (11).png",
+      "alt": "Afiche de viaje estudiantil 2027 para Opermundo",
+      "width": 1587,
+      "height": 2245,
+      "src": "media/images/oper-rp-student-front-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-rp-student-front-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 110518
+        },
+        {
+          "src": "media/images/oper-rp-student-front-960.webp",
+          "width": 960,
+          "height": 1358,
+          "bytes": 276652
+        },
+        {
+          "src": "media/images/oper-rp-student-front-1587.webp",
+          "width": 1587,
+          "height": 2245,
+          "bytes": 511334
+        }
+      ]
+    },
+    "oper-turkey-print-front": {
+      "source": "opermundo/Flyer_Turquia_Cara1_CMYK.png",
+      "alt": "Afiche impreso de Turquía: cara principal",
+      "width": 1748,
+      "height": 2480,
+      "src": "media/images/oper-turkey-print-front-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-turkey-print-front-480.webp",
+          "width": 480,
+          "height": 681,
+          "bytes": 115666
+        },
+        {
+          "src": "media/images/oper-turkey-print-front-960.webp",
+          "width": 960,
+          "height": 1362,
+          "bytes": 316218
+        },
+        {
+          "src": "media/images/oper-turkey-print-front-1600.webp",
+          "width": 1600,
+          "height": 2270,
+          "bytes": 647276
+        }
+      ]
+    },
+    "oper-turkey-print-back": {
+      "source": "opermundo/Flyer_Turquia_Cara_2_CMYK.png",
+      "alt": "Afiche impreso de Turquía: segunda cara",
+      "width": 1748,
+      "height": 2480,
+      "src": "media/images/oper-turkey-print-back-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-turkey-print-back-480.webp",
+          "width": 480,
+          "height": 681,
+          "bytes": 109738
+        },
+        {
+          "src": "media/images/oper-turkey-print-back-960.webp",
+          "width": 960,
+          "height": 1362,
+          "bytes": 293264
+        },
+        {
+          "src": "media/images/oper-turkey-print-back-1600.webp",
+          "width": 1600,
+          "height": 2270,
+          "bytes": 568312
+        }
+      ]
+    },
+    "oper-elder-print": {
+      "source": "opermundo/FLYER_EJECAFETERO_EDAD_ORO_CMYK_V1.png",
+      "alt": "Afiche impreso del Eje Cafetero para Opermundo",
+      "width": 1748,
+      "height": 2480,
+      "src": "media/images/oper-elder-print-960.webp",
+      "variants": [
+        {
+          "src": "media/images/oper-elder-print-480.webp",
+          "width": 480,
+          "height": 681,
+          "bytes": 122198
+        },
+        {
+          "src": "media/images/oper-elder-print-960.webp",
+          "width": 960,
+          "height": 1362,
+          "bytes": 340390
+        },
+        {
+          "src": "media/images/oper-elder-print-1600.webp",
+          "width": 1600,
+          "height": 2270,
+          "bytes": 695028
+        }
+      ]
+    }
+  },
+  "videos": {
+    "kike": {
+      "source": "flyers_motion/Motion 1-4 de milla_ kike.mp4",
+      "poster": "kike-static",
+      "full": "media/video/kike-full.mp4",
+      "preview": "media/video/kike-preview.mp4",
+      "duration": 20
+    },
+    "mma": {
+      "source": "producción/VIDEO CORTO PRODUCCION MMA.mp4",
+      "poster": "mma-poster",
+      "full": "media/video/mma-full.mp4",
+      "preview": "media/video/mma-preview.mp4",
+      "duration": 20.333
+    },
+    "inmobiliaria": {
+      "source": "programacion/Web inmobiliaria.mp4",
+      "poster": "inmo-cover",
+      "full": "media/video/inmobiliaria-full.mp4",
+      "preview": "media/video/inmobiliaria-preview.mp4",
+      "duration": 65.85
+    },
+    "aplicacion": {
+      "source": "programacion/Aplicacion enfocada en niños con tdh.mp4",
+      "poster": "app-cover",
+      "full": "media/video/aplicacion-full.mp4",
+      "preview": "media/video/aplicacion-preview.mp4",
+      "duration": 176.65
+    },
+    "top-event": {
+      "source": "reels_edicion_videos/14 SEPTIEMBRE REEL.mp4",
+      "poster": "top-event-poster",
+      "full": "media/video/top-event-full.mp4",
+      "preview": "media/video/top-event-preview.mp4",
+      "duration": 33.467
+    },
+    "top-tebis": {
+      "source": "reels_edicion_videos/03 SEPTIEMBRE.mp4",
+      "poster": "top-tebis-poster",
+      "full": "media/video/top-tebis-full.mp4",
+      "preview": "media/video/top-tebis-preview.mp4",
+      "duration": 33.8
+    },
+    "thera-language": {
+      "source": "reels_edicion_videos/VIERNES-28-AGOSTO-2026-TERAPIA DE LENGUAJE (1).mp4",
+      "poster": "thera-language-poster",
+      "full": "media/video/thera-language-full.mp4",
+      "preview": "media/video/thera-language-preview.mp4",
+      "duration": 36.333
+    },
+    "thera-psych": {
+      "source": "reels_edicion_videos/VIERNES-PSICOLOGIA-SEPTIEMBRE (2).mp4",
+      "poster": "thera-psych-poster",
+      "full": "media/video/thera-psych-full.mp4",
+      "preview": "media/video/thera-psych-preview.mp4",
+      "duration": 39.3
+    },
+    "top-brand": {
+      "source": "reels_edicion_videos/23 SEP TOP MEDIA.mp4",
+      "poster": "top-brand-poster",
+      "full": "media/video/top-brand-full.mp4",
+      "preview": "media/video/top-brand-preview.mp4",
+      "duration": 32.533
+    },
+    "thera-focus": {
+      "source": "reels_edicion_videos/0821dsadasda3efae-VIERNES (2).mp4",
+      "poster": "thera-focus-poster",
+      "full": "media/video/thera-focus-full.mp4",
+      "preview": "media/video/thera-focus-preview.mp4",
+      "duration": 25.433
+    },
+    "social-edit": {
+      "source": "reels_edicion_videos/final-final-final.mp4",
+      "poster": "social-edit-poster",
+      "full": "media/video/social-edit-full.mp4",
+      "preview": "media/video/social-edit-preview.mp4",
+      "duration": 39.767
+    }
+  }
+}

@@ -1,0 +1,21 @@
+---
+import { videoById } from "../../data/media";
+import { url } from "../../data/site";
+interface Props {
+  id: string;
+  title: string;
+  class?: string;
+}
+const { id, title, class: className = "" } = Astro.props;
+---
+
+<button
+  type="button"
+  class:list={["video-watch", className]}
+  data-cursor="VER"
+  data-video-src={url(videoById(id).full)}
+  data-video-title={title}
+  aria-label={"Ver " + title + " con sonido"}
+>
+  Ver
+</button>

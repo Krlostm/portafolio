@@ -1,0 +1,14 @@
+---
+import Image from './Image.astro';
+import { videoById } from '../../data/media';
+import { url } from '../../data/site';
+interface Props { id: string; title: string; cinema?: boolean; }
+const { id, title, cinema = false } = Astro.props;
+const clip = videoById(id);
+---
+<div class:list={['video-preview', { 'cinema-preview': cinema }]} data-video-preview>
+  <video data-visible-video data-src={url(clip.preview ?? clip.full)} muted playsinline loop preload="none" aria-label={'Vista previa de ' + title}></video>
+  <Image id={clip.poster} class="preview-poster" sizes={cinema ? '100vw' : '(max-width:700px) 90vw, 52vw'} />
+  <button type="button" class="icon-button media-toggle" data-preview-toggle aria-label={'Pausar vista previa de ' + title}><span aria-hidden="true">Ⅱ</span></button>
+  <span class="media-status preview-status" data-media-status aria-live="polite"></span>
+</div>

@@ -1,0 +1,33 @@
+---
+import Reel from "../story/Reel.astro";
+import RailControls from "./RailControls.astro";
+import "../../styles/gallery.css";
+interface Props {
+  videos: { id: string; title: string; label: string }[];
+  label: string;
+}
+const { videos, label } = Astro.props;
+---
+
+<div
+  class="media-rail video-rail"
+  data-media-rail
+  role="region"
+  aria-label={label}
+>
+  <div
+    class="media-rail-viewport"
+    data-rail-viewport
+    tabindex="0"
+    aria-label={label + ". Desliza o usa las flechas del teclado."}
+  >
+    <div class="media-rail-track" data-rail-track>
+      {videos.map((video) => (
+        <div class="video-rail-piece">
+          <Reel {...video} />
+        </div>
+      ))}
+    </div>
+  </div>
+  <RailControls label={label} />
+</div>

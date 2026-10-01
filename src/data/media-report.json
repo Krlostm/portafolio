@@ -1,0 +1,1484 @@
+{
+  "originalFiles": 111,
+  "imageAssets": 121,
+  "derivativeFiles": 369,
+  "totalBytes": 143453441,
+  "files": [
+    {
+      "path": "public/media/images/app-cover-1600.webp",
+      "bytes": 57296
+    },
+    {
+      "path": "public/media/images/app-cover-480.webp",
+      "bytes": 12900
+    },
+    {
+      "path": "public/media/images/app-cover-960.webp",
+      "bytes": 31780
+    },
+    {
+      "path": "public/media/images/app-games-1600.webp",
+      "bytes": 32578
+    },
+    {
+      "path": "public/media/images/app-games-480.webp",
+      "bytes": 7350
+    },
+    {
+      "path": "public/media/images/app-games-960.webp",
+      "bytes": 18100
+    },
+    {
+      "path": "public/media/images/app-panel-1600.webp",
+      "bytes": 60190
+    },
+    {
+      "path": "public/media/images/app-panel-480.webp",
+      "bytes": 13742
+    },
+    {
+      "path": "public/media/images/app-panel-960.webp",
+      "bytes": 33520
+    },
+    {
+      "path": "public/media/images/app-routines-1600.webp",
+      "bytes": 68808
+    },
+    {
+      "path": "public/media/images/app-routines-480.webp",
+      "bytes": 15190
+    },
+    {
+      "path": "public/media/images/app-routines-960.webp",
+      "bytes": 37510
+    },
+    {
+      "path": "public/media/images/app-timer-1600.webp",
+      "bytes": 56704
+    },
+    {
+      "path": "public/media/images/app-timer-480.webp",
+      "bytes": 13880
+    },
+    {
+      "path": "public/media/images/app-timer-960.webp",
+      "bytes": 31588
+    },
+    {
+      "path": "public/media/images/carlos-portrait-1024.webp",
+      "bytes": 220926
+    },
+    {
+      "path": "public/media/images/carlos-portrait-480.webp",
+      "bytes": 60044
+    },
+    {
+      "path": "public/media/images/carlos-portrait-960.webp",
+      "bytes": 210112
+    },
+    {
+      "path": "public/media/images/ferre-01-1080.webp",
+      "bytes": 214170
+    },
+    {
+      "path": "public/media/images/ferre-01-480.webp",
+      "bytes": 63474
+    },
+    {
+      "path": "public/media/images/ferre-01-960.webp",
+      "bytes": 179622
+    },
+    {
+      "path": "public/media/images/ferre-02-1080.webp",
+      "bytes": 156062
+    },
+    {
+      "path": "public/media/images/ferre-02-480.webp",
+      "bytes": 43950
+    },
+    {
+      "path": "public/media/images/ferre-02-960.webp",
+      "bytes": 127548
+    },
+    {
+      "path": "public/media/images/ferre-03-1080.webp",
+      "bytes": 151812
+    },
+    {
+      "path": "public/media/images/ferre-03-480.webp",
+      "bytes": 51450
+    },
+    {
+      "path": "public/media/images/ferre-03-960.webp",
+      "bytes": 130480
+    },
+    {
+      "path": "public/media/images/ferre-04-1080.webp",
+      "bytes": 151890
+    },
+    {
+      "path": "public/media/images/ferre-04-480.webp",
+      "bytes": 47268
+    },
+    {
+      "path": "public/media/images/ferre-04-960.webp",
+      "bytes": 124816
+    },
+    {
+      "path": "public/media/images/ferre-05-1080.webp",
+      "bytes": 192118
+    },
+    {
+      "path": "public/media/images/ferre-05-480.webp",
+      "bytes": 60418
+    },
+    {
+      "path": "public/media/images/ferre-05-960.webp",
+      "bytes": 163734
+    },
+    {
+      "path": "public/media/images/ferre-brushes-1080.webp",
+      "bytes": 237062
+    },
+    {
+      "path": "public/media/images/ferre-brushes-480.webp",
+      "bytes": 66864
+    },
+    {
+      "path": "public/media/images/ferre-brushes-960.webp",
+      "bytes": 191836
+    },
+    {
+      "path": "public/media/images/ferre-cart-1-1080.webp",
+      "bytes": 164884
+    },
+    {
+      "path": "public/media/images/ferre-cart-1-480.webp",
+      "bytes": 50854
+    },
+    {
+      "path": "public/media/images/ferre-cart-1-960.webp",
+      "bytes": 137884
+    },
+    {
+      "path": "public/media/images/ferre-cart-2-1080.webp",
+      "bytes": 166412
+    },
+    {
+      "path": "public/media/images/ferre-cart-2-480.webp",
+      "bytes": 56194
+    },
+    {
+      "path": "public/media/images/ferre-cart-2-960.webp",
+      "bytes": 141088
+    },
+    {
+      "path": "public/media/images/ferre-cart-3-1080.webp",
+      "bytes": 156878
+    },
+    {
+      "path": "public/media/images/ferre-cart-3-480.webp",
+      "bytes": 53384
+    },
+    {
+      "path": "public/media/images/ferre-cart-3-960.webp",
+      "bytes": 132888
+    },
+    {
+      "path": "public/media/images/ferre-cement-1080.webp",
+      "bytes": 362816
+    },
+    {
+      "path": "public/media/images/ferre-cement-480.webp",
+      "bytes": 97742
+    },
+    {
+      "path": "public/media/images/ferre-cement-960.webp",
+      "bytes": 299958
+    },
+    {
+      "path": "public/media/images/ferre-character-1080.webp",
+      "bytes": 259310
+    },
+    {
+      "path": "public/media/images/ferre-character-480.webp",
+      "bytes": 65768
+    },
+    {
+      "path": "public/media/images/ferre-character-960.webp",
+      "bytes": 210936
+    },
+    {
+      "path": "public/media/images/ferre-gas-1080.webp",
+      "bytes": 179072
+    },
+    {
+      "path": "public/media/images/ferre-gas-480.webp",
+      "bytes": 55384
+    },
+    {
+      "path": "public/media/images/ferre-gas-960.webp",
+      "bytes": 146282
+    },
+    {
+      "path": "public/media/images/ferre-laundry-1-1080.webp",
+      "bytes": 162502
+    },
+    {
+      "path": "public/media/images/ferre-laundry-1-480.webp",
+      "bytes": 59676
+    },
+    {
+      "path": "public/media/images/ferre-laundry-1-960.webp",
+      "bytes": 141962
+    },
+    {
+      "path": "public/media/images/ferre-laundry-2-1080.webp",
+      "bytes": 240884
+    },
+    {
+      "path": "public/media/images/ferre-laundry-2-480.webp",
+      "bytes": 71268
+    },
+    {
+      "path": "public/media/images/ferre-laundry-2-960.webp",
+      "bytes": 203304
+    },
+    {
+      "path": "public/media/images/ferre-laundry-3-1080.webp",
+      "bytes": 134470
+    },
+    {
+      "path": "public/media/images/ferre-laundry-3-480.webp",
+      "bytes": 47610
+    },
+    {
+      "path": "public/media/images/ferre-laundry-3-960.webp",
+      "bytes": 118186
+    },
+    {
+      "path": "public/media/images/ferre-leafblower-1080.webp",
+      "bytes": 279798
+    },
+    {
+      "path": "public/media/images/ferre-leafblower-480.webp",
+      "bytes": 88402
+    },
+    {
+      "path": "public/media/images/ferre-leafblower-960.webp",
+      "bytes": 232650
+    },
+    {
+      "path": "public/media/images/ferre-paint-kit-1-1080.webp",
+      "bytes": 163888
+    },
+    {
+      "path": "public/media/images/ferre-paint-kit-1-480.webp",
+      "bytes": 52502
+    },
+    {
+      "path": "public/media/images/ferre-paint-kit-1-960.webp",
+      "bytes": 138274
+    },
+    {
+      "path": "public/media/images/ferre-paint-kit-2-1080.webp",
+      "bytes": 160510
+    },
+    {
+      "path": "public/media/images/ferre-paint-kit-2-480.webp",
+      "bytes": 50698
+    },
+    {
+      "path": "public/media/images/ferre-paint-kit-2-960.webp",
+      "bytes": 134078
+    },
+    {
+      "path": "public/media/images/ferre-paint-kit-3-1080.webp",
+      "bytes": 158778
+    },
+    {
+      "path": "public/media/images/ferre-paint-kit-3-480.webp",
+      "bytes": 50450
+    },
+    {
+      "path": "public/media/images/ferre-paint-kit-3-960.webp",
+      "bytes": 134058
+    },
+    {
+      "path": "public/media/images/ferre-weld-1-1080.webp",
+      "bytes": 183560
+    },
+    {
+      "path": "public/media/images/ferre-weld-1-480.webp",
+      "bytes": 61564
+    },
+    {
+      "path": "public/media/images/ferre-weld-1-960.webp",
+      "bytes": 156364
+    },
+    {
+      "path": "public/media/images/ferre-weld-2-1080.webp",
+      "bytes": 208082
+    },
+    {
+      "path": "public/media/images/ferre-weld-2-480.webp",
+      "bytes": 63582
+    },
+    {
+      "path": "public/media/images/ferre-weld-2-960.webp",
+      "bytes": 175186
+    },
+    {
+      "path": "public/media/images/ferre-wheelbarrow-1080.webp",
+      "bytes": 374070
+    },
+    {
+      "path": "public/media/images/ferre-wheelbarrow-480.webp",
+      "bytes": 93408
+    },
+    {
+      "path": "public/media/images/ferre-wheelbarrow-960.webp",
+      "bytes": 299248
+    },
+    {
+      "path": "public/media/images/inmo-calculator-1280.webp",
+      "bytes": 46600
+    },
+    {
+      "path": "public/media/images/inmo-calculator-480.webp",
+      "bytes": 10976
+    },
+    {
+      "path": "public/media/images/inmo-calculator-960.webp",
+      "bytes": 30508
+    },
+    {
+      "path": "public/media/images/inmo-cover-1280.webp",
+      "bytes": 117492
+    },
+    {
+      "path": "public/media/images/inmo-cover-480.webp",
+      "bytes": 31380
+    },
+    {
+      "path": "public/media/images/inmo-cover-960.webp",
+      "bytes": 81666
+    },
+    {
+      "path": "public/media/images/inmo-filters-1280.webp",
+      "bytes": 47884
+    },
+    {
+      "path": "public/media/images/inmo-filters-480.webp",
+      "bytes": 12638
+    },
+    {
+      "path": "public/media/images/inmo-filters-960.webp",
+      "bytes": 33518
+    },
+    {
+      "path": "public/media/images/inmo-location-1280.webp",
+      "bytes": 86146
+    },
+    {
+      "path": "public/media/images/inmo-location-480.webp",
+      "bytes": 20776
+    },
+    {
+      "path": "public/media/images/inmo-location-960.webp",
+      "bytes": 57374
+    },
+    {
+      "path": "public/media/images/inmo-property-1280.webp",
+      "bytes": 68478
+    },
+    {
+      "path": "public/media/images/inmo-property-480.webp",
+      "bytes": 17252
+    },
+    {
+      "path": "public/media/images/inmo-property-960.webp",
+      "bytes": 44182
+    },
+    {
+      "path": "public/media/images/kike-playa-1080.webp",
+      "bytes": 602278
+    },
+    {
+      "path": "public/media/images/kike-playa-480.webp",
+      "bytes": 160384
+    },
+    {
+      "path": "public/media/images/kike-playa-960.webp",
+      "bytes": 491132
+    },
+    {
+      "path": "public/media/images/kike-quito-1080.webp",
+      "bytes": 492182
+    },
+    {
+      "path": "public/media/images/kike-quito-480.webp",
+      "bytes": 147522
+    },
+    {
+      "path": "public/media/images/kike-quito-960.webp",
+      "bytes": 408706
+    },
+    {
+      "path": "public/media/images/kike-static-1080.webp",
+      "bytes": 459006
+    },
+    {
+      "path": "public/media/images/kike-static-480.webp",
+      "bytes": 132820
+    },
+    {
+      "path": "public/media/images/kike-static-960.webp",
+      "bytes": 401650
+    },
+    {
+      "path": "public/media/images/logo-artex-480.webp",
+      "bytes": 58748
+    },
+    {
+      "path": "public/media/images/logo-astral-480.webp",
+      "bytes": 17284
+    },
+    {
+      "path": "public/media/images/logo-ferreteria-480.webp",
+      "bytes": 103094
+    },
+    {
+      "path": "public/media/images/logo-incognito-480.webp",
+      "bytes": 17946
+    },
+    {
+      "path": "public/media/images/logo-operecuador-480.webp",
+      "bytes": 16156
+    },
+    {
+      "path": "public/media/images/logo-opermundo-480.webp",
+      "bytes": 35868
+    },
+    {
+      "path": "public/media/images/logo-thera-480.webp",
+      "bytes": 132302
+    },
+    {
+      "path": "public/media/images/logo-top-480.webp",
+      "bytes": 16676
+    },
+    {
+      "path": "public/media/images/mma-action-1600.webp",
+      "bytes": 99150
+    },
+    {
+      "path": "public/media/images/mma-action-480.webp",
+      "bytes": 20318
+    },
+    {
+      "path": "public/media/images/mma-action-960.webp",
+      "bytes": 48568
+    },
+    {
+      "path": "public/media/images/mma-detail-1600.webp",
+      "bytes": 66310
+    },
+    {
+      "path": "public/media/images/mma-detail-480.webp",
+      "bytes": 12586
+    },
+    {
+      "path": "public/media/images/mma-detail-960.webp",
+      "bytes": 30618
+    },
+    {
+      "path": "public/media/images/mma-interview-1600.webp",
+      "bytes": 160352
+    },
+    {
+      "path": "public/media/images/mma-interview-480.webp",
+      "bytes": 29994
+    },
+    {
+      "path": "public/media/images/mma-interview-960.webp",
+      "bytes": 80492
+    },
+    {
+      "path": "public/media/images/mma-poster-1600.webp",
+      "bytes": 62598
+    },
+    {
+      "path": "public/media/images/mma-poster-480.webp",
+      "bytes": 12232
+    },
+    {
+      "path": "public/media/images/mma-poster-960.webp",
+      "bytes": 31044
+    },
+    {
+      "path": "public/media/images/oper-anniversary-1080.webp",
+      "bytes": 205672
+    },
+    {
+      "path": "public/media/images/oper-anniversary-480.webp",
+      "bytes": 62816
+    },
+    {
+      "path": "public/media/images/oper-anniversary-960.webp",
+      "bytes": 172076
+    },
+    {
+      "path": "public/media/images/oper-argentina-print-1600.webp",
+      "bytes": 603412
+    },
+    {
+      "path": "public/media/images/oper-argentina-print-480.webp",
+      "bytes": 106070
+    },
+    {
+      "path": "public/media/images/oper-argentina-print-960.webp",
+      "bytes": 294968
+    },
+    {
+      "path": "public/media/images/oper-brazil-1080.webp",
+      "bytes": 339986
+    },
+    {
+      "path": "public/media/images/oper-brazil-480.webp",
+      "bytes": 104616
+    },
+    {
+      "path": "public/media/images/oper-brazil-960.webp",
+      "bytes": 287232
+    },
+    {
+      "path": "public/media/images/oper-brochure-1448.webp",
+      "bytes": 330474
+    },
+    {
+      "path": "public/media/images/oper-brochure-480.webp",
+      "bytes": 56314
+    },
+    {
+      "path": "public/media/images/oper-brochure-960.webp",
+      "bytes": 177948
+    },
+    {
+      "path": "public/media/images/oper-buenos-aires-1600.webp",
+      "bytes": 611282
+    },
+    {
+      "path": "public/media/images/oper-buenos-aires-480.webp",
+      "bytes": 90030
+    },
+    {
+      "path": "public/media/images/oper-buenos-aires-960.webp",
+      "bytes": 273488
+    },
+    {
+      "path": "public/media/images/oper-china-1080.webp",
+      "bytes": 326096
+    },
+    {
+      "path": "public/media/images/oper-china-480.webp",
+      "bytes": 99716
+    },
+    {
+      "path": "public/media/images/oper-china-960.webp",
+      "bytes": 275322
+    },
+    {
+      "path": "public/media/images/oper-east-1080.webp",
+      "bytes": 358316
+    },
+    {
+      "path": "public/media/images/oper-east-480.webp",
+      "bytes": 112348
+    },
+    {
+      "path": "public/media/images/oper-east-960.webp",
+      "bytes": 302242
+    },
+    {
+      "path": "public/media/images/oper-edad-1080.webp",
+      "bytes": 364946
+    },
+    {
+      "path": "public/media/images/oper-edad-480.webp",
+      "bytes": 113680
+    },
+    {
+      "path": "public/media/images/oper-edad-960.webp",
+      "bytes": 304284
+    },
+    {
+      "path": "public/media/images/oper-egypt-1080.webp",
+      "bytes": 278410
+    },
+    {
+      "path": "public/media/images/oper-egypt-480.webp",
+      "bytes": 87832
+    },
+    {
+      "path": "public/media/images/oper-egypt-960.webp",
+      "bytes": 236714
+    },
+    {
+      "path": "public/media/images/oper-eje-1080.webp",
+      "bytes": 377694
+    },
+    {
+      "path": "public/media/images/oper-eje-480.webp",
+      "bytes": 115802
+    },
+    {
+      "path": "public/media/images/oper-eje-960.webp",
+      "bytes": 332238
+    },
+    {
+      "path": "public/media/images/oper-eje-latam-1600.webp",
+      "bytes": 797014
+    },
+    {
+      "path": "public/media/images/oper-eje-latam-480.webp",
+      "bytes": 133758
+    },
+    {
+      "path": "public/media/images/oper-eje-latam-960.webp",
+      "bytes": 397678
+    },
+    {
+      "path": "public/media/images/oper-eje-student-1587.webp",
+      "bytes": 609680
+    },
+    {
+      "path": "public/media/images/oper-eje-student-480.webp",
+      "bytes": 115062
+    },
+    {
+      "path": "public/media/images/oper-eje-student-960.webp",
+      "bytes": 317724
+    },
+    {
+      "path": "public/media/images/oper-eje-student-back-1587.webp",
+      "bytes": 748708
+    },
+    {
+      "path": "public/media/images/oper-eje-student-back-480.webp",
+      "bytes": 125768
+    },
+    {
+      "path": "public/media/images/oper-eje-student-back-960.webp",
+      "bytes": 363832
+    },
+    {
+      "path": "public/media/images/oper-elder-print-1600.webp",
+      "bytes": 695028
+    },
+    {
+      "path": "public/media/images/oper-elder-print-480.webp",
+      "bytes": 122198
+    },
+    {
+      "path": "public/media/images/oper-elder-print-960.webp",
+      "bytes": 340390
+    },
+    {
+      "path": "public/media/images/oper-folder-1448.webp",
+      "bytes": 203406
+    },
+    {
+      "path": "public/media/images/oper-folder-480.webp",
+      "bytes": 37512
+    },
+    {
+      "path": "public/media/images/oper-folder-960.webp",
+      "bytes": 109528
+    },
+    {
+      "path": "public/media/images/oper-galapagos-1080.webp",
+      "bytes": 366850
+    },
+    {
+      "path": "public/media/images/oper-galapagos-480.webp",
+      "bytes": 123254
+    },
+    {
+      "path": "public/media/images/oper-galapagos-960.webp",
+      "bytes": 319016
+    },
+    {
+      "path": "public/media/images/oper-galapagos-print-1600.webp",
+      "bytes": 1008728
+    },
+    {
+      "path": "public/media/images/oper-galapagos-print-480.webp",
+      "bytes": 132712
+    },
+    {
+      "path": "public/media/images/oper-galapagos-print-960.webp",
+      "bytes": 398032
+    },
+    {
+      "path": "public/media/images/oper-galapagos-student-1080.webp",
+      "bytes": 262196
+    },
+    {
+      "path": "public/media/images/oper-galapagos-student-480.webp",
+      "bytes": 92256
+    },
+    {
+      "path": "public/media/images/oper-galapagos-student-960.webp",
+      "bytes": 226336
+    },
+    {
+      "path": "public/media/images/oper-galapagos-student-alt-1080.webp",
+      "bytes": 334312
+    },
+    {
+      "path": "public/media/images/oper-galapagos-student-alt-480.webp",
+      "bytes": 114470
+    },
+    {
+      "path": "public/media/images/oper-galapagos-student-alt-960.webp",
+      "bytes": 287810
+    },
+    {
+      "path": "public/media/images/oper-mexico-1080.webp",
+      "bytes": 405050
+    },
+    {
+      "path": "public/media/images/oper-mexico-480.webp",
+      "bytes": 110076
+    },
+    {
+      "path": "public/media/images/oper-mexico-960.webp",
+      "bytes": 328630
+    },
+    {
+      "path": "public/media/images/oper-music-1600.webp",
+      "bytes": 769558
+    },
+    {
+      "path": "public/media/images/oper-music-480.webp",
+      "bytes": 118768
+    },
+    {
+      "path": "public/media/images/oper-music-960.webp",
+      "bytes": 368380
+    },
+    {
+      "path": "public/media/images/oper-newyork-1080.webp",
+      "bytes": 379886
+    },
+    {
+      "path": "public/media/images/oper-newyork-480.webp",
+      "bytes": 106238
+    },
+    {
+      "path": "public/media/images/oper-newyork-960.webp",
+      "bytes": 308052
+    },
+    {
+      "path": "public/media/images/oper-olon-student-1080.webp",
+      "bytes": 271202
+    },
+    {
+      "path": "public/media/images/oper-olon-student-480.webp",
+      "bytes": 91412
+    },
+    {
+      "path": "public/media/images/oper-olon-student-960.webp",
+      "bytes": 236872
+    },
+    {
+      "path": "public/media/images/oper-panama-1600.webp",
+      "bytes": 519054
+    },
+    {
+      "path": "public/media/images/oper-panama-480.webp",
+      "bytes": 102344
+    },
+    {
+      "path": "public/media/images/oper-panama-960.webp",
+      "bytes": 267296
+    },
+    {
+      "path": "public/media/images/oper-rollup-1600.webp",
+      "bytes": 814186
+    },
+    {
+      "path": "public/media/images/oper-rollup-480.webp",
+      "bytes": 161504
+    },
+    {
+      "path": "public/media/images/oper-rollup-960.webp",
+      "bytes": 415768
+    },
+    {
+      "path": "public/media/images/oper-romana-1080.webp",
+      "bytes": 341792
+    },
+    {
+      "path": "public/media/images/oper-romana-480.webp",
+      "bytes": 103380
+    },
+    {
+      "path": "public/media/images/oper-romana-960.webp",
+      "bytes": 286254
+    },
+    {
+      "path": "public/media/images/oper-rp-student-1600.webp",
+      "bytes": 651746
+    },
+    {
+      "path": "public/media/images/oper-rp-student-480.webp",
+      "bytes": 107150
+    },
+    {
+      "path": "public/media/images/oper-rp-student-960.webp",
+      "bytes": 316342
+    },
+    {
+      "path": "public/media/images/oper-rp-student-front-1587.webp",
+      "bytes": 511334
+    },
+    {
+      "path": "public/media/images/oper-rp-student-front-480.webp",
+      "bytes": 110518
+    },
+    {
+      "path": "public/media/images/oper-rp-student-front-960.webp",
+      "bytes": 276652
+    },
+    {
+      "path": "public/media/images/oper-thailand-1600.webp",
+      "bytes": 576298
+    },
+    {
+      "path": "public/media/images/oper-thailand-480.webp",
+      "bytes": 111854
+    },
+    {
+      "path": "public/media/images/oper-thailand-960.webp",
+      "bytes": 301852
+    },
+    {
+      "path": "public/media/images/oper-trifold-1448.webp",
+      "bytes": 443200
+    },
+    {
+      "path": "public/media/images/oper-trifold-480.webp",
+      "bytes": 71642
+    },
+    {
+      "path": "public/media/images/oper-trifold-960.webp",
+      "bytes": 235436
+    },
+    {
+      "path": "public/media/images/oper-turkey-print-back-1600.webp",
+      "bytes": 568312
+    },
+    {
+      "path": "public/media/images/oper-turkey-print-back-480.webp",
+      "bytes": 109738
+    },
+    {
+      "path": "public/media/images/oper-turkey-print-back-960.webp",
+      "bytes": 293264
+    },
+    {
+      "path": "public/media/images/oper-turkey-print-front-1600.webp",
+      "bytes": 647276
+    },
+    {
+      "path": "public/media/images/oper-turkey-print-front-480.webp",
+      "bytes": 115666
+    },
+    {
+      "path": "public/media/images/oper-turkey-print-front-960.webp",
+      "bytes": 316218
+    },
+    {
+      "path": "public/media/images/oper-turquia-1080.webp",
+      "bytes": 339162
+    },
+    {
+      "path": "public/media/images/oper-turquia-480.webp",
+      "bytes": 109060
+    },
+    {
+      "path": "public/media/images/oper-turquia-960.webp",
+      "bytes": 290472
+    },
+    {
+      "path": "public/media/images/photo-01-1600.webp",
+      "bytes": 264898
+    },
+    {
+      "path": "public/media/images/photo-01-480.webp",
+      "bytes": 32344
+    },
+    {
+      "path": "public/media/images/photo-01-960.webp",
+      "bytes": 84922
+    },
+    {
+      "path": "public/media/images/photo-02-1600.webp",
+      "bytes": 434054
+    },
+    {
+      "path": "public/media/images/photo-02-480.webp",
+      "bytes": 35172
+    },
+    {
+      "path": "public/media/images/photo-02-960.webp",
+      "bytes": 122888
+    },
+    {
+      "path": "public/media/images/photo-03-1600.webp",
+      "bytes": 605272
+    },
+    {
+      "path": "public/media/images/photo-03-480.webp",
+      "bytes": 41142
+    },
+    {
+      "path": "public/media/images/photo-03-960.webp",
+      "bytes": 158786
+    },
+    {
+      "path": "public/media/images/photo-04-1600.webp",
+      "bytes": 670460
+    },
+    {
+      "path": "public/media/images/photo-04-480.webp",
+      "bytes": 43452
+    },
+    {
+      "path": "public/media/images/photo-04-960.webp",
+      "bytes": 187426
+    },
+    {
+      "path": "public/media/images/photo-05-1600.webp",
+      "bytes": 131158
+    },
+    {
+      "path": "public/media/images/photo-05-480.webp",
+      "bytes": 27348
+    },
+    {
+      "path": "public/media/images/photo-05-960.webp",
+      "bytes": 70538
+    },
+    {
+      "path": "public/media/images/photo-06-1600.webp",
+      "bytes": 150196
+    },
+    {
+      "path": "public/media/images/photo-06-480.webp",
+      "bytes": 26018
+    },
+    {
+      "path": "public/media/images/photo-06-960.webp",
+      "bytes": 65996
+    },
+    {
+      "path": "public/media/images/photo-07-1600.webp",
+      "bytes": 326438
+    },
+    {
+      "path": "public/media/images/photo-07-480.webp",
+      "bytes": 37898
+    },
+    {
+      "path": "public/media/images/photo-07-960.webp",
+      "bytes": 119476
+    },
+    {
+      "path": "public/media/images/photo-08-1600.webp",
+      "bytes": 145292
+    },
+    {
+      "path": "public/media/images/photo-08-480.webp",
+      "bytes": 24250
+    },
+    {
+      "path": "public/media/images/photo-08-960.webp",
+      "bytes": 61148
+    },
+    {
+      "path": "public/media/images/photo-09-1600.webp",
+      "bytes": 978952
+    },
+    {
+      "path": "public/media/images/photo-09-480.webp",
+      "bytes": 40452
+    },
+    {
+      "path": "public/media/images/photo-09-960.webp",
+      "bytes": 268518
+    },
+    {
+      "path": "public/media/images/product-cariocas-1600.webp",
+      "bytes": 1019982
+    },
+    {
+      "path": "public/media/images/product-cariocas-480.webp",
+      "bytes": 126628
+    },
+    {
+      "path": "public/media/images/product-cariocas-960.webp",
+      "bytes": 407510
+    },
+    {
+      "path": "public/media/images/product-creatina-1080.webp",
+      "bytes": 230678
+    },
+    {
+      "path": "public/media/images/product-creatina-480.webp",
+      "bytes": 69176
+    },
+    {
+      "path": "public/media/images/product-creatina-960.webp",
+      "bytes": 194116
+    },
+    {
+      "path": "public/media/images/product-picobul-1080.webp",
+      "bytes": 294750
+    },
+    {
+      "path": "public/media/images/product-picobul-480.webp",
+      "bytes": 78664
+    },
+    {
+      "path": "public/media/images/product-picobul-960.webp",
+      "bytes": 240248
+    },
+    {
+      "path": "public/media/images/product-wings-1080.webp",
+      "bytes": 398782
+    },
+    {
+      "path": "public/media/images/product-wings-480.webp",
+      "bytes": 102918
+    },
+    {
+      "path": "public/media/images/product-wings-960.webp",
+      "bytes": 319064
+    },
+    {
+      "path": "public/media/images/social-edit-poster-1080.webp",
+      "bytes": 116904
+    },
+    {
+      "path": "public/media/images/social-edit-poster-480.webp",
+      "bytes": 42052
+    },
+    {
+      "path": "public/media/images/social-edit-poster-960.webp",
+      "bytes": 101472
+    },
+    {
+      "path": "public/media/images/thera-anxiety-1080.webp",
+      "bytes": 150396
+    },
+    {
+      "path": "public/media/images/thera-anxiety-480.webp",
+      "bytes": 52856
+    },
+    {
+      "path": "public/media/images/thera-anxiety-960.webp",
+      "bytes": 129116
+    },
+    {
+      "path": "public/media/images/thera-brand-1080.webp",
+      "bytes": 145194
+    },
+    {
+      "path": "public/media/images/thera-brand-480.webp",
+      "bytes": 52424
+    },
+    {
+      "path": "public/media/images/thera-brand-960.webp",
+      "bytes": 125826
+    },
+    {
+      "path": "public/media/images/thera-course-1080.webp",
+      "bytes": 210622
+    },
+    {
+      "path": "public/media/images/thera-course-480.webp",
+      "bytes": 70560
+    },
+    {
+      "path": "public/media/images/thera-course-960.webp",
+      "bytes": 177894
+    },
+    {
+      "path": "public/media/images/thera-focus-poster-1080.webp",
+      "bytes": 155654
+    },
+    {
+      "path": "public/media/images/thera-focus-poster-480.webp",
+      "bytes": 57690
+    },
+    {
+      "path": "public/media/images/thera-focus-poster-960.webp",
+      "bytes": 132244
+    },
+    {
+      "path": "public/media/images/thera-gateo-1080.webp",
+      "bytes": 213726
+    },
+    {
+      "path": "public/media/images/thera-gateo-480.webp",
+      "bytes": 67606
+    },
+    {
+      "path": "public/media/images/thera-gateo-960.webp",
+      "bytes": 180744
+    },
+    {
+      "path": "public/media/images/thera-juguete-1122.webp",
+      "bytes": 177972
+    },
+    {
+      "path": "public/media/images/thera-juguete-480.webp",
+      "bytes": 55152
+    },
+    {
+      "path": "public/media/images/thera-juguete-960.webp",
+      "bytes": 146344
+    },
+    {
+      "path": "public/media/images/thera-language-poster-1080.webp",
+      "bytes": 145448
+    },
+    {
+      "path": "public/media/images/thera-language-poster-480.webp",
+      "bytes": 55228
+    },
+    {
+      "path": "public/media/images/thera-language-poster-960.webp",
+      "bytes": 124212
+    },
+    {
+      "path": "public/media/images/thera-professor-1122.webp",
+      "bytes": 170528
+    },
+    {
+      "path": "public/media/images/thera-professor-480.webp",
+      "bytes": 42588
+    },
+    {
+      "path": "public/media/images/thera-professor-960.webp",
+      "bytes": 130738
+    },
+    {
+      "path": "public/media/images/thera-psych-poster-1080.webp",
+      "bytes": 109628
+    },
+    {
+      "path": "public/media/images/thera-psych-poster-480.webp",
+      "bytes": 45550
+    },
+    {
+      "path": "public/media/images/thera-psych-poster-960.webp",
+      "bytes": 94918
+    },
+    {
+      "path": "public/media/images/thera-r-1080.webp",
+      "bytes": 171838
+    },
+    {
+      "path": "public/media/images/thera-r-480.webp",
+      "bytes": 54878
+    },
+    {
+      "path": "public/media/images/thera-r-960.webp",
+      "bytes": 144942
+    },
+    {
+      "path": "public/media/images/thera-senses-1080.webp",
+      "bytes": 166508
+    },
+    {
+      "path": "public/media/images/thera-senses-480.webp",
+      "bytes": 57870
+    },
+    {
+      "path": "public/media/images/thera-senses-960.webp",
+      "bytes": 140194
+    },
+    {
+      "path": "public/media/images/top-01-1080.webp",
+      "bytes": 138778
+    },
+    {
+      "path": "public/media/images/top-01-480.webp",
+      "bytes": 44240
+    },
+    {
+      "path": "public/media/images/top-01-960.webp",
+      "bytes": 116508
+    },
+    {
+      "path": "public/media/images/top-02-1080.webp",
+      "bytes": 226500
+    },
+    {
+      "path": "public/media/images/top-02-480.webp",
+      "bytes": 73796
+    },
+    {
+      "path": "public/media/images/top-02-960.webp",
+      "bytes": 198544
+    },
+    {
+      "path": "public/media/images/top-03-1080.webp",
+      "bytes": 205838
+    },
+    {
+      "path": "public/media/images/top-03-480.webp",
+      "bytes": 56580
+    },
+    {
+      "path": "public/media/images/top-03-960.webp",
+      "bytes": 169604
+    },
+    {
+      "path": "public/media/images/top-04-1080.webp",
+      "bytes": 153750
+    },
+    {
+      "path": "public/media/images/top-04-480.webp",
+      "bytes": 46332
+    },
+    {
+      "path": "public/media/images/top-04-960.webp",
+      "bytes": 123726
+    },
+    {
+      "path": "public/media/images/top-brand-poster-1080.webp",
+      "bytes": 41084
+    },
+    {
+      "path": "public/media/images/top-brand-poster-480.webp",
+      "bytes": 18594
+    },
+    {
+      "path": "public/media/images/top-brand-poster-960.webp",
+      "bytes": 37308
+    },
+    {
+      "path": "public/media/images/top-burger-1080.webp",
+      "bytes": 282014
+    },
+    {
+      "path": "public/media/images/top-burger-480.webp",
+      "bytes": 85854
+    },
+    {
+      "path": "public/media/images/top-burger-960.webp",
+      "bytes": 242800
+    },
+    {
+      "path": "public/media/images/top-event-poster-1080.webp",
+      "bytes": 173142
+    },
+    {
+      "path": "public/media/images/top-event-poster-480.webp",
+      "bytes": 66524
+    },
+    {
+      "path": "public/media/images/top-event-poster-960.webp",
+      "bytes": 161210
+    },
+    {
+      "path": "public/media/images/top-exterior-1-1080.webp",
+      "bytes": 366468
+    },
+    {
+      "path": "public/media/images/top-exterior-1-480.webp",
+      "bytes": 101304
+    },
+    {
+      "path": "public/media/images/top-exterior-1-960.webp",
+      "bytes": 311458
+    },
+    {
+      "path": "public/media/images/top-exterior-2-1080.webp",
+      "bytes": 393656
+    },
+    {
+      "path": "public/media/images/top-exterior-2-480.webp",
+      "bytes": 119160
+    },
+    {
+      "path": "public/media/images/top-exterior-2-960.webp",
+      "bytes": 336336
+    },
+    {
+      "path": "public/media/images/top-exterior-3-1080.webp",
+      "bytes": 426670
+    },
+    {
+      "path": "public/media/images/top-exterior-3-480.webp",
+      "bytes": 120668
+    },
+    {
+      "path": "public/media/images/top-exterior-3-960.webp",
+      "bytes": 363620
+    },
+    {
+      "path": "public/media/images/top-exterior-4-1080.webp",
+      "bytes": 404212
+    },
+    {
+      "path": "public/media/images/top-exterior-4-480.webp",
+      "bytes": 120250
+    },
+    {
+      "path": "public/media/images/top-exterior-4-960.webp",
+      "bytes": 343290
+    },
+    {
+      "path": "public/media/images/top-exterior-5-1080.webp",
+      "bytes": 414890
+    },
+    {
+      "path": "public/media/images/top-exterior-5-480.webp",
+      "bytes": 117756
+    },
+    {
+      "path": "public/media/images/top-exterior-5-960.webp",
+      "bytes": 343426
+    },
+    {
+      "path": "public/media/images/top-sign-1080.webp",
+      "bytes": 273988
+    },
+    {
+      "path": "public/media/images/top-sign-480.webp",
+      "bytes": 85516
+    },
+    {
+      "path": "public/media/images/top-sign-960.webp",
+      "bytes": 237320
+    },
+    {
+      "path": "public/media/images/top-store-1080.webp",
+      "bytes": 255580
+    },
+    {
+      "path": "public/media/images/top-store-480.webp",
+      "bytes": 73760
+    },
+    {
+      "path": "public/media/images/top-store-960.webp",
+      "bytes": 215722
+    },
+    {
+      "path": "public/media/images/top-tebis-poster-1080.webp",
+      "bytes": 96436
+    },
+    {
+      "path": "public/media/images/top-tebis-poster-480.webp",
+      "bytes": 34952
+    },
+    {
+      "path": "public/media/images/top-tebis-poster-960.webp",
+      "bytes": 81486
+    },
+    {
+      "path": "public/media/video/aplicacion-full.mp4",
+      "bytes": 10510244
+    },
+    {
+      "path": "public/media/video/aplicacion-preview.mp4",
+      "bytes": 209321
+    },
+    {
+      "path": "public/media/video/inmobiliaria-full.mp4",
+      "bytes": 4570362
+    },
+    {
+      "path": "public/media/video/inmobiliaria-preview.mp4",
+      "bytes": 311789
+    },
+    {
+      "path": "public/media/video/kike-full.mp4",
+      "bytes": 4627076
+    },
+    {
+      "path": "public/media/video/kike-preview.mp4",
+      "bytes": 1574333
+    },
+    {
+      "path": "public/media/video/mma-full.mp4",
+      "bytes": 4264107
+    },
+    {
+      "path": "public/media/video/mma-preview.mp4",
+      "bytes": 1577002
+    },
+    {
+      "path": "public/media/video/social-edit-full.mp4",
+      "bytes": 10607105
+    },
+    {
+      "path": "public/media/video/social-edit-preview.mp4",
+      "bytes": 506546
+    },
+    {
+      "path": "public/media/video/thera-focus-full.mp4",
+      "bytes": 5914073
+    },
+    {
+      "path": "public/media/video/thera-focus-preview.mp4",
+      "bytes": 661931
+    },
+    {
+      "path": "public/media/video/thera-language-full.mp4",
+      "bytes": 7749882
+    },
+    {
+      "path": "public/media/video/thera-language-preview.mp4",
+      "bytes": 570678
+    },
+    {
+      "path": "public/media/video/thera-psych-full.mp4",
+      "bytes": 8235748
+    },
+    {
+      "path": "public/media/video/thera-psych-preview.mp4",
+      "bytes": 598054
+    },
+    {
+      "path": "public/media/video/top-brand-full.mp4",
+      "bytes": 5155417
+    },
+    {
+      "path": "public/media/video/top-brand-preview.mp4",
+      "bytes": 343694
+    },
+    {
+      "path": "public/media/video/top-event-full.mp4",
+      "bytes": 6417004
+    },
+    {
+      "path": "public/media/video/top-event-preview.mp4",
+      "bytes": 470067
+    },
+    {
+      "path": "public/media/video/top-tebis-full.mp4",
+      "bytes": 2472971
+    },
+    {
+      "path": "public/media/video/top-tebis-preview.mp4",
+      "bytes": 188261
+    }
+  ]
+}

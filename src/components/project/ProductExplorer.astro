@@ -1,0 +1,93 @@
+---
+import Image from "../media/Image.astro";
+import Preview from "../media/Preview.astro";
+import { videoById } from "../../data/media";
+import { url } from "../../data/site";
+import type { Feature } from "../../data/projects";
+interface Props {
+  features: Feature[];
+  id: string;
+  video: string;
+  title: string;
+  compact?: boolean;
+}
+const { features, id, video, title, compact = false } = Astro.props;
+const clip = videoById(video);
+const tabs = compact
+  ? [
+      {
+        label: "Demostración",
+        image: clip.poster,
+        description: "Recorrido por la interfaz.",
+        demo: true,
+      },
+      ...features.map((f) => ({ ...f, demo: false })),
+    ]
+  : features.map((f) => ({ ...f, demo: false }));
+---
+
+<div
+  class:list={["product-explorer", { "compact-product": compact }]}
+  data-product
+>
+  <div
+    class="product-tabs"
+    role="tablist"
+    aria-label={"Explorar funciones de " + title}
+  >
+    {tabs.map((feature, i) => (
+      <button
+        type="button"
+        id={id + "-tab-" + i}
+        role="tab"
+        aria-selected={i === 0 ? "true" : "false"}
+        tabindex={i === 0 ? 0 : -1}
+        aria-controls={id + "-panel-" + i}
+        data-feature={i}
+      >
+        {feature.label}
+      </button>
+    ))}
+  </div>
+  <div class="browser-window">
+    <div class="browser-bar" aria-hidden="true">
+      <i></i>
+      <i></i>
+      <i></i>
+      <span>{title}</span>
+    </div>
+    {tabs.map((feature, i) => (
+      <div
+        id={id + "-panel-" + i}
+        role="tabpanel"
+        aria-labelledby={id + "-tab-" + i}
+        class="feature-panel"
+        hidden={i !== 0}
+      >
+        {feature.demo ? (
+          <Preview id={video} title={title} />
+        ) : (
+          <Image id={feature.image} sizes="(max-width:700px) 90vw, 52vw" />
+        )}
+      </div>
+    ))}
+  </div>
+  <div class="product-bottom">
+    <p data-feature-description>{tabs[0]?.description}</p>
+    {!compact && (
+      <button
+        type="button"
+        class="action-button button-dark"
+        data-video-src={url(clip.full)}
+        data-video-title={title}
+      >
+        Ver demostración <span aria-hidden="true">↗</span>
+      </button>
+    )}
+  </div>
+  {tabs.map((feature, i) => (
+    <span hidden data-feature-copy={i}>
+      {feature.description}
+    </span>
+  ))}
+</div>

@@ -1,0 +1,148 @@
+---
+import Chapter from "./Chapter.astro";
+import Scene from "./Scene.astro";
+import Preview from "../media/Preview.astro";
+import VideoRail from "../media/VideoRail.astro";
+import MediaRail from "../media/MediaRail.astro";
+import VideoButton from "../media/VideoButton.astro";
+---
+
+<Chapter id="motion" class="editing-chapter">
+  <Scene
+    class="motion-scene"
+    label="Animación y edición — Videos seleccionados"
+  >
+    <div slot="heading">
+      <p class="story-kicker">07 / ANIMACIÓN Y EDICIÓN</p>
+      <h2>Diseñar el movimiento.</h2>
+    </div>
+    <VideoRail
+      label="Selección de videos de animación y edición"
+      videos={[
+        {
+          id: "top-tebis",
+          title: "Top Media / Tebis",
+          label: "EDICIÓN COMERCIAL",
+        },
+        {
+          id: "thera-psych",
+          title: "Theraudio / Contenido audiovisual",
+          label: "CONTENIDO DE MARCA",
+        },
+        {
+          id: "top-event",
+          title: "Top Media / Ritmo y montaje",
+          label: "MONTAJE",
+        },
+        {
+          id: "top-brand",
+          title: "Top Media / Identidad en movimiento",
+          label: "ANIMACIÓN DE MARCA",
+        },
+        {
+          id: "thera-language",
+          title: "Theraudio / Terapia de lenguaje",
+          label: "EDICIÓN PARA REDES",
+        },
+        {
+          id: "thera-focus",
+          title: "Tipografía e ilustración",
+          label: "EDICIÓN Y RECURSOS GRÁFICOS",
+        },
+        {
+          id: "social-edit",
+          title: "Contenido para redes",
+          label: "EDICIÓN Y SUBTÍTULOS",
+        },
+      ]}
+    />
+    <p slot="footer">
+      Ritmo, montaje e intención. Pasa el cursor para detener la fila y elige un
+      video para verlo con sonido.
+    </p>
+  </Scene>
+</Chapter>
+<Chapter id="influencers" class="influencers-chapter">
+  <Scene class="influencers-scene" label="Afiches para creadores de contenido">
+    <div slot="heading">
+      <p class="story-kicker">08 / DISEÑO PARA CREADORES</p>
+      <h2>Una personalidad. Muchas historias.</h2>
+    </div>
+    <MediaRail
+      images={["kike-static", "kike-quito", "kike-playa"]}
+      captions={[
+        "Kike / Cuarto de milla",
+        "Kike / Fiestas de Quito",
+        "Kike / Transmisión playera",
+      ]}
+      label="Selección de afiches para creadores de contenido"
+    />
+    <p slot="footer">
+      Retrato, color y tipografía para anunciar cada nueva historia.
+    </p>
+  </Scene>
+</Chapter>
+<Chapter id="producciones" class="productions-chapter">
+  <Scene class="production-scene" label="Producciones — Doble R">
+    <div slot="heading">
+      <p class="story-kicker">09 / PRODUCCIÓN AUDIOVISUAL</p>
+      <h2>Producciones.</h2>
+    </div>
+    <div class="production-cinema">
+      <Preview id="mma" title="Doble R — Producción audiovisual" cinema />
+    </div>
+    <div slot="footer" class="production-caption">
+      <div>
+        <span>PRODUCCIÓN SELECCIONADA</span>
+        <h3>Doble R</h3>
+        <p>De la primera idea a la entrega final.</p>
+        <ol class="production-steps" aria-label="Proceso de producción">
+          <li>Idea</li>
+          <li>Guion</li>
+          <li>Rodaje</li>
+          <li>Edición</li>
+          <li>Entrega</li>
+        </ol>
+      </div>
+      <VideoButton
+        id="mma"
+        title="Doble R — Producción audiovisual"
+        class="cinema-watch"
+      />
+    </div>
+  </Scene>
+</Chapter>
+<Chapter id="fotografia" class="photography-chapter">
+  <Scene class="photo-scene" label="Fotografía — Luz, presencia y contraste">
+    <div slot="heading">
+      <p class="story-kicker">10 / FOTOGRAFÍA</p>
+      <h2>Otra forma de mirar.</h2>
+    </div>
+    <MediaRail
+      images={[
+        "photo-01",
+        "photo-02",
+        "photo-04",
+        "photo-03",
+        "photo-05",
+        "photo-06",
+        "photo-07",
+        "photo-08",
+        "photo-09",
+      ]}
+      captions={[
+        "Luz y gesto",
+        "Presencia",
+        "Contraste",
+        "Cuerpo y encuadre",
+        "Trazos de luz",
+        "Retrato / Serie",
+        "Luz y mirada",
+        "Retrato / Contraste",
+        "Retrato / Detalle",
+      ]}
+      label="Fotografía — serie de nueve retratos"
+    />
+    <p slot="footer">El encuadre cambia. La mirada permanece.</p>
+  </Scene>
+</Chapter>

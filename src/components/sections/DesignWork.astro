@@ -1,0 +1,33 @@
+---
+import Image from '../media/Image.astro';
+import Carousel from '../project/Carousel.astro';
+import {projectBySlug,projectHref} from '../../data/projects';
+import {url} from '../../data/site';
+const top=projectBySlug('top-media'),oper=projectBySlug('opermundo'),thera=projectBySlug('theraudio'),commercial=projectBySlug('diseno-comercial');
+const topSlides=top.blocks.find(b=>b.type==='carousel');
+const commercialSlides=commercial.blocks.find(b=>b.type==='carousel');
+---
+<section class="section top-section" aria-labelledby="top-title">
+<div class="section-top"><p class="eyebrow">Trabajos seleccionados / 02</p><p class="eyebrow">Redes sociales / Carruseles / Video</p></div>
+<div class="project-heading"><h2 id="top-title" data-reveal><a href={url(projectHref(top))}>TOP<br />MEDIA<span>↗</span></a></h2><p>Amarillo. Negro. Actitud.<br />Una identidad que se reconoce<br />antes de leer el mensaje.</p></div>
+{topSlides?.type==='carousel'&&<Carousel images={topSlides.images} label="Top Media" id="top-home-carousel" />}
+<div class="top-secondary"><a href={url(projectHref(top))} data-cursor="Ver caso"><Image id="top-store" sizes="(max-width:700px) 80vw, 36vw" /></a><a href={url(projectHref(top))} class="top-poster" data-cursor="Ver caso"><Image id="top-burger" sizes="(max-width:700px) 80vw, 36vw" /><span>Una marca.<br />Muchas maneras<br />de aparecer.</span></a></div>
+<a class="text-link" href={url(projectHref(top))}>Ver el universo Top Media <span aria-hidden="true">↗</span></a>
+</section>
+<section class="section oper-section" aria-labelledby="oper-title">
+<div class="section-top"><p class="eyebrow">Trabajos seleccionados / 03</p><p class="eyebrow">Campañas / Editorial / Impresos</p></div>
+<div class="oper-heading"><h2 id="oper-title" data-reveal>Diseño que<br /><em>te lleva lejos.</em></h2><div><p class="project-label">{oper.name.toUpperCase()}</p><p>Del destino al papel.<br />Un lenguaje visual que viaja<br />entre publicaciones e impresos.</p><a class="text-link" href={url(projectHref(oper))}>Explorar el proyecto <span aria-hidden="true">↗</span></a></div></div>
+<a class="oper-cover media-link" href={url(projectHref(oper))} data-cursor="Ver caso"><Image id={oper.cover} sizes="95vw" transitionName="project-opermundo" /></a>
+<div class="oper-editorial"><figure><Image id="oper-galapagos" sizes="(max-width:700px) 74vw, 31vw" /><figcaption>01 / Galápagos · Comunicación turística</figcaption></figure><figure><Image id="oper-folder" sizes="(max-width:700px) 85vw, 47vw" /><figcaption>02 / De la pantalla al formato impreso</figcaption></figure></div>
+</section>
+<section class="section thera-section" aria-labelledby="thera-title">
+<div class="section-top"><p class="eyebrow">Trabajos seleccionados / 04</p><p class="eyebrow">Contenido de marca / Redes sociales</p></div>
+<div class="thera-layout"><div class="thera-copy"><h2 id="thera-title" data-reveal>Una voz.<br />Un sistema.<br /><span>Theraudio.</span></h2><p>Continuidad visual para contenidos que cambian. Una selección de publicaciones, portadas y videos.</p><a class="text-link" href={url(projectHref(thera))}>Explorar el proyecto <span aria-hidden="true">↗</span></a></div>
+<div class="thera-art"><a href={url(projectHref(thera))} data-cursor="Ver caso"><Image id="thera-gateo" sizes="(max-width:700px) 75vw, 34vw" transitionName="project-theraudio" /></a><figure><Image id="thera-r" sizes="(max-width:700px) 55vw, 28vw" /></figure><figure><Image id="thera-juguete" sizes="(max-width:700px) 40vw, 19vw" /></figure></div></div>
+</section>
+<section class="section commercial-section" aria-labelledby="commercial-title">
+<div class="section-top"><p class="eyebrow">Trabajos seleccionados / 05</p><p class="eyebrow">Diseño comercial</p></div>
+<div class="commercial-heading"><h2 id="commercial-title" data-reveal>También,<br />hacerlo <em>claro.</em></h2><p>Una idea útil, una secuencia ordenada.<br />Contenido para Ferretería Reina del Cisne.</p></div>
+{commercialSlides?.type==='carousel'&&<Carousel images={commercialSlides.images} label="Errores al pintar" id="commercial-home-carousel" />}
+<a class="text-link" href={url(projectHref(commercial))}>Carrusel y diseño de producto <span aria-hidden="true">↗</span></a>
+</section>

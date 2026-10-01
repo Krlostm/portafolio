@@ -1,0 +1,23 @@
+---
+import { chapterFor } from "../../data/chapters";
+interface Props {
+  id: string;
+  class?: string;
+}
+const { id, class: className = "" } = Astro.props;
+const chapter = chapterFor(id);
+---
+
+<section
+  id={id}
+  class:list={["story-chapter", className]}
+  data-chapter
+  data-chapter-name={chapter.name}
+  data-chapter-number={chapter.number}
+  data-next-id={chapter.next?.id}
+  data-next-name={chapter.next?.name}
+  data-next-color={chapter.next?.color}
+  aria-label={chapter.name}
+>
+  <slot />
+</section>

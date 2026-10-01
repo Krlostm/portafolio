@@ -1,0 +1,302 @@
+[
+  {
+    "id": "product-cariocas",
+    "source": "productos/Cariocas.jpg",
+    "alt": "Composición publicitaria de cariocas para carnaval"
+  },
+  {
+    "id": "product-wings",
+    "source": "productos/Post 30 Alitas_v_2.png",
+    "alt": "Publicidad de alitas con fotografía gastronómica"
+  },
+  {
+    "id": "product-picobul",
+    "source": "productos/Post Ig_v2.png",
+    "alt": "Composición comercial de PicoBul"
+  },
+  {
+    "id": "ferre-gas",
+    "source": "ferretería/productos/AGIPGAS.jpg",
+    "alt": "Publicidad de gas para Ferretería Reina del Cisne"
+  },
+  {
+    "id": "ferre-wheelbarrow",
+    "source": "ferretería/productos/CARRETILLA.jpg",
+    "alt": "Publicidad de carretilla de Ferretería Reina del Cisne"
+  },
+  {
+    "id": "ferre-cement",
+    "source": "ferretería/productos/PUBLICIDAD-CEMENTO-CH-FERRETERIA-REINA-DEL-CISNE.jpg",
+    "alt": "Composición comercial de cemento"
+  },
+  {
+    "id": "ferre-brushes",
+    "source": "ferretería/productos/Set de brochas.jpg",
+    "alt": "Publicidad de set de brochas"
+  },
+  {
+    "id": "ferre-character",
+    "source": "ferretería/productos/therian.jpg",
+    "alt": "Pieza con personaje para Ferretería Reina del Cisne"
+  },
+  {
+    "id": "thera-anxiety",
+    "source": "theraudio/ansiedad-ayuda-150426_01.jpg",
+    "alt": "Portada de contenido de Theraudio sobre ansiedad"
+  },
+  {
+    "id": "thera-professor",
+    "source": "theraudio/ChatGPT Image Sep 17, 2026, 09_53_48 PM (1).png",
+    "alt": "Pieza de Theraudio por el día del profesor"
+  },
+  {
+    "id": "thera-senses",
+    "source": "theraudio/Tilares-de-tp-2-1901_01.jpg",
+    "alt": "Portada de contenido de Theraudio sobre integración sensorial"
+  },
+  {
+    "id": "thera-course",
+    "source": "theraudio/Vacacional Nivelacion.png",
+    "alt": "Contenido visual de Theraudio para curso vacacional"
+  },
+  {
+    "id": "oper-galapagos-print",
+    "source": "opermundo/FLYER_CARA_1_GALAPAGOS_CMYK.png",
+    "alt": "Flyer impreso de Galápagos para Opermundo"
+  },
+  {
+    "id": "oper-argentina-print",
+    "source": "opermundo/FLYER_ARG-CARA_2_CMYK.png",
+    "alt": "Flyer impreso de Argentina para Opermundo"
+  },
+  {
+    "id": "oper-mexico",
+    "source": "opermundo/posts de venta/4to PARTIDO COPA DEL MUNDO - MEX - 4D - 3N.jpg",
+    "alt": "Campaña turística de México para Opermundo"
+  },
+  {
+    "id": "oper-romana",
+    "source": "opermundo/posts de venta/LA ROMANA LT 4D 3N BAHIA PRINCIPE (1).jpg",
+    "alt": "Campaña de La Romana para Opermundo"
+  },
+  {
+    "id": "oper-edad",
+    "source": "opermundo/posts de venta/EJE CAFETERO OFERTA ESPECIAL EDAD DE ORO 2X1 (4).jpg",
+    "alt": "Campaña del Eje Cafetero para Opermundo"
+  },
+  {
+    "id": "oper-rollup",
+    "source": "proyectos_varios/_ROLL UP SORTEO PUNTA CANA OPERMUNDO (1).jpg",
+    "alt": "Roll-up de una campaña de Opermundo"
+  },
+  {
+    "id": "carlos-portrait",
+    "source": "site/assets/source/carlos-toa.jpeg",
+    "alt": "Retrato personal de Carlos Toa"
+  },
+  {
+    "id": "ferre-leafblower",
+    "source": "ferretería/productos/SOPLO ASPIRADORA.jpg",
+    "alt": "Publicidad de soplahojas y aspiradora para Ferretería Reina del Cisne"
+  },
+  {
+    "id": "oper-panama",
+    "source": "opermundo/posts de venta/PANAMA BLACK FRIDAY  (2).jpg",
+    "alt": "Campaña de Panamá Black Friday para Opermundo"
+  },
+  {
+    "id": "oper-eje-student",
+    "source": "opermundo/FLYER TIRO Y RETIRO - EJE CAFETERO ESTUDIANTIL 2027 (2).png",
+    "alt": "Eje Cafetero estudiantil 2027: afiche de tiro y retiro"
+  },
+  {
+    "id": "oper-eje-student-back",
+    "source": "opermundo/FLYER TIRO Y RETIRO - EJE CAFETERO ESTUDIANTIL 2027 (10).jpg",
+    "alt": "Eje Cafetero estudiantil 2027: segunda cara del afiche"
+  },
+  {
+    "id": "oper-eje-latam",
+    "source": "opermundo/posts de venta/EJE CAFETERO 4D 3N CON LATAM.jpg",
+    "alt": "Eje Cafetero de cuatro días y tres noches con LATAM"
+  },
+  {
+    "id": "oper-olon-student",
+    "source": "opermundo/posts de venta/OLÓN ESTUDIANTIL - 4D 3N  (3).jpg",
+    "alt": "Campaña de Olón estudiantil"
+  },
+  {
+    "id": "oper-galapagos-student",
+    "source": "opermundo/posts de venta/GALÁPAGOS ESTUDIANTIL PELICANO (8).jpg",
+    "alt": "Campaña de Galápagos estudiantil"
+  },
+  {
+    "id": "oper-rp-student",
+    "source": "opermundo/FLYER TIRO Y RETIRO - RP ESTUDIANTIL 2027.png",
+    "alt": "Afiche de viaje estudiantil 2027"
+  },
+  {
+    "id": "ferre-weld-1",
+    "source": "ferretería/carruseles/soldadora/images/soldadora_01.jpg",
+    "alt": "Soldadora: lámina 1 de 2"
+  },
+  {
+    "id": "ferre-weld-2",
+    "source": "ferretería/carruseles/soldadora/images/soldadora_02.jpg",
+    "alt": "Soldadora: lámina 2 de 2"
+  },
+  {
+    "id": "ferre-cart-1",
+    "source": "ferretería/carruseles/carretilla/CARRETILLA-carrusel_01.jpg",
+    "alt": "Carretilla: lámina 1 de 3"
+  },
+  {
+    "id": "ferre-cart-2",
+    "source": "ferretería/carruseles/carretilla/CARRETILLA-carrusel_02.jpg",
+    "alt": "Carretilla: lámina 2 de 3"
+  },
+  {
+    "id": "ferre-cart-3",
+    "source": "ferretería/carruseles/carretilla/CARRETILLA-carrusel_03.jpg",
+    "alt": "Carretilla: lámina 3 de 3"
+  },
+  {
+    "id": "ferre-paint-kit-1",
+    "source": "ferretería/carruseles/SI VAS A PINTAR NECESITAS/images/si-vas-a-pintar-necesitas-esto_01.jpg",
+    "alt": "Herramientas para pintar: lámina 1 de 3"
+  },
+  {
+    "id": "ferre-paint-kit-2",
+    "source": "ferretería/carruseles/SI VAS A PINTAR NECESITAS/images/si-vas-a-pintar-necesitas-esto_02.jpg",
+    "alt": "Herramientas para pintar: lámina 2 de 3"
+  },
+  {
+    "id": "ferre-paint-kit-3",
+    "source": "ferretería/carruseles/SI VAS A PINTAR NECESITAS/images/si-vas-a-pintar-necesitas-esto_03.jpg",
+    "alt": "Herramientas para pintar: lámina 3 de 3"
+  },
+  {
+    "id": "ferre-laundry-1",
+    "source": "ferretería/carruseles/lavanderia/Carrusel-Lavanderia_01.jpg",
+    "alt": "Lavandería: lámina 1 de 3"
+  },
+  {
+    "id": "ferre-laundry-2",
+    "source": "ferretería/carruseles/lavanderia/Carrusel-Lavanderia_02.jpg",
+    "alt": "Lavandería: lámina 2 de 3"
+  },
+  {
+    "id": "ferre-laundry-3",
+    "source": "ferretería/carruseles/lavanderia/Carrusel-Lavanderia_03.jpg",
+    "alt": "Lavandería: lámina 3 de 3"
+  },
+  {
+    "id": "top-exterior-1",
+    "source": "top_media/Carruseles/4/CARRUSEL-29-SEP_01.jpg",
+    "alt": "Top Media: identificación exterior, lámina 1 de cinco"
+  },
+  {
+    "id": "top-exterior-2",
+    "source": "top_media/Carruseles/4/CARRUSEL-29-SEP_02.jpg",
+    "alt": "Top Media: identificación exterior, lámina 2 de cinco"
+  },
+  {
+    "id": "top-exterior-3",
+    "source": "top_media/Carruseles/4/CARRUSEL-29-SEP_03.jpg",
+    "alt": "Top Media: identificación exterior, lámina 3 de cinco"
+  },
+  {
+    "id": "top-exterior-4",
+    "source": "top_media/Carruseles/4/CARRUSEL-29-SEP_04.jpg",
+    "alt": "Top Media: identificación exterior, lámina 4 de cinco"
+  },
+  {
+    "id": "top-exterior-5",
+    "source": "top_media/Carruseles/4/CARRUSEL-29-SEP_05.jpg",
+    "alt": "Top Media: identificación exterior, lámina 5 de cinco"
+  },
+  {
+    "id": "photo-06",
+    "source": "fotografía/_MG_3292.jpg",
+    "alt": "Retrato femenino de perfil con fondo oscuro"
+  },
+  {
+    "id": "photo-07",
+    "source": "fotografía/_MG_3294.jpg",
+    "alt": "Retrato femenino con iluminación lateral"
+  },
+  {
+    "id": "photo-08",
+    "source": "fotografía/_MG_3355_1.jpg",
+    "alt": "Retrato femenino con capucha y fondo oscuro"
+  },
+  {
+    "id": "photo-09",
+    "source": "fotografía/_MG_3383.jpg",
+    "alt": "Retrato masculino visto de espaldas"
+  },
+  {
+    "id": "oper-thailand",
+    "source": "opermundo/posts de venta/TAILANDIA UNICA 7D - 6N LT (2).jpg",
+    "alt": "Campaña turística de Tailandia para Opermundo"
+  },
+  {
+    "id": "oper-egypt",
+    "source": "opermundo/posts de venta/MARAVILLAS DE EGIPTO 8D - 7N LT.jpg",
+    "alt": "Campaña turística de Egipto para Opermundo"
+  },
+  {
+    "id": "oper-china",
+    "source": "opermundo/posts de venta/China CLÁSICA 2027 8D 7N (1).jpg",
+    "alt": "Campaña turística de China para Opermundo"
+  },
+  {
+    "id": "oper-brazil",
+    "source": "opermundo/posts de venta/SAO PAULO PARATY RIO DE JANEIRO LT 9D 8N SALIDAS DIARIAS.jpg",
+    "alt": "Campaña turística de Brasil para Opermundo"
+  },
+  {
+    "id": "oper-newyork",
+    "source": "opermundo/posts de venta/PRIMER PARTIDO COPA DEL MUNDO - NY - 4D - 3N.jpg",
+    "alt": "Campaña de Nueva York y Copa del Mundo para Opermundo"
+  },
+  {
+    "id": "oper-buenos-aires",
+    "source": "opermundo/posts de venta/BUENOS AIRES MAS BARILOCHE 7D - 6 N - POST CUADRADO.jpg",
+    "alt": "Campaña de Buenos Aires y Bariloche para Opermundo"
+  },
+  {
+    "id": "oper-music",
+    "source": "opermundo/posts de venta/RUTA DE LA MUSICA LT  - 9D 8N  (1).jpg",
+    "alt": "Campaña Ruta de la Música para Opermundo"
+  },
+  {
+    "id": "oper-east",
+    "source": "opermundo/posts de venta/JOYAS DEL ESTE  -  6D 5N  LT (2).jpg",
+    "alt": "Campaña Joyas del Este para Opermundo"
+  },
+  {
+    "id": "oper-galapagos-student-alt",
+    "source": "opermundo/posts de venta/GALAPAGOS ESTUDIANTIL  (7).jpg",
+    "alt": "Otra campaña de Galápagos estudiantil para Opermundo"
+  },
+  {
+    "id": "oper-rp-student-front",
+    "source": "opermundo/FLYER TIRO Y RETIRO - RP ESTUDIANTIL 2027 (11).png",
+    "alt": "Afiche de viaje estudiantil 2027 para Opermundo"
+  },
+  {
+    "id": "oper-turkey-print-front",
+    "source": "opermundo/Flyer_Turquia_Cara1_CMYK.png",
+    "alt": "Afiche impreso de Turquía: cara principal"
+  },
+  {
+    "id": "oper-turkey-print-back",
+    "source": "opermundo/Flyer_Turquia_Cara_2_CMYK.png",
+    "alt": "Afiche impreso de Turquía: segunda cara"
+  },
+  {
+    "id": "oper-elder-print",
+    "source": "opermundo/FLYER_EJECAFETERO_EDAD_ORO_CMYK_V1.png",
+    "alt": "Afiche impreso del Eje Cafetero para Opermundo"
+  }
+]

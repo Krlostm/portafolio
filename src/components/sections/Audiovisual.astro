@@ -1,0 +1,18 @@
+---
+import Image from '../media/Image.astro';
+import {projectBySlug,projectHref} from '../../data/projects';
+import {videoById,imageUrl} from '../../data/media';
+import {url} from '../../data/site';
+const mma=projectBySlug('mma'),photo=projectBySlug('fotografia'),clip=videoById('mma');
+---
+<section class="audiovisual-section" aria-labelledby="av-title">
+<div class="section audiovisual-intro"><p class="eyebrow">02 / Otro ritmo</p><h2 id="av-title" data-reveal>Ahora,<br />que se <em>sienta.</em></h2><p>Imagen. Tiempo. Sonido.<br />La idea cambia de dimensión.</p></div>
+<div class="mma-cinema" data-autoplay-section>
+<video data-visible-video data-src={url(clip.preview!)} poster={imageUrl(clip.poster)} muted playsinline loop preload="none" aria-label="Vista previa sin sonido de la producción MMA"></video>
+<div class="mma-overlay"><div><p class="eyebrow">Producción audiovisual</p><h3>MMA</h3></div><button class="cinema-play" data-video-src={url(clip.full)} data-video-title={mma.name} aria-label="Ver producción MMA con sonido"><span aria-hidden="true">▶</span>VER LA PIEZA</button></div>
+<button class="preview-control" data-preview-toggle aria-label="Reproducir vista previa de MMA">VISTA PREVIA ▶</button>
+</div>
+<div class="section mma-details"><p>Entre la pausa<br />y la intensidad.</p><a class="text-link" href={url(projectHref(mma))}>Fotogramas y pieza completa <span aria-hidden="true">↗</span></a><figure><Image id="mma-detail" sizes="(max-width:700px) 80vw, 30vw" /><figcaption>FRAME / MMA</figcaption></figure></div>
+<div class="section photo-section" aria-labelledby="photo-title"><div class="photo-intro"><p class="eyebrow">Fotografía / Retratos</p><h2 id="photo-title" data-reveal>La luz.<br />El gesto.<br /><span>La presencia.</span></h2><a class="text-link" href={url(projectHref(photo))}>Ver la serie <span aria-hidden="true">↗</span></a></div>
+<div class="photo-editorial"><a class="photo-one" href={url(projectHref(photo))} data-cursor="Ver serie"><Image id="photo-01" sizes="(max-width:700px) 90vw, 44vw" transitionName="project-fotografia" /></a><figure class="photo-two"><Image id="photo-02" sizes="(max-width:700px) 65vw, 30vw" /><figcaption>Una selección de retratos.</figcaption></figure><figure class="photo-three"><Image id="photo-03" sizes="(max-width:700px) 80vw, 39vw" /></figure><p class="photo-note">A veces, todo empieza<br />por mirar un poco<br /><em>más cerca.</em></p></div></div>
+</section>

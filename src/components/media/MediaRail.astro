@@ -1,0 +1,40 @@
+---
+import Image from "./Image.astro";
+import RailControls from "./RailControls.astro";
+import { imageById } from "../../data/media";
+import "../../styles/gallery.css";
+interface Props {
+  images: string[];
+  captions?: string[];
+  label: string;
+  id?: string;
+}
+const { images, captions, label, id } = Astro.props;
+---
+
+<div class="media-rail" data-media-rail role="region" aria-label={label}>
+  <div
+    class="media-rail-viewport"
+    data-rail-viewport
+    id={id}
+    tabindex="0"
+    aria-label={label + ". Desliza o usa las flechas del teclado."}
+  >
+    <div class="media-rail-track" data-rail-track>
+      {images.map((image, i) => (
+        <figure
+          class="media-rail-piece"
+          style={
+            "--piece-ratio:" + imageById(image).width / imageById(image).height
+          }
+        >
+          <Image id={image} sizes="(max-width:700px) 58vw, 32vw" />
+          <figcaption>
+            {captions?.[i] || String(i + 1).padStart(2, "0")}
+          </figcaption>
+        </figure>
+      ))}
+    </div>
+  </div>
+  <RailControls label={label} />
+</div>

@@ -1,0 +1,300 @@
+---
+import Chapter from "./Chapter.astro";
+import Scene from "./Scene.astro";
+import SceneSwitch from "./SceneSwitch.astro";
+import Image from "../media/Image.astro";
+import Preview from "../media/Preview.astro";
+import MediaRail from "../media/MediaRail.astro";
+import Reel from "./Reel.astro";
+import VideoButton from "../media/VideoButton.astro";
+import { url } from "../../data/site";
+---
+
+<Chapter id="work" class="kike-chapter">
+  <Scene
+    class="kike-intro-scene"
+    label="Kike — Del diseño estático a la animación"
+    pointer
+  >
+    <div slot="heading">
+      <p class="story-kicker">01 / DISEÑO GRÁFICO Y ANIMACIÓN</p>
+      <h2>KIKE.</h2>
+    </div>
+    <div class="kike-intro-composition">
+      <div class="kike-intro-copy">
+        <p class="story-kicker">UNA IDEA. DOS FORMAS DE CONTARLA.</p>
+        <h3>
+          Primero,
+          <br />
+          el diseño.
+          <br />
+          <em>Después, la energía.</em>
+        </h3>
+        <p>
+          Una pieza gráfica pensada para llamar la atención. El punto de partida
+          de una idea que cobra vida.
+        </p>
+        <a class="archive-link" href={url("#kike-motion")}>
+          DISEÑO → ANIMACIÓN <span aria-hidden="true">↓</span>
+        </a>
+      </div>
+      <figure class="kike-intro-art">
+        <Image id="kike-static" sizes="(max-width:1023px) 70vw, 30vw" />
+        <figcaption>DISEÑO ESTÁTICO / CUARTO DE MILLA</figcaption>
+      </figure>
+    </div>
+  </Scene>
+  <Scene
+    id="kike-motion"
+    class="kike-scene"
+    label="Kike — Del diseño a la animación"
+  >
+    <div slot="heading">
+      <p class="story-kicker">KIKE / LA MISMA IDEA, EN MOVIMIENTO</p>
+      <h2 class="kike-words">
+        DEL DISEÑO <em>AL MOVIMIENTO.</em>
+      </h2>
+    </div>
+    <div class="kike-pair">
+      <figure class="kike-static-piece" data-kike-static>
+        <div class="kike-media">
+          <Image id="kike-static" sizes="(max-width:1023px) 44vw, 30vw" />
+        </div>
+        <figcaption>01 / DISEÑO ESTÁTICO</figcaption>
+      </figure>
+      <div class="kike-transition" data-kike-transition aria-hidden="true">
+        <span>SE ANIMA</span>
+        <span class="kike-transition-arrow">→</span>
+      </div>
+      <figure class="kike-motion-piece" data-kike-motion>
+        <div class="kike-media">
+          <Preview id="kike" title="Kike — Cuarto de milla / Animación" />
+        </div>
+        <figcaption>02 / DISEÑO ANIMADO</figcaption>
+      </figure>
+    </div>
+    <div slot="footer" class="kike-footer">
+      <p>Del diseño gráfico a una pieza que cobra vida.</p>
+      <VideoButton id="kike" title="Kike — Cuarto de milla / Animación" />
+    </div>
+  </Scene>
+</Chapter>
+<Chapter id="opermundo" class="oper-chapter">
+  <Scene class="oper-opening" label="Opermundo — Diseño para viajar" pointer>
+    <div slot="heading">
+      <p class="story-kicker">02 / OPERMUNDO — TURISMO, CAMPAÑAS, IMPRESOS</p>
+      <h2>Opermundo.</h2>
+    </div>
+    <div class="oper-collage scene-art-deck">
+      <figure class="oper-piece-one" data-parallax="-25">
+        <Image id="oper-eje-student" sizes="(max-width:700px) 46vw, 30vw" />
+      </figure>
+      <figure class="oper-piece-two" data-parallax="25">
+        <Image id="oper-mexico" sizes="(max-width:700px) 46vw, 30vw" />
+      </figure>
+      <figure class="oper-piece-three">
+        <Image id="oper-eje-latam" sizes="(max-width:700px) 46vw, 30vw" />
+      </figure>
+    </div>
+    <p slot="footer">
+      Viajes estudiantiles, Eje Cafetero y México. El viaje empieza en una
+      imagen.
+    </p>
+  </Scene>
+  <Scene class="oper-students" label="Opermundo — Viajes estudiantiles">
+    <div slot="heading">
+      <p class="story-kicker">OPERMUNDO / VIAJES ESTUDIANTILES</p>
+      <h2>Un viaje para recordar.</h2>
+    </div>
+    <MediaRail
+      images={[
+        "oper-eje-student",
+        "oper-eje-student-back",
+        "oper-galapagos-student",
+        "oper-olon-student",
+        "oper-rp-student",
+        "oper-galapagos-student-alt",
+        "oper-rp-student-front",
+      ]}
+      captions={[
+        "Eje Cafetero estudiantil 2027 / Cara principal",
+        "Eje Cafetero estudiantil 2027 / Segunda cara",
+        "Galápagos / Estudiantil",
+        "Olón / Estudiantil",
+        "Viaje estudiantil / Afiche",
+        "Galápagos / Otra campaña estudiantil",
+        "Viaje estudiantil 2027 / Cara principal",
+      ]}
+      label="Opermundo — selección de viajes estudiantiles"
+    />
+    <p slot="footer">
+      Destinos, información y emoción en una misma composición.
+    </p>
+  </Scene>
+  <Scene class="oper-variety" label="Opermundo — Campañas turísticas">
+    <div slot="heading">
+      <p class="story-kicker">OPERMUNDO / MÁS DESTINOS</p>
+      <h2>Cada destino, otra historia.</h2>
+    </div>
+    <MediaRail
+      images={[
+        "oper-eje-latam",
+        "oper-mexico",
+        "oper-panama",
+        "oper-romana",
+        "oper-turquia",
+        "oper-thailand",
+        "oper-egypt",
+        "oper-china",
+        "oper-brazil",
+        "oper-newyork",
+        "oper-buenos-aires",
+        "oper-music",
+        "oper-east",
+        "oper-galapagos",
+        "oper-anniversary",
+      ]}
+      captions={[
+        "Eje Cafetero / 4 días, 3 noches / LATAM",
+        "México / Cuarto partido de la Copa del Mundo",
+        "Panamá / Black Friday",
+        "La Romana",
+        "Turquía",
+        "Tailandia",
+        "Egipto",
+        "China",
+        "Brasil / São Paulo, Paraty y Río de Janeiro",
+        "Nueva York / Copa del Mundo",
+        "Buenos Aires y Bariloche",
+        "Ruta de la Música",
+        "Joyas del Este",
+        "Galápagos",
+        "Opermundo / Aniversario",
+      ]}
+      label="Opermundo — campañas turísticas"
+    />
+    <p slot="footer">Una identidad que cambia de destino y de formato.</p>
+  </Scene>
+  <Scene class="oper-print-scene" label="Opermundo — Impresos y maquetas">
+    <div slot="heading">
+      <p class="story-kicker">OPERMUNDO / IMPRESOS Y MAQUETAS</p>
+      <h2>Del diseño al papel.</h2>
+    </div>
+    <MediaRail
+      images={[
+        "oper-brochure",
+        "oper-folder",
+        "oper-trifold",
+        "oper-rollup",
+        "oper-galapagos-print",
+        "oper-argentina-print",
+        "oper-turkey-print-front",
+        "oper-turkey-print-back",
+        "oper-elder-print",
+      ]}
+      captions={[
+        "Folleto de Galápagos / Maqueta",
+        "Carpeta corporativa / Maqueta",
+        "Tríptico de Ecuador / Maqueta",
+        "Expositor publicitario",
+        "Galápagos / Afiche impreso",
+        "Argentina / Afiche impreso",
+        "Turquía / Cara principal",
+        "Turquía / Segunda cara",
+        "Eje Cafetero / Afiche impreso",
+      ]}
+      label="Opermundo — impresos y maquetas"
+    />
+    <div slot="footer" class="scene-caption">
+      <p>Folleto, carpeta, tríptico y expositor: la identidad toma forma.</p>
+    </div>
+  </Scene>
+</Chapter>
+<Chapter id="top-media" class="top-chapter">
+  <Scene
+    class="top-opening"
+    label="Top Media — Una marca que se hace ver"
+    pointer
+  >
+    <div slot="heading">
+      <p class="story-kicker">03 / TOP MEDIA — REDES SOCIALES</p>
+      <h2>Top Media.</h2>
+    </div>
+    <div class="top-deck scene-art-deck">
+      <figure class="top-card-one" data-parallax="-25">
+        <div data-pointer="0.4">
+          <Image id="top-store" sizes="(max-width:700px) 46vw, 30vw" />
+        </div>
+      </figure>
+      <figure class="top-card-two" data-parallax="25">
+        <div data-pointer="-0.4">
+          <Image id="top-burger" sizes="(max-width:700px) 46vw, 30vw" />
+        </div>
+      </figure>
+      <figure class="top-card-three">
+        <div data-pointer="0.3">
+          <Image id="top-sign" sizes="(max-width:700px) 46vw, 30vw" />
+        </div>
+      </figure>
+    </div>
+    <p slot="footer">Amarillo, negro y mensajes que se hacen ver.</p>
+  </Scene>
+  <Scene class="top-sequence" label="Top Media — Secuencia y video">
+    <div slot="heading">
+      <p class="story-kicker">TOP MEDIA / CONTINUIDAD VISUAL</p>
+      <h2>Una idea, cuatro piezas.</h2>
+    </div>
+    <SceneSwitch
+      id="top-collection"
+      label="Ver trabajos de Top Media"
+      items={[
+        { id: "sequence", label: "Secuencia gráfica" },
+        { id: "reel", label: "Video" },
+      ]}
+    >
+      <div slot="sequence">
+        <MediaRail
+          images={["top-01", "top-02", "top-03", "top-04"]}
+          label="Top Media — carrusel de cuatro láminas en su orden original"
+        />
+      </div>
+      <div slot="reel" class="scene-reel-feature">
+        <div>
+          <h3>
+            De la publicación
+            <br />
+            al <em>video.</em>
+          </h3>
+          <p>Una pieza de video dentro del mismo lenguaje de marca.</p>
+        </div>
+        <Reel
+          id="top-event"
+          title="Top Media / Video"
+          label="TOP MEDIA / EDICIÓN"
+        />
+      </div>
+    </SceneSwitch>
+  </Scene>
+  <Scene
+    class="top-second-sequence"
+    label="Top Media — Identificación exterior"
+  >
+    <div slot="heading">
+      <p class="story-kicker">TOP MEDIA / OTRA HISTORIA EN CINCO PIEZAS</p>
+      <h2>Que tu negocio se haga ver.</h2>
+    </div>
+    <MediaRail
+      images={[
+        "top-exterior-1",
+        "top-exterior-2",
+        "top-exterior-3",
+        "top-exterior-4",
+        "top-exterior-5",
+      ]}
+      label="Top Media — identificación exterior, cinco láminas"
+    />
+    <p slot="footer">
+      De una pregunta a una propuesta. Color y continuidad para contar la idea.
+    </p>
+  </Scene>
+</Chapter>

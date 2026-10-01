@@ -1,0 +1,74 @@
+---
+import "@fontsource-variable/manrope";
+import "../styles/global.css";
+import "../styles/work.css";
+import "../styles/pages.css";
+import "../styles/media-controls.css";
+import "../styles/story.css";
+import "../styles/case-layout.css";
+import "../styles/scenes.css";
+import Header from "../components/Header.astro";
+import { imageUrl } from "../data/media";
+import { siteConfig, url } from "../data/site";
+interface Props {
+  title?: string;
+  description?: string;
+  class?: string;
+  image?: string;
+}
+const {
+  title = siteConfig.title,
+  description = siteConfig.description,
+  class: className = "",
+  image = "oper-brochure",
+} = Astro.props;
+const canonical = Astro.site
+  ? new URL(Astro.url.pathname, Astro.site).href
+  : undefined;
+const ogImage = Astro.site
+  ? new URL(imageUrl(image), Astro.site).href
+  : undefined;
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: siteConfig.name,
+  email: siteConfig.email,
+  ...(Astro.site ? { url: Astro.site.href } : {}),
+};
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#171519" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href={url("favicon.svg")} />
+    {canonical && <link rel="canonical" href={canonical} />}
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_EC" />
+    {canonical && <meta property="og:url" content={canonical} />}
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  </head>
+  <body class={className}>
+    <a href="#main" class="skip-link">
+      Saltar al contenido
+    </a>
+    <Header />
+    <main id="main">
+      <slot />
+    </main>
+    <div class="reading-progress" aria-hidden="true"></div>
+    <div class="cursor-label" aria-hidden="true"></div>
+    <script>
+      import { initInteractions } from "../scripts/interactions";
+      initInteractions();
+    </script>
+  </body>
+</html>

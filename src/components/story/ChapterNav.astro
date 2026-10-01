@@ -1,0 +1,24 @@
+---
+import { url } from "../../data/site";
+---
+
+<aside
+  class="chapter-wayfinding"
+  aria-label="Navegación entre capítulos"
+  data-chapter-navigation
+  hidden
+>
+  <span class="current-chapter" data-current-chapter></span>
+  <a
+    class="chapter-next"
+    data-chapter-next
+    data-cursor="SIGUIENTE"
+    href={url("#opermundo")}
+  >
+    <span class="next-label">SIGUIENTE</span>
+    <strong data-next-label>OPERMUNDO</strong>
+    <span class="next-arrow" aria-hidden="true">
+      →
+    </span>
+  </a>
+</aside>

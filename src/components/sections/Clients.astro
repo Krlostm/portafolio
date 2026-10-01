@@ -1,0 +1,7 @@
+---
+import Image from '../media/Image.astro';
+import {brands} from '../../data/site';
+---
+<section class="section clients-section"><div class="section-top"><p class="eyebrow">En buena compañía</p><p class="eyebrow">Marcas con las que he trabajado</p></div>
+<div class="brand-grid">{brands.map(b=><figure><Image id={b.image} alt={b.name} sizes="(max-width:700px) 35vw, 18vw" /></figure>)}</div>
+</section>

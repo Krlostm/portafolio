@@ -1,0 +1,8 @@
+---
+import {imageById,imageSrcset} from '../../data/media';
+import {url} from '../../data/site';
+interface Props {id:string;alt?:string;class?:string;sizes?:string;eager?:boolean;transitionName?:string;}
+const {id,alt,class:className,sizes='(max-width:700px) 100vw, 75vw',eager=false,transitionName}=Astro.props;
+const im=imageById(id);
+---
+<img class={className} src={url(im.src)} srcset={imageSrcset(id)} sizes={sizes} width={im.width} height={im.height} alt={alt??im.alt} loading={eager?'eager':'lazy'} decoding="async" fetchpriority={eager?'high':'auto'} style={transitionName?'view-transition-name:'+transitionName:undefined} />
