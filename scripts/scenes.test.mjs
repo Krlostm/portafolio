@@ -147,7 +147,7 @@ function fixture({ desktop = true, reduced = false } = {}) {
 }
 test("expanded home retains complete scene groups and separate collections", () => {
   const f = fixture();
-  assert.equal(f.scenes.length, 29);
+  assert.equal(f.scenes.length, 28);
   for (const id of ["work", "theraudio", "development"])
     assert.equal(
       f.doc.getElementById(id).querySelectorAll("[data-scene]").length,
@@ -171,7 +171,7 @@ test("expanded home retains complete scene groups and separate collections", () 
     );
   assert.equal(
     f.doc.getElementById("top-media").querySelectorAll("[data-scene]").length,
-    3,
+    2,
   );
   assert.equal(
     f.doc.getElementById("opermundo").querySelectorAll("[data-scene]").length,

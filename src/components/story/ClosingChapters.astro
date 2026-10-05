@@ -3,31 +3,9 @@ import Chapter from "./Chapter.astro";
 import Scene from "./Scene.astro";
 import Image from "../media/Image.astro";
 import Avatar from "../media/Avatar.astro";
-import MediaRail from "../media/MediaRail.astro";
 import { brands, siteConfig, contactLinks, url } from "../../data/site";
-const more = [
-  { image: "product-cariocas", name: "Carnaval / Composición comercial" },
-  { image: "oper-edad", name: "Opermundo / Redes sociales" },
-  { image: "ferre-gas", name: "Ferretería / Publicidad" },
-  { image: "thera-anxiety", name: "Theraudio / Contenido con identidad" },
-  { image: "ferre-brushes", name: "Diseño comercial / Forma y producto" },
-  { image: "thera-course", name: "Theraudio / Redes sociales" },
-];
 ---
 
-<Chapter id="playground" class="playground-chapter">
-  <Scene class="playground-scene" label="Más trabajos creativos">
-    <div slot="heading">
-      <p class="story-kicker">MÁS TRABAJOS / EXPLORACIÓN CREATIVA</p>
-      <h2>Más cosas que he creado.</h2>
-    </div>
-    <MediaRail
-      images={more.map((piece) => piece.image)}
-      captions={more.map((piece) => piece.name)}
-      label="Más trabajos de diseño y composición comercial"
-    />
-  </Scene>
-</Chapter>
 <Chapter id="clients" class="clients-chapter">
   <Scene class="clients-scene" label="Marcas y clientes">
     <div slot="heading">

@@ -205,10 +205,10 @@ test("complete home starts Hero, Kike, Opermundo, Top Media and includes every c
     "product",
     "motion",
     "influencers",
+    "playground",
     "producciones",
     "fotografia",
     "development",
-    "playground",
     "clients",
     "about",
     "contact",
@@ -258,6 +258,16 @@ test("NEXT follows active chapter, required sequence and next client accent", ()
   f.advance(16);
   assert.equal(next.getAttribute("href"), "/#theraudio");
   assert.equal(nav.dataset.currentId, "top-media");
+  f.chapter("influencers");
+  f.advance(16);
+  assert.equal(next.getAttribute("href"), "/#playground");
+  assert.equal(next.style.getPropertyValue("--next-accent"), "#a5b9ac");
+  f.chapter("playground");
+  f.advance(16);
+  assert.equal(next.getAttribute("href"), "/#producciones");
+  f.chapter("development");
+  f.advance(16);
+  assert.equal(next.getAttribute("href"), "/#clients");
   f.close();
 });
 test("NEXT hides at intro and contact and preserves a deployment prefix", () => {
